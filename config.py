@@ -26,4 +26,4 @@ for subj_folder in SUBJECTS.keys():
 
 # --- SUPABASE SOZLAMALARI ---
 SUPABASE_URL = "https://wsvzggnhotzhmvugeyil.supabase.co" # O'zingiznikini qo'ying
-SUPABASE_KEY = "sb_publishable_AVngq5tJafZEgOssAdrPMA_t44dHQQR" # O'zingiznikini qo'ying
+SUPABASE_KEY = "sb_secret_nZQcnSza0XFCGy_4k1o8rw_zmJ_ISgM" # O'zingiznikini qo'ying
