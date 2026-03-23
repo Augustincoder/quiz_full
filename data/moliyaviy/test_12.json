@@ -1,0 +1,281 @@
+{
+    "test_id": 12,
+    "range": "276-300",
+    "questions": [
+        {
+            "question_number": 276,
+            "question": "Moliyaviy hisobotning asosiy maqsadi nima?",
+            "options": [
+                "Faqat ichki xodimlarni rag'batlantirish tizimi uchun axborot yig'ish",
+                "Soliq to'lashdan rasman qochish yo'llarini tahlil qilish",
+                "Tashqi va ichki foydalanuvchilarni korxonaning moliyaviy holati, faoliyat natijalari va pul oqimlari to'g'risidagi ishonchli axborot bilan ta'minlash",
+                "Faqat raqobatchilarni chalg'itish"
+            ],
+            "correct_index": 2
+        },
+        {
+            "question_number": 277,
+            "question": "Moliyaviy hisobotning beshta asosiy elementlari qaysilar?",
+            "options": [
+                "Banklar, Kassalar, Soliqlar, Xodimlar, Mijozlar",
+                "Aktivlar, majburiyatlar, xususiy kapital, daromadlar, xarajatlar",
+                "Reja, Fakt, Og'ish, Tahlil, Nazorat",
+                "Valyuta, So'm, Kriptovalyuta, Qarz, Foiz"
+            ],
+            "correct_index": 1
+        },
+        {
+            "question_number": 278,
+            "question": "Moliyaviy hisobot shakllari O'zbekistonda qaysi me'yoriy hujjat bilan tasdiqlanadi?",
+            "options": [
+                "Moliya vazirligi buyruqlari (BHMS) bilan",
+                "Sog'liqni saqlash vazirligi tomonidan",
+                "Kasaba uyushmalari qo'mitasi tomonidan",
+                "Oliy Majlis qarorlari bilan"
+            ],
+            "correct_index": 0
+        },
+        {
+            "question_number": 279,
+            "question": "1-shakl moliyaviy hisobot qanday nomlanadi?",
+            "options": [
+                "Asosiy vositalar harakati hisoboti",
+                "Moliyaviy natijalar to'g'risidagi hisobot",
+                "Buxgalteriya balansi",
+                "Pul oqimlari to'g'risidagi hisobot"
+            ],
+            "correct_index": 2
+        },
+        {
+            "question_number": 280,
+            "question": "2-shakl moliyaviy hisobot qanday nomlanadi?",
+            "options": [
+                "Moliyaviy natijalar to'g'risidagi hisobot",
+                "O'z kapitali to'g'risidagi hisobot",
+                "Asosiy vositalar ro'yxati",
+                "Soliq deklaratsiyasi"
+            ],
+            "correct_index": 0
+        },
+        {
+            "question_number": 281,
+            "question": "3-shakl moliyaviy hisobot qanday nomlanadi?",
+            "options": [
+                "Buxgalteriya balansi",
+                "O'z kapitali to'g'risidagi hisobot (Xususiy kapital harakati)",
+                "Daromad solig'i hisobi",
+                "Pul oqimlari hisoboti"
+            ],
+            "correct_index": 1
+        },
+        {
+            "question_number": 282,
+            "question": "4-shakl moliyaviy hisobot qanday nomlanadi?",
+            "options": [
+                "Moliyaviy natijalar to'g'risidagi hisobot",
+                "Kreditor va debitor qarzdorliklar ro'yxati",
+                "Pul oqimlari to'g'risidagi hisobot",
+                "Buxgalteriya balansi"
+            ],
+            "correct_index": 2
+        },
+        {
+            "question_number": 283,
+            "question": "Kichik korxonalar va mikrofirmalar yillik moliyaviy hisobotni qanday shakllarda topshiradilar?",
+            "options": [
+                "Faqat 1-shakl (Balans) va 2-shakl (Moliyaviy natijalar hisoboti)",
+                "Jami 5 ta shaklning barchasini",
+                "Ular umuman hisobot topshirmaydilar",
+                "Faqat 4-shakl (Pul oqimlari) ni"
+            ],
+            "correct_index": 0
+        },
+        {
+            "question_number": 284,
+            "question": "O'zbekiston Respublikasida moliyaviy hisobotlar odatda qaysi valyutada tuziladi?",
+            "options": [
+                "AQSh dollarida",
+                "Milliy valyuta - so'mda",
+                "Rossiya rublida",
+                "Yevroda"
+            ],
+            "correct_index": 1
+        },
+        {
+            "question_number": 285,
+            "question": "Moliyaviy hisobotlarni imzolash va uning ishonchliligiga javob berish kimlarning zimmasida?",
+            "options": [
+                "Faqatgina soliq inspektorining",
+                "Korxonadagi barcha oddiy ishchilarning",
+                "Korxona rahbari va bosh buxgalterning",
+                "Audit kompaniyasi xodimlarining"
+            ],
+            "correct_index": 2
+        },
+        {
+            "question_number": 286,
+            "question": "Moliyaviy natijalar to'g'risidagi hisobotning asosiy vazifasi qaysi?",
+            "options": [
+                "Mulkning egasini aniqlash",
+                "Faqat bino va mashinalar ro'yxatini yuritish",
+                "Xodimlar sonini hisoblash",
+                "Ma'lum bir hisobot davrida korxonaning daromadlari, xarajatlari va yakuniy foyda yoki zararini ko'rsatish"
+            ],
+            "correct_index": 3
+        },
+        {
+            "question_number": 287,
+            "question": "Moliyaviy hisobotning asosiy maqsadi qaysi?",
+            "options": [
+                "Foydalanuvchilarni qaror qabul qilishlari uchun moliyaviy holat, faoliyat natijalari va pul oqimlari to'g'risidagi ishonchli axborot bilan ta'minlash",
+                "Ish haqlarini doimiy ravishda oshirish",
+                "Raqobatchilarni bozordan majburan chiqarib yuborish",
+                "Hukumat idoralariga yolg'on ma'lumot berish"
+            ],
+            "correct_index": 0
+        },
+        {
+            "question_number": 288,
+            "question": "Moliyaviy hisobot tarkibiga odatda qaysilar kiradi?",
+            "options": [
+                "Ishlab chiqarish grafiki va smenalar jadvali",
+                "Balans, Moliyaviy natijalar, O'z kapitali, Pul oqimlari to'g'risidagi hisobotlar va izohlar",
+                "Marketing rejasi va dizayn loyihalari",
+                "Xodimlarning tibbiy ma'lumotnomalari"
+            ],
+            "correct_index": 1
+        },
+        {
+            "question_number": 289,
+            "question": "Buxgalteriya balansi nimani ko'rsatadi?",
+            "options": [
+                "Kunlik savdo hajmini",
+                "Xodimlarning kasaba uyushmasi yig'imlarini",
+                "Muayyan sanadagi korxonaning aktivlari, majburiyatlari va o'z kapitalining holatini",
+                "Faqat to'langan soliqlarni"
+            ],
+            "correct_index": 2
+        },
+        {
+            "question_number": 290,
+            "question": "Balansning asosiy tenglamasi qaysi?",
+            "options": [
+                "Aktivlar = Majburiyatlar - O'z kapitali",
+                "Foyda = Daromadlar + Xarajatlar",
+                "Aktivlar = Majburiyatlar + O'z kapitali",
+                "Aktivlar = Kassa + Bank"
+            ],
+            "correct_index": 2
+        },
+        {
+            "question_number": 291,
+            "question": "Moliyaviy natijalar to'g'risidagi hisobotning asosiy bo'limi qaysi?",
+            "options": [
+                "Daromadlar va xarajatlar qismi, foyda/zarar",
+                "Aktiv va Passiv",
+                "Debitor va Kreditor qarzlar ro'yxati",
+                "Asosiy vositalar va ularning eskirishi"
+            ],
+            "correct_index": 0
+        },
+        {
+            "question_number": 292,
+            "question": "Pul oqimlari hisobotida pul oqimlari qanday guruhlarga ajratiladi?",
+            "options": [
+                "Foydali va zararliga",
+                "Katta va kichik miqdorlarga",
+                "Mahalliy va xorijiy valyutalarga",
+                "Operatsion, investitsion va moliyaviy faoliyatdan pul oqimlariga"
+            ],
+            "correct_index": 3
+        },
+        {
+            "question_number": 293,
+            "question": "Hisobotlarni taqdim etish muddatiga rioya qilish nima uchun muhim?",
+            "options": [
+                "Chiroyli ko'rinish uchun",
+                "Ma'lumotlarning o'z vaqtidaligi va dolzarbligini ta'minlash hamda moliyaviy jarimalarning oldini olish uchun",
+                "Soliq inspektorini xursand qilish uchun",
+                "Xodimlarga ish haqi to'lamaslik uchun"
+            ],
+            "correct_index": 1
+        },
+        {
+            "question_number": 294,
+            "question": "Hisobot ma'lumotlarining taqqoslanuvchanligi nimani anglatadi?",
+            "options": [
+                "Barcha raqamlarning nolga teng bo'lishini",
+                "Qog'oz turlarining bir xilligini",
+                "Turli davrlar yoki turli korxonalar ko'rsatkichlarini bir-biri bilan solishtirish imkoniyatini",
+                "Valyuta kurslarining o'zgarmasligini"
+            ],
+            "correct_index": 2
+        },
+        {
+            "question_number": 295,
+            "question": "Moliyaviy hisobotning ishonchliligini oshirishda qaysi jarayon katta ahamiyatga ega?",
+            "options": [
+                "Mahsulot narxlarini tushirish",
+                "Xodimlarga jismoniy jazo qullash",
+                "Ko'proq reklamalar berish",
+                "Mustaqil auditorlik tekshiruvi (auditi) va inventarizatsiya"
+            ],
+            "correct_index": 3
+        },
+        {
+            "question_number": 296,
+            "question": "Izohlar (tushuntirish xati) moliyaviy hisobotda nima uchun beriladi?",
+            "options": [
+                "Hisobot moddalari bo'yicha qo'shimcha, batafsil ma'lumot berish va hisob siyosatini yoritish uchun",
+                "Faqat kitob hajmini qalinlashtirish uchun",
+                "Raxbariyatning shaxsiy fikrlarini yozish uchun",
+                "Auditorlarga shikoyat qilish uchun"
+            ],
+            "correct_index": 0
+        },
+        {
+            "question_number": 297,
+            "question": "Yillik moliyaviy hisobot tarkibiga qaysi shakllar majburiy kiradi (yirik korxonalar uchun)?",
+            "options": [
+                "Faqat Balans va Xarajatlar smetasi",
+                "Barcha shakllar: 1, 2, 3, 4, 5-shakllar va izohlar",
+                "Faqat kassa kitobi va bank ko'chirmasi",
+                "Soliq inspeksiyasining bayonnomasi"
+            ],
+            "correct_index": 1
+        },
+        {
+            "question_number": 298,
+            "question": "Moliyaviy hisobotning yil davri (hisobot davri) odatda qaysi oraliqni qamrab oladi?",
+            "options": [
+                "1-sentyabrdan 31-avgustgacha",
+                "Ixtiyoriy tanlangan 12 oyni",
+                "1-yanvardan 31-dekabrgacha bo'lgan kalendar yilini",
+                "Korxona faoliyat yuritgan jami davrni"
+            ],
+            "correct_index": 2
+        },
+        {
+            "question_number": 299,
+            "question": "Agar yuridik shaxs 1-oktabrdan keyin ro'yxatdan o'tgan bo'lsa, birinchi hisobot yili qachon yakunlanadi?",
+            "options": [
+                "Xuddi shu yilning 31-dekabrida",
+                "Keyingi yilning 1-oktabrida",
+                "Keyingi yilning 31-dekabrida",
+                "Besh yildan so'ng"
+            ],
+            "correct_index": 2
+        },
+        {
+            "question_number": 300,
+            "question": "Xalqaro moliyaviy hisobot standartlari (MHXS - IFRS) ga o'tishdan asosiy maqsad nima?",
+            "options": [
+                "Xalqaro miqyosda tushunarli bo'lishi, shaffoflikni oshirish va xorijiy investorlarni jalb qilish",
+                "Faqat ingliz tilini o'rganish uchun",
+                "Mahalliy soliqlardan to'liq ozod bo'lish uchun",
+                "Buxgalterlarning ishini qiyinlashtirish uchun"
+            ],
+            "correct_index": 0
+        }
+    ]
+}

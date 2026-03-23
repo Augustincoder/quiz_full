@@ -1,0 +1,281 @@
+{
+    "test_id": 10,
+    "range": "226-250",
+    "questions": [
+        {
+            "question_number": 226,
+            "question": "Dividendlar to‘lash to‘g‘risidagi yakuniy qarorni kim qabul qiladi?",
+            "options": [
+                "Aksiyadorlarning umumiy yig‘ilishi",
+                "Korxonaning bosh buxgalteri",
+                "Davlat Markaziy banki",
+                "Hududiy soliq inspeksiyasi"
+            ],
+            "correct_index": 0
+        },
+        {
+            "question_number": 227,
+            "question": "O'zbekistonda korporativ boshqaruv sohasidagi tartibga soluvchi asosiy davlat organi qaysi?",
+            "options": [
+                "Davlat xavfsizlik xizmati (DXX)",
+                "Istiqbolli loyihalar milliy agentligi (NAPP)",
+                "Ichki ishlar vazirligi (IIV)",
+                "Oliy va o'rta maxsus ta'lim vazirligi"
+            ],
+            "correct_index": 1
+        },
+        {
+            "question_number": 228,
+            "question": "Listing qoidalari nima?",
+            "options": [
+                "Yangi ishchilarni ishga qabul qilish shartlari va qoidalari",
+                "Har yillik davlat soliq to'lovlari grafigi",
+                "Qimmatli qog‘ozlarni birja kotirovka varag‘iga kiritish va unda saqlash talablari",
+                "Zararga kirgan korxonani yopish va sud orqali tugatish tartibi"
+            ],
+            "correct_index": 2
+        },
+        {
+            "question_number": 229,
+            "question": "\"Kuzatuv kengashiga saylanishda kumulyativ ovoz berish\" tizimi nima?",
+            "options": [
+                "Bosh direktorga qaror qabul qilishda mutlaq veto huquqini taqdim etish",
+                "Xorijlik investorlarga kengash saylovida ovoz berishni umuman taqiqlash",
+                "Eng yirik aksiyadorga boshqalarning ovozini yashirin sotib olish huquqini berish",
+                "Kichik aksiyadorlarga o'z ovozlarini birlashtirib, o'z nomzodini saylash imkonini beruvchi usul"
+            ],
+            "correct_index": 3
+        },
+        {
+            "question_number": 230,
+            "question": "Jamiyatning \"Ichki audit xizmati\" (auditorlari) kimga hisobdor hisoblanadi?",
+            "options": [
+                "Kuzatuv kengashiga",
+                "Tashkilot kasaba uyushmasiga",
+                "Faqatgina Bosh direktorga",
+                "Tuman yoki shahar soliq inspeksiyasiga"
+            ],
+            "correct_index": 0
+        },
+        {
+            "question_number": 231,
+            "question": "Aksiyadorlar reyestri nima?",
+            "options": [
+                "Kompaniyaning uzoq muddatli qarzlarining batafsil ro'yxati",
+                "Aksiyadorlar va ularga tegishli aksiyalar soni qayd etilgan yuridik tizim",
+                "Barcha rahbar va xodimlarning oylik maoshlari ro'yxati",
+                "Bozordagi barcha raqobatchilarning maxfiy kontaktlari ro'yxati"
+            ],
+            "correct_index": 1
+        },
+        {
+            "question_number": 232,
+            "question": "O’zbekiston qonunchiligiga ko'ra AJ Kuzatuv kengashining a'zolari soni minimal qancha bo'lishi mumkin?",
+            "options": [
+                "1 kishi",
+                "2 kishi",
+                "3 kishi",
+                "7 kishi"
+            ],
+            "correct_index": 2
+        },
+        {
+            "question_number": 233,
+            "question": "\"Oltin aksiya\" nima?",
+            "options": [
+                "Sof oltindan yasalgan va milliy muzeyda qulf ostida saqlanadigan qog'oz",
+                "Bosh direktorga yuz million so'm kafolatlangan mukofot beruvchi aksiya",
+                "Tez orada bankrot bo'lishi kutilayotgan korxonalarni qutqaruvchi yashirin fond",
+                "Davlatga strategik korxonalarda muhim qarorlarga veto qo‘yish huquqini beruvchi maxsus huquq"
+            ],
+            "correct_index": 3
+        },
+        {
+            "question_number": 234,
+            "question": "OECD korporativ boshqaruv tamoyillari dunyoda ilk bor nechanchi yilda qabul qilingan?",
+            "options": [
+                "1999-yilda",
+                "1980-yilda",
+                "2008-yilgi inqirozdan so'ng",
+                "1945-yil Ikkinchi jahon urushi tugagach"
+            ],
+            "correct_index": 0
+        },
+        {
+            "question_number": 235,
+            "question": "Korporativ boshqaruvda \"Teng munosabat\" tamoyili kimlarga tegishli?",
+            "options": [
+                "Faqat direktorlar kengashi va boshqaruv organlari a'zolariga",
+                "Barcha aksiyadorlarga, shu jumladan kichik va xorijiy aksiyadorlarga",
+                "Faqat litsenziya beruvchi davlat hukumat organlariga",
+                "Faqat 51% dan ortiq nazorat paketiga ega bo'lgan sarmoyadorlarga"
+            ],
+            "correct_index": 1
+        },
+        {
+            "question_number": 236,
+            "question": "Korporativ boshqaruvda \"Hisobdorlik\" (Accountability) deganda nima tushuniladi?",
+            "options": [
+                "Buxgalterlarning har kungi texnik va matematik hisob-kitoblari",
+                "Tijorat banki oldidagi kredit foizlarini muddatida to'lash majburiyati",
+                "Boshqaruv organlarining o'z qarorlari uchun aksiyadorlar oldidagi mas'uliyati",
+                "Xodimlarga oylik maoshlarni belgilangan vaqtdan kechiktirmay tarqatish"
+            ],
+            "correct_index": 2
+        },
+        {
+            "question_number": 237,
+            "question": "OECD ning \"Mas'uliyat\" (Responsibility) tamoyili kimlarning manfaatini himoya qilishga qaratilgan?",
+            "options": [
+                "Faqatgina jinoiy to'dalar va xakerlarni",
+                "Faqat kompaniyaning raqobatchi firmalarini",
+                "Xalqaro tijorat arbitraj sudlarini",
+                "Steykxolderlarni (barcha manfaatdor tomonlarni)"
+            ],
+            "correct_index": 3
+        },
+        {
+            "question_number": 238,
+            "question": "OECDning 2023-yildagi yangilangan tamoyillarida qaysi zamonaviy yo'nalish rasman qo'shildi?",
+            "options": [
+                "Barqarorlik va ESG (Ekologiya, ijtimoiy va boshqaruv) masalalari",
+                "Barcha davlat korxonalarida majburiy harbiy qoidalar",
+                "Xususiy kompaniyalarga davlat narx qo'mitasining aralashuvi",
+                "Kengashda sun'iy intellektning ovoz berish va qaror qabul qilish huquqi"
+            ],
+            "correct_index": 0
+        },
+        {
+            "question_number": 239,
+            "question": "\"Informatsiyani oshkor qilish\" (Disclosure) tamoyili korporatsiyaga nima uchun muhim?",
+            "options": [
+                "Raqobatchilarni tijorat sirlari bilan tekinga ta'minlash uchun",
+                "Bozor shaffofligini ta'minlash va investitsiya jozibadorligini oshirish uchun",
+                "Barcha oddiy ishchilarning pasport ma'lumotlarini hammaga ko'rsatish uchun",
+                "Tashkilot xodimlari haqida turli xil mish-mish va g'iybatlar tarqatish uchun"
+            ],
+            "correct_index": 1
+        },
+        {
+            "question_number": 240,
+            "question": "Korporativ etika kodeksi nima?",
+            "options": [
+                "Xodimlarning kafeda qanday ovqatlanishi kerakligi haqidagi qoida",
+                "Faqat Bosh direktorni maqtab yozilgan kichik hajmli kitobcha",
+                "Kompaniya a'zolari amal qilishi lozim bo‘lgan axloqiy me'yorlar to‘plami",
+                "Soliqlardan rasman va qonuniy qochish bo'yicha maxsus yo'riqnoma"
+            ],
+            "correct_index": 2
+        },
+        {
+            "question_number": 241,
+            "question": "Korporatsiyada \"Manfaatlar to‘qnashuvi\" (Conflict of Interest) holati qanday ta'riflanadi?",
+            "options": [
+                "Ikki xodimning ofis yo'lagida og'zaki yoki jismoniy janjallashib ketishi",
+                "Xodimlarning ish vaqtidan tashqari o'tkazadigan sport musobaqalari",
+                "Davlat idoralari va chet el xususiy firmalarining o'zaro raqobati",
+                "Shaxsning shaxsiy manfaati kompaniya manfaatlariga zid kelib qolishi"
+            ],
+            "correct_index": 3
+        },
+        {
+            "question_number": 242,
+            "question": "\"Insider trading\" (insayd savdosi) qanday harakat hisoblanadi?",
+            "options": [
+                "Oshkor qilinmagan maxfiy ma'lumotlardan foydalanib aksiyalar bilan bitim tuzish (noqonuniy)",
+                "Ofis ichida xodimlarning o'zaro kiyim va jihozlar almashishi jarayoni",
+                "Kompaniya o'z mahsulotlarini faqat o'z xodimlariga arzon narxda sotishi",
+                "Qimmatli qog'ozlarni faqat elektron tarmoqlarda emas, oddiy do'konlarda sotish"
+            ],
+            "correct_index": 0
+        },
+        {
+            "question_number": 243,
+            "question": "Kompaniyalardagi Whistleblowing (Xabar berish) tizimi qanday vazifani bajaradi?",
+            "options": [
+                "Favqulodda holatlarda ishlaydigan bino yong'in signalizatsiyasi tizimi",
+                "Kompaniyadagi qonunbuzarliklar va firibgarliklar haqida anonim xabar berish mexanizmi",
+                "Ishchilarni majlislar zaliga baland ovozda chaqirish radiosi",
+                "Yangi mahsulotni ommaviy axborot vositalariga tanishtirish (reklama) kampaniyasi"
+            ],
+            "correct_index": 1
+        },
+        {
+            "question_number": 244,
+            "question": "Direktorlar kengashi samaradorligini tashqi va ichki baholash qanchada o‘tkazilishi tavsiya etiladi?",
+            "options": [
+                "Har 10 yilda bir marta, kompaniya yubileyida",
+                "Har kuni ertalab ish kunidan oldin",
+                "Har yili kamida bir marta",
+                "Bunday tahlil xarajat talab qilgani uchun mutlaqo o'tkazilmaydi"
+            ],
+            "correct_index": 2
+        },
+        {
+            "question_number": 245,
+            "question": "OECD tavsiyasiga ko'ra, \"Mustaqil direktorlar\" soni Kuzatuv kengashida qancha miqdorda bo‘lishi so'raladi?",
+            "options": [
+                "Kengashning mutlaq barcha (100%) a'zolari mustaqil bo'lishi kerak",
+                "Hech qancha, ular qonunchilikda taqiqlangan",
+                "Faqatgina bitta shaxs ramziy ma'noda mustaqil bo'lishi yetarli",
+                "Umumiy a'zolarning kamida 1/3 (uchdan bir) qismi"
+            ],
+            "correct_index": 3
+        },
+        {
+            "question_number": 246,
+            "question": "Aksiyadorlarning Umumiy yig'ilishida \"Proksi\" (Proxy) orqali ovoz berish nimani anglatadi?",
+            "options": [
+                "O'z ovoz berish huquqini ishonchnoma orqali qonuniy boshqa shaxsga berish",
+                "Internetdagi brauzer va serverlardan yashirin (anonim) ravishda foydalanish",
+                "Yig'ilishda ishtirok etishdan va aksiyalardan butunlay voz kechish",
+                "Majlisda ishtirok etmasdan turib, tashqaridan yozma norozilik bildirish"
+            ],
+            "correct_index": 0
+        },
+        {
+            "question_number": 247,
+            "question": "Zamonaviy biznesda Kompaniya ijtimoiy mas'uliyati (CSR) nima?",
+            "options": [
+                "Barcha xodimlarni qishloq xo'jaligida yoki kasalxonalarda tekin ishlashga majburlash",
+                "Biznesning jamiyat va atrof-muhit oldidagi qonundan tashqari ixtiyoriy mas'uliyati",
+                "Kompaniya topgan sof foydaning yuz foizini davlat byudjetiga topshirishi",
+                "Faqat xalqaro xayriya jamg'armalariga pul o'tkazish bilan cheklanish"
+            ],
+            "correct_index": 1
+        },
+        {
+            "question_number": 248,
+            "question": "Kuzatuv kengashi qoshidagi Audit qo'mitasi (Audit Committee) tarkibida asosan kimlar bo'lishi shart?",
+            "options": [
+                "Faqat tashkilot bosh direktori va uning ishonchli qarindoshlari",
+                "Davlat soliq inspeksiyasidan tayinlangan mahalliy nazoratchilar",
+                "Asosan mustaqil va ijrochi bo‘lmagan professional direktorlar",
+                "Ixtiyoriy ravishda jalb qilingan barcha oddiy ishchi va xodimlar"
+            ],
+            "correct_index": 2
+        },
+        {
+            "question_number": 249,
+            "question": "Davlat ishtirokidagi korxonalarda korporativ boshqaruvni to'g'ri yo'lga qo'yish nima uchun qiyin va murakkab hisoblanadi?",
+            "options": [
+                "Faqat xorijiy valyutada o'zaro savdo qilingani sababli",
+                "Davlat boshqaruvchilarining maktab ta'limi darajasi pastligi uchun",
+                "Davlatning umuman iqtisodiyotga aralashmaslik siyosati tufayli",
+                "\"Ikkilamchi agentlik muammosi\" (xalq - davlat idorasi - menejer) ziddiyati sababli"
+            ],
+            "correct_index": 3
+        },
+        {
+            "question_number": 250,
+            "question": "Davlat korxonalari boshqaruvi bo'yicha OECD tamoyillarining asosiy talabi nimadan iborat?",
+            "options": [
+                "Davlatning siyosiy tartibga soluvchi va oddiy mulkdorlik funksiyalarini bir-biridan ajratish",
+                "Barcha yirik korxonalarni darhol tekinga xususiy sektorga o'tkazib yuborish",
+                "Korrupsiya bo'lmasligi uchun rahbarlarni har yili majburiy almashtirib turish",
+                "Davlat korxonalaridan tushgan barcha foydani ishchilarga bo'lib berish"
+            ],
+            "correct_index": 0
+        }
+    ]
+}

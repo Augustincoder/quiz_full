@@ -1,0 +1,281 @@
+{
+    "test_id": 4,
+    "range": "76-100",
+    "questions": [
+        {
+            "question_number": 76,
+            "question": "Hozirgi vaqtda korporativ boshqaruvning mohiyati tushunchasi qanday shakllandi?",
+            "options": [
+                "faqat direktorlarning maoshini belgilovchi qoida sifatida",
+                "mahalliy hokimiyat bilan aloqalarni yaxshilash usuli deb",
+                "korporatsiyalar faoliyati samaradorligini belgilovchi omillarning boy spektri",
+                "davlat byudjetiga soliq to'lashdan qochishning yagona yo'li sifatida"
+            ],
+            "correct_index": 2
+        },
+        {
+            "question_number": 77,
+            "question": "Korporativ boshqaruv munosabatlarining asosiy turi:",
+            "options": [
+                "xodimlar va mijozlar orasidagi nizo",
+                "raqobatchi kompaniyalar o'rtasidagi do'stlik",
+                "mahalliy soliq organlari bilan muloqot",
+                "aksiyadorlatning munosabatlari"
+            ],
+            "correct_index": 3
+        },
+        {
+            "question_number": 78,
+            "question": "Korporativ boshqaruv munosabatlarining muhim turi:",
+            "options": [
+                "aksiyadorlarning javobgarligini taqsimlash",
+                "faqat ofis jihozlarini sotib olish majburiyati",
+                "barcha foydani davlatga topshirish munosabati",
+                "ishchilarni doimiy nazorat qilish jarayoni"
+            ],
+            "correct_index": 0
+        },
+        {
+            "question_number": 79,
+            "question": "Angliya-Amerika modelining tarqalish maydoni qayer?",
+            "options": [
+                "Lotin Amerikasi va Afrika qit'asi",
+                "AQSh, Buyuk Britaniya",
+                "Faqatgina Osiyo davlatlarida",
+                "Markaziy Yevropa va Skandinaviya"
+            ],
+            "correct_index": 1
+        },
+        {
+            "question_number": 80,
+            "question": "Korporativ xulq-atvor kodeksini qo'llashning asosiy maqsadi:",
+            "options": [
+                "barcha xodimlarni jazolash va jarimaga tortish",
+                "faqatgina tashqi raqobatchilarni yo'qotish",
+                "aksiyadorlarning manfaatlarini himoya qilish",
+                "maoshlarni sun'iy ravishda tushirib borish"
+            ],
+            "correct_index": 2
+        },
+        {
+            "question_number": 81,
+            "question": "Dirеktоrlаr kеngаshi а’zоsi kimlаr bo’lishi mumkin emаs?",
+            "options": [
+                "mustaqil iqtisodchi ekspertlar",
+                "tashqi auditorlik tashkiloti vakillari",
+                "nafaqadagi sobiq moliya mutaxassislari",
+                "bоshqаruv а’zоlаri (ijroiya organi)"
+            ],
+            "correct_index": 3
+        },
+        {
+            "question_number": 82,
+            "question": "Kuzatuv Kengashining vazifalariga quyidagilar kiradi:",
+            "options": [
+                "samarali nazorat kompaniyaning rivojlanish strategiyasini aniqlash",
+                "yangi oddiy ishchilarni suhbatdan o'tkazish",
+                "kundalik ofis xarajatlarini hisoblab chiqish",
+                "mijozlarga to'g'ridan-to'g'ri mahsulot sotish"
+            ],
+            "correct_index": 0
+        },
+        {
+            "question_number": 83,
+            "question": "Aksiyadorlik jаmiyatlаri to’g’risidаgi qоnun (eski tahriri) O'zbekistonda qаchоn qаbul qilingаn?",
+            "options": [
+                "1991 yil 1 sentyabrda",
+                "1996 yil 26 аprеldа",
+                "2001 yil 10 dekabrda",
+                "2014 yil 5 mayda"
+            ],
+            "correct_index": 1
+        },
+        {
+            "question_number": 84,
+            "question": "Zamonaviy korporativ biznesning o'ziga xos xususiyati nimada?",
+            "options": [
+                "o'sishning butunlay to'xtab qolishi",
+                "faqat yopiq ma'lumotlarga tayanishi",
+                "tez rivojlanish",
+                "eskirgan texnologiyalarni qo'llab-quvvatlashi"
+            ],
+            "correct_index": 2
+        },
+        {
+            "question_number": 85,
+            "question": "Angliya-Amerika korporativ boshqaruv modeli quyidagilar bilan tavsiflanadi:",
+            "options": [
+                "davlatning qattiq aralashuvi va yopiq tizim",
+                "banklarning mutlaq gegemonligi bilan",
+                "kuzatuv kengashida oddiy ishchilarning ishtiroki",
+                "tobora ortib borayotgan aksionerlar soni"
+            ],
+            "correct_index": 3
+        },
+        {
+            "question_number": 86,
+            "question": "Yaponiya korporativ boshqaruv modelining o'ziga xosligi nimada?",
+            "options": [
+                "qonunchilik va sanoat Keiretsu-ni faol qo'llab-quvvatlaydi",
+                "kichik aksiyadorlarning mutlaq ustunlikka egaligi",
+                "aksiyalarning faqat xorijliklarga sotilishi",
+                "korporatsiyalarning qisqa muddatli foydaga intilishi"
+            ],
+            "correct_index": 0
+        },
+        {
+            "question_number": 87,
+            "question": "Boshqaruv sifatini quyidagi hollarda yaxshilash mumkin:",
+            "options": [
+                "barcha axborot tizimlarini butunlay o'chirib qo'yish orqali",
+                "tashkilotning iqtisodiy qonunlari va ularining ta'sirini tahlil qilish",
+                "boshqaruv jamoasining faqat bitta shaxsdan iborat bo'lishi",
+                "kuzatuv kengashini umuman bekor qilish orqali"
+            ],
+            "correct_index": 1
+        },
+        {
+            "question_number": 88,
+            "question": "Aksiyadorlik jаmiyatlаrining paydo bo'lishi qаysi asrlarga tog'ri keladi?",
+            "options": [
+                "V - VI asrlarga",
+                "XI - XII asrlarga",
+                "XVII-XVIII asrlarda",
+                "XX asrning oxirlariga"
+            ],
+            "correct_index": 2
+        },
+        {
+            "question_number": 89,
+            "question": "Korporativ axborot tizimlarining asosiy maqsadi:",
+            "options": [
+                "xodimlarning shaxsiy yozishmalarini yashirin kuzatish",
+                "raqobatchi korxonalar ma'lumotlarini o'g'irlash",
+                "feyk va tekshirilmagan xabarlarni tarqatish",
+                "izchil, ishonchli va tuzilgan ma'lumotlarni tezkor ta'minlash"
+            ],
+            "correct_index": 3
+        },
+        {
+            "question_number": 90,
+            "question": "Ijro etuvchi organlarning vakolatiga quyidagilar kiradi:",
+            "options": [
+                "hozirgi faoliyatni boshqarishning eng murakkab masalalarini hal qilish",
+                "faqatgina ustav kapitali miqdorini o'zgartirish",
+                "aksiyadorlarga o'z xohishiga ko'ra dividend to'lamaslik",
+                "kompaniyani butunlay yopish to'g'risida qaror qabul qilish"
+            ],
+            "correct_index": 0
+        },
+        {
+            "question_number": 91,
+            "question": "Korporativ kotib kim tomonidan tayinlanadi?",
+            "options": [
+                "Oliy Majlis Qonunchilik palatasi tomonidan",
+                "direktorlar Kengashi tomonidan",
+                "Faqat bosh hisobchining shaxsiy buyrug'i bilan",
+                "Kasaba uyushmasi umumiy a'zolari tomonidan"
+            ],
+            "correct_index": 1
+        },
+        {
+            "question_number": 92,
+            "question": "Qonunga muvofiq aksiyadorlik jamiyatining yillik umumiy yig 'ilishi qachon o' tkaziladi?",
+            "options": [
+                "hech qanday muddat belgilanmagan, ixtiyoriy",
+                "har moliyaviy chorakning eng birinchi kunida",
+                "jamiyat ustavida belgilangan muddatlarda, olti oydan kechiktirmay",
+                "hisobot yili tugaganidan keyin aynan 2 yil o'tib"
+            ],
+            "correct_index": 2
+        },
+        {
+            "question_number": 93,
+            "question": "Aksiyadorlik jamiyati aksiyalarining nazorat paketi tarkibi:",
+            "options": [
+                "ustav kapitalining roppa-rosa 1 foiz qismi",
+                "faqat imtiyozli aksiyalarning uchdan bir qismi",
+                "xo'jalik jamiyatining barcha qarz majburiyatlari",
+                "aksiyadorlik jamiyatining oddiy aksiyalarining 50 foizi va undan ko'prog'i"
+            ],
+            "correct_index": 3
+        },
+        {
+            "question_number": 94,
+            "question": "Qonunga muvofiq aksiyadorlik jamiyatining zaxira kapitali qancha bo'lishi belgilangan?",
+            "options": [
+                "ustav kapitalining 5 foizidan ko'p bo'lmagan",
+                "jami kapitalning 50 foizidan kam bo'lmagan",
+                "kompaniyaning barcha binolari qiymatiga teng",
+                "ustav kapitalining aynan 100 foizi miqdorida"
+            ],
+            "correct_index": 0
+        },
+        {
+            "question_number": 95,
+            "question": "Qonunga muvofiq ustav kapitalidagi qaysi ulush imtiyozli aksiyalardan oshmasligi kerak?",
+            "options": [
+                "5%",
+                "20%",
+                "40%",
+                "75%"
+            ],
+            "correct_index": 1
+        },
+        {
+            "question_number": 96,
+            "question": "Aksiyadorlik jamiyati ishtirokchilariga dividendlar to'lash qaysi muddatlarda amalga oshirilishi kerak?",
+            "options": [
+                "qaror qabul qilingandan so'ng 1 yildan kam bo'lmagan muddatda",
+                "kompaniya ixtiyoriga ko'ra xohlagan vaqtda amalga oshiriladi",
+                "dividendlarni to'lash muddati qaror qabul qilingan kundan boshlab oltmish kundan kech bo'lishi mumkin emas",
+                "faqat kompaniya ustav kapitali 2 barobar oshgandan keyingina"
+            ],
+            "correct_index": 2
+        },
+        {
+            "question_number": 97,
+            "question": "Bosh direktorning vakolatlari qachondan kuchga kiradi?",
+            "options": [
+                "universitet diplomini qo'lga kiritgan kundan",
+                "shifokor ko'rigidan ijobiy o'tgan paytdan",
+                "nomzodi prezident tomonidan tasdiqlangan kundan",
+                "mehnat shartnomasi imzolangan paytdan boshlab"
+            ],
+            "correct_index": 3
+        },
+        {
+            "question_number": 98,
+            "question": "Qaysi milliy qonunchilikda direktorlar Kengashi tomonidan taqdim etilgan dividendlar bo'yicha aksiyadorlatning ovoz berishi ko'zda tutilmagan?",
+            "options": [
+                "Amerika",
+                "Germaniya",
+                "Yaponiya",
+                "O'zbekiston"
+            ],
+            "correct_index": 0
+        },
+        {
+            "question_number": 99,
+            "question": "Chet elliklar kimlar?",
+            "options": [
+                "Kompaniyadagi mahalliy qorovullar jamoasi",
+                "korporatsiyaning xorijiy investorlari",
+                "Faqat xorijdan kelgan tekin maslahatchilar",
+                "Ichki audit xizmati xodimlari"
+            ],
+            "correct_index": 1
+        },
+        {
+            "question_number": 100,
+            "question": "\"Keiretsu\" tizimi nimaning tarkibiy qismi hisoblanadi?",
+            "options": [
+                "Angliya-Amerika korporativ modelining",
+                "Germaniya korporativ boshqaruv modelining",
+                "yapon korporativ boshqaruv modeli",
+                "Islom moliya va korporativ boshqaruvi"
+            ],
+            "correct_index": 2
+        }
+    ]
+}

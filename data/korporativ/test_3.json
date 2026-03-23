@@ -1,0 +1,281 @@
+{
+    "test_id": 3,
+    "range": "51-75",
+    "questions": [
+        {
+            "question_number": 51,
+            "question": "Aksiyadorlik jamiyatining asosiy aksiyalari:",
+            "options": [
+                "1 foizgacha bo'lgan vaqtinchalik aksiyalar",
+                "10% va undan ortiq oddiy aksiyalarning %",
+                "faqat xorijiy valyutada olingan aksiyalar",
+                "davlat byudjeti hisobidan olingan aksiyalar"
+            ],
+            "correct_index": 1
+        },
+        {
+            "question_number": 52,
+            "question": "Kuzatuv kengashi a'zosi kim bo'lishi mumkin:",
+            "options": [
+                "faqatgina tijorat bankirlari",
+                "kompaniyada ishlaydigan yosh bolalar",
+                "ijroya organi",
+                "raqobatchi kompaniya xodimlari"
+            ],
+            "correct_index": 2
+        },
+        {
+            "question_number": 53,
+            "question": "Korporativ boshqaruvda qaysi organ mutlaq oliy boshqaruv organi hisoblanadi?",
+            "options": [
+                "Kasaba uyushmasi",
+                "Kompaniyaning marketing bo'limi",
+                "Mahalliy hokimiyat organlari",
+                "Aksiyadorlarning umumiy yig’ilishi"
+            ],
+            "correct_index": 3
+        },
+        {
+            "question_number": 54,
+            "question": "Ustav kapitalida qanday ulush imtiyozli bo’lishi kerak:",
+            "options": [
+                "10%",
+                "90%",
+                "50%",
+                "100%"
+            ],
+            "correct_index": 0
+        },
+        {
+            "question_number": 55,
+            "question": "Korporatsiyalar hususiyatlariga quyidagilarni kiritish mumkin:",
+            "options": [
+                "jismoniy shaxs maqomining berilishi",
+                "yuridik shaxs statusi",
+                "faqatgina davlat mulki maqomiga ega bo'lishi",
+                "yashirin iqtisodiyot doirasida ishlashi"
+            ],
+            "correct_index": 1
+        },
+        {
+            "question_number": 56,
+            "question": "Dividendlar aksiyadorlik jamiyatining ishtirokshilariga qashon to'lanishi kerak:",
+            "options": [
+                "keyingi yili 31 dekabr oyining oxirida",
+                "har 10 yilda bir marta kapitalizatsiya qilinganda",
+                "hisobot davridan keyingi 1 iyuldan kechiktirmay",
+                "kompaniya butunlay yopilayotgan vaqtda"
+            ],
+            "correct_index": 2
+        },
+        {
+            "question_number": 57,
+            "question": "Aksiyadorlik jamiyati boshqaruvida nazorat qiluvshi shaxslar guruhi:",
+            "options": [
+                "Faqat davlat nazorat organlari",
+                "Oddiy ishchilar va xodimlar jamoasi",
+                "Mijozlar va iste'molchilar guruhi",
+                "Aksiyadorlik jamiyati kengashi"
+            ],
+            "correct_index": 3
+        },
+        {
+            "question_number": 58,
+            "question": "Aksiyadorga ma'lum toifadagi yoki uning o'ziga tegishli bo'lgan bir ulushiga to'lanadigan sof foyda uning qismi deb ataladi:",
+            "options": [
+                "Dividend",
+                "Oylik maosh",
+                "Soliq yuki",
+                "Kompensatsiya jarimasi"
+            ],
+            "correct_index": 0
+        },
+        {
+            "question_number": 59,
+            "question": "Aksiyadorlik kompaniyasi kimning aksiyalari bilan qaror qabul qilishi mumkin?",
+            "options": [
+                "Bosh buxgalterning shaxsiy ruxsati bilan",
+                "Umumiy yig'ish qarori bo'yicha",
+                "Faqatgina kreditorlar buyrug'i bilan",
+                "Mahalliy soliq idorasi qonuni bilan"
+            ],
+            "correct_index": 1
+        },
+        {
+            "question_number": 60,
+            "question": "Kompaniya faqat dividendlarni to'laydi:",
+            "options": [
+                "ishlab chiqarilgan tayyor mahsulot bilan",
+                "kompaniyaga tegishli texnika bilan",
+                "naqd pulda",
+                "bepul xizmat ko'rsatish orqali"
+            ],
+            "correct_index": 2
+        },
+        {
+            "question_number": 61,
+            "question": "Jamiyat zaxiralari nimani tasdiqlaydi?",
+            "options": [
+                "kompaniyaning tez orada yopilishini",
+                "har qanday soliqlardan to'liq ozodligini",
+                "xodimlarning kompaniyadan qarz ekanligini",
+                "korporativ aksiyadorlar huquqlari"
+            ],
+            "correct_index": 3
+        },
+        {
+            "question_number": 62,
+            "question": "Kompaniyaning ijro etuvshi organlari:",
+            "options": [
+                "Ijroiya organi",
+                "Davlat sud tizimi",
+                "Mijozlarga xizmat ko'rsatish markazi",
+                "Moliya vazirligining ta'ftish komissiyasi"
+            ],
+            "correct_index": 0
+        },
+        {
+            "question_number": 63,
+            "question": "Kompaniyaning qаysi boshqaruv organi aksiyadorlar bir qator asosiy qarorlarni qabul qiladilar va tasdiqlaydilar?",
+            "options": [
+                "Xodimlar kasaba uyushmasi yig'ilishi",
+                "Aksiyadorlar umumiy yig'ilishi",
+                "Tashkilotning yashirin xavfsizlik bo'limi",
+                "Xodimlarni yollash va kadrlar bo'limi"
+            ],
+            "correct_index": 1
+        },
+        {
+            "question_number": 64,
+            "question": "Kompaniya ustavida qanday ma'lumot mavjud:",
+            "options": [
+                "Jamiyat nomi va manzili",
+                "Ustav kapitali miqdori",
+                "Yuqoridagi barchasi",
+                "Aksiyalarning turlari"
+            ],
+            "correct_index": 2
+        },
+        {
+            "question_number": 65,
+            "question": "Kompaniyaning ijrоiya оrgаnlаri - bu:",
+            "options": [
+                "Aksiyadorlar umumiy kengashi",
+                "Qorovullar va xavfsizlik jamoasi",
+                "Tashqi investorlar va bankirlar",
+                "Bоsh dirеktоr"
+            ],
+            "correct_index": 3
+        },
+        {
+            "question_number": 66,
+            "question": "Аnglо-аmеrikа mоdеli hаrаkаti qаysi mаmlаkаtlаrdа mаvjud emаs:",
+            "options": [
+                "Buyuk Britaniya",
+                "Amerika Qo'shma Shtatlari",
+                "Kanada va Avstraliya davlatlarida",
+                "Yangi Zelandiya"
+            ],
+            "correct_index": 0
+        },
+        {
+            "question_number": 67,
+            "question": "Nеmis mоdеlini аmаlgа оshirish qаysi qаtnаshchilаr еtakchi emаs:",
+            "options": [
+                "Mahalliy tijorat banklari",
+                "fоnd birjаsi",
+                "Jamiyatning kuzatuv kengashi",
+                "Xodimlar kasaba uyushmalari"
+            ],
+            "correct_index": 1
+        },
+        {
+            "question_number": 68,
+            "question": "Korporativ boshqaruv korporatsiyaning qaysi boshqaruv organlari tomonidan amalga oshiriladi?",
+            "options": [
+                "Faqat moliya vazirligi vakillari tomonidan",
+                "Faqatgina chetdan kelgan auditorlar tomonidan",
+                "aksiyadorlarning umumiy yig'ilishi, Kengash, direktor",
+                "Faqatgina 100% chet el investorlari tomonidan"
+            ],
+            "correct_index": 2
+        },
+        {
+            "question_number": 69,
+            "question": "Korporativ xulq-atvor kodeksi:",
+            "options": [
+                "buzilgan taqdirda qat'iy jinoiy javobgarlikka tortadi",
+                "faqatgina yopiq davlat korxonalarida majburiy hisoblanadi",
+                "umuman hech qanday huquqiy va ma'naviy kuchga ega emas",
+                "tavsiya xususiyati"
+            ],
+            "correct_index": 3
+        },
+        {
+            "question_number": 70,
+            "question": "Direktorlar kengashi o'z faoliyati davomida qanday xavf-xatarlarga duch keladi?",
+            "options": [
+                "kengashning menejerlar ishiga haddan tashqari aralashuvi",
+                "ofis binosining to'satdan qulab tushishi riski",
+                "menejerlarga oylik maoshlarning uzluksiz oshib ketishi",
+                "boshqaruv jamoasida ofis jihozlarining yetishmasligi"
+            ],
+            "correct_index": 0
+        },
+        {
+            "question_number": 71,
+            "question": "Korporativ axloqiy qoidalar quyidagilarni bajarishga imkon beradi:",
+            "options": [
+                "Soliqlarni qonuniy yo'l bilan yashirishga yordam beradi",
+                "Korporativ madaniyatga va korporativ qadriyatlarga urg'u beradi.",
+                "Aksiyadorlar va ishchilar orasida doimiy nizo chiqaradi",
+                "Tashqi moliyaviy auditorlarni chalg'itishga xizmat qiladi"
+            ],
+            "correct_index": 1
+        },
+        {
+            "question_number": 72,
+            "question": "Dunyoda korporativ boshqaruvning ikkita asosiy modeli qanday?",
+            "options": [
+                "Osiyo va Afrika modellari",
+                "Avstraliya va Antarktida modellari",
+                "Amerika va Germaniya",
+                "Hindiston va Xitoy yondashuvlari"
+            ],
+            "correct_index": 2
+        },
+        {
+            "question_number": 73,
+            "question": "Korporativ boshqaruv ob'ekti:",
+            "options": [
+                "kompaniya binolari va ofis uskunalari",
+                "boshqaruvchilarning shaxsiy mulklari",
+                "faqat arxiv qog'oz hujjatlari",
+                "kapital"
+            ],
+            "correct_index": 3
+        },
+        {
+            "question_number": 74,
+            "question": "Kоrpоrаsiyaning ijrоiya оrgаnlаri qo’yidаgilаrgа hisоbоt bеrаdi:",
+            "options": [
+                "aksiyadorlаrning umumiy yig’ilishigа",
+                "ichki bozordagi eng kuchli raqobatchi firmalarga",
+                "mahalliy ommaviy axborot vositalariga",
+                "jahon xalqaro moliya va valyuta fondlariga"
+            ],
+            "correct_index": 0
+        },
+        {
+            "question_number": 75,
+            "question": "Kompaniyaning joriy maqsadlariga erishish ushun boshqaruv tizimini yaratish:",
+            "options": [
+                "qat'iy ekologik nazorat deb ataladi",
+                "strategik nazorat",
+                "tibbiy va sanitariya nazorati",
+                "ofis ichidagi jismoniy tarbiya nazorati"
+            ],
+            "correct_index": 1
+        }
+    ]
+}

@@ -1,0 +1,281 @@
+{
+    "test_id": 4,
+    "range": "76-100",
+    "questions": [
+        {
+            "question_number": 76,
+            "question": "Kreditor qarz tushunchasini ta'riflang?",
+            "options": [
+                "Korxonaning boshqa shaxslar oldidagi qarzdorligi (to'lanishi lozim bo'lgan majburiyatlar)",
+                "Boshqa korxonalarning bizning kompaniya oldidagi qarzi",
+                "Faqatgina to'lanmagan soliqlar",
+                "Ustav kapitalining shakllanmagan qismi"
+            ],
+            "correct_index": 0
+        },
+        {
+            "question_number": 77,
+            "question": "Asosiy vositaning amortizasiya qiymati nima?",
+            "options": [
+                "Aktivning faqatgina bozor narxi",
+                "Boshlang'ich (yoki tiklanish) qiymatidan tugatish qiymatini chegirib tashlagandan keyingi qiymat",
+                "Uni ta'mirlash uchun ketgan barcha xarajatlar",
+                "Aktivning birinchi yilgi sug'urta badali"
+            ],
+            "correct_index": 1
+        },
+        {
+            "question_number": 78,
+            "question": "Asosiy vositalarning tugatish qiymatiga ta'rif keltiring?",
+            "options": [
+                "Aktivni kim oshdi savdosida sotilgan narxi",
+                "Asosiy vositani do'kondan sotib olingan narxi",
+                "Asosiy vositani foydali xizmat muddati tugagandan so'ng, uni tugatishdan olinishi kutilayotgan (mo'ljallanayotgan) qoldiq qiymat",
+                "Aktivni bojxonadan olib o'tishdagi qiymati"
+            ],
+            "correct_index": 2
+        },
+        {
+            "question_number": 79,
+            "question": "Asosiy vositalar korxonaga kelib tushganda va aktiv sifatida tan olinganda ular qaysi qiymat bo'yicha baholanadi?",
+            "options": [
+                "Xorijiy valyutadagi narxida",
+                "Tugatish qiymati bo'yicha",
+                "Birjadagi o'rtacha qiymati bo'yicha",
+                "Boshlang'ich (xarid, yetkazib berish, o'rnatish va boshqa xarajatlar qo'shilgan) qiymati bo'yicha"
+            ],
+            "correct_index": 3
+        },
+        {
+            "question_number": 80,
+            "question": "Aktivlarni inventarizasiya jarayoniga ta'rif bering?",
+            "options": [
+                "Mol-mulk va majburiyatlarning haqiqatda mavjudligini buxgalteriya hisobi ma'lumotlari bilan solishtirish orqali tekshirish jarayoni",
+                "Aktivlarni har yili qayta bo'yash va ta'mirlash jarayoni",
+                "Xodimlarni tibbiy ko'rikdan o'tkazish tadbiri",
+                "Korxonani bankrot qilish jarayoni"
+            ],
+            "correct_index": 0
+        },
+        {
+            "question_number": 81,
+            "question": "Nomoddiy aktiv tushunchasiga ta'rif bering?",
+            "options": [
+                "Faqatgina tijorat banklaridan olingan qisqa muddatli kreditlar",
+                "Jismoniy ko'rinishga ega bo'lmagan, lekin uzoq muddat (1 yildan ortiq) iqtisodiy naf keltiradigan identifikatsiyalanadigan aktiv",
+                "Kassada naqd turgan xorijiy valyutalar",
+                "Ombordagi tayyor mahsulotlar ehtiyoti"
+            ],
+            "correct_index": 1
+        },
+        {
+            "question_number": 82,
+            "question": "Nomoddiy aktivlarni inventarizatsiya qilinganda nimalar tekshirilishi zarur?",
+            "options": [
+                "Ularning og'irligi va o'lchamlari",
+                "Ombordagi saqlanish sharoiti",
+                "Ularga bo'lgan egalik huquqini tasdiqlovchi hujjatlar (patentlar, guvohnomalar, litsenziyalar) ning mavjudligi va haqiqiyligi",
+                "Ularning zavodda qanday ishlab chiqarilganligi"
+            ],
+            "correct_index": 2
+        },
+        {
+            "question_number": 83,
+            "question": "Korxona moliyaviy axborotidan tashqi foydalanuvchilar tarkibiga kimlar kiradi?",
+            "options": [
+                "Sex ustalari va brigadirlar",
+                "Kompaniya Bosh direktori",
+                "Korxonaning ichki auditorlari",
+                "Investorlar, kreditorlar, soliq organlari, xaridorlar va mol yetkazib beruvchilar"
+            ],
+            "correct_index": 3
+        },
+        {
+            "question_number": 84,
+            "question": "Mol yetkazib beruvchilardan qarzga materiallar olindi. Ushbu jarayonni ikkiyoqlama yozuvda aks ettiring:",
+            "options": [
+                "Dt 1010 - Kt 6010",
+                "Dt 5110 - Kt 4010",
+                "Dt 6010 - Kt 1010",
+                "Dt 2010 - Kt 1010"
+            ],
+            "correct_index": 0
+        },
+        {
+            "question_number": 85,
+            "question": "Buxgalteriya hisobining subyektlarini aniqlang?",
+            "options": [
+                "Faqat xorijiy investorlar",
+                "Barcha yuridik shaxslar (tijorat va notijorat tashkilotlari, byudjet muassasalari)",
+                "Faqatgina yakka tartibdagi tadbirkorlar (YATT)",
+                "Faqat savdo bilan shug'ullanuvchi MChJlar"
+            ],
+            "correct_index": 1
+        },
+        {
+            "question_number": 86,
+            "question": "Hisobot davrining oxirida hisobvaraqda aktivlar qoldig'i (sal'do) ikkiyoqlama yozuvda qaysi qismida aks etadi?",
+            "options": [
+                "Faqat Kredit qismida",
+                "Ham Debet, ham Kredit qismida",
+                "Faqat Debet qismida",
+                "Balansdan tashqari schyotlarda"
+            ],
+            "correct_index": 2
+        },
+        {
+            "question_number": 87,
+            "question": "Kassaga bankdagi hisob-kitob schyotidan naqd pul - 500 ming so'm kelib tushdi. Ushbu operatsiya natijasini aniqlang?",
+            "options": [
+                "Dt 5110 - Kt 5010",
+                "Dt 5010 - Kt 4010",
+                "Dt 6010 - Kt 5110",
+                "Dt 5010 - Kt 5110 (Balansning faqat aktiv tomoni o'zgaradi, jami summa o'zgarmaydi)"
+            ],
+            "correct_index": 3
+        },
+        {
+            "question_number": 88,
+            "question": "Kompyuter qiymati 500 ming so'm, tugatish qiymati 30 000 so'm, xizmat muddati 5 yil. To'g'ri chiziqli usulga muvofiq yillik amortizasiya qiymatini toping?",
+            "options": [
+                "94 000 so'm",
+                "100 000 so'm",
+                "85 000 so'm",
+                "106 000 so'm"
+            ],
+            "correct_index": 0
+        },
+        {
+            "question_number": 89,
+            "question": "Kompyuter qiymati 500 ming so'm, tugatish qiymati nol so'm, xizmat muddati 5 yil. To'g'ri chiziqli usulga muvofiq yillik amortizasiya qiymatini toping?",
+            "options": [
+                "110 000 so'm",
+                "100 000 so'm",
+                "90 000 so'm",
+                "125 000 so'm"
+            ],
+            "correct_index": 1
+        },
+        {
+            "question_number": 90,
+            "question": "Korxona marketing izlanishlari uchun konsalting firmasiga 50 ming so'm to'ladi va mol yetkazib beruvchidan 700 ming so'mga patent sotib oldi. Patentning boshlang'ich qiymatini aniqlang:",
+            "options": [
+                "700 000 so'm",
+                "650 000 so'm",
+                "750 000 so'm",
+                "800 000 so'm"
+            ],
+            "correct_index": 2
+        },
+        {
+            "question_number": 91,
+            "question": "Korxona 300 ming so'mlik kontrakt tuzdi va haqning 15%ini (45 ming so'mni) hisob-kitob schyotiga avans sifatida oldi. Avans olinishini qanday aks ettiriladi?",
+            "options": [
+                "Dt 6010 - Kt 5110",
+                "Dt 4010 - Kt 5110",
+                "Dt 5010 - Kt 6310",
+                "Dt 5110 - Kt 6310 \"Xaridor va buyurtmachilardan olingan bo'naklar\""
+            ],
+            "correct_index": 3
+        },
+        {
+            "question_number": 92,
+            "question": "Mol-mulkni inventarizatsiya qilish natijasida aniqlangan ortiqcha asosiy vositalar qaysi qiymat boʻyicha hisobga kiritiladi?",
+            "options": [
+                "Bozor (haqiqiy joriy) qiymati bo'yicha",
+                "Nominal qiymati bo'yicha",
+                "Eskirish (qoldiq) qiymati bo'yicha",
+                "1 so'mlik shartli qiymat bo'yicha"
+            ],
+            "correct_index": 0
+        },
+        {
+            "question_number": 93,
+            "question": "Joriy aktivlar 100 mln so'm, uzoq muddatli aktivlar 200 mln soʻm. Korxonaning xususiy kapitali majburiyatlaridan ikki baravar ko'p. Korxonaning xususiy kapitali nimaga teng?",
+            "options": [
+                "100 mln so'm",
+                "200 mln so'm",
+                "300 mln so'm",
+                "150 mln so'm"
+            ],
+            "correct_index": 1
+        },
+        {
+            "question_number": 94,
+            "question": "Firma 20 000 000 so'm boʻlgan patentni sotib oldi. Sotib olish chog'ida maslahat xizmatlari uchun 250 000 so'm xarajat qildi. Nomoddiy aktiv boshlang'ich qiymatini aniqlang?",
+            "options": [
+                "20 000 000 so'm",
+                "19 750 000 so'm",
+                "20 250 000 so'm",
+                "25 000 000 so'm"
+            ],
+            "correct_index": 2
+        },
+        {
+            "question_number": 95,
+            "question": "Asosiy ishlab chiqarishda foydalanilmay qolgan xom-ashyo materiallar omborga qaytarilsa qanday provodka beriladi?",
+            "options": [
+                "Dt 1010 - Kt 6010",
+                "Dt 2010 - Kt 1010",
+                "Dt 6010 - Kt 1010",
+                "Dt 1010 - Kt 2010"
+            ],
+            "correct_index": 3
+        },
+        {
+            "question_number": 96,
+            "question": "Asosiy ishlab chiqarishdagi stanoklarga eskirish hisoblandi. Ushbu muomala qaysi provodkada to'g'ri aks ettirilgan?",
+            "options": [
+                "Dt 2010 - Kt 0220",
+                "Dt 0220 - Kt 2010",
+                "Dt 9420 - Kt 0220",
+                "Dt 2010 - Kt 0120"
+            ],
+            "correct_index": 0
+        },
+        {
+            "question_number": 97,
+            "question": "Debet 8520 Kredit 6610 provodkasining to'liqroq ma'nosi nima?",
+            "options": [
+                "Xaridorlardan qarzlarni undirish",
+                "Rezerv (zaxira) kapitali hisobidan ta'sischilarga dividend hisoblash",
+                "Asosiy vositalarni qayta baholash",
+                "Davlatga soliq to'lash"
+            ],
+            "correct_index": 1
+        },
+        {
+            "question_number": 98,
+            "question": "Dt 6710 Kt 6410 provodkasi orqali qaysi operatsiya aks ettiriladi?",
+            "options": [
+                "Xodimlarga ish haqini kassadan tarqatish",
+                "Ijtimoiy sug'urta badallarini to'lash",
+                "Xodimlarning ish haqidan byudjetga soliq (daromad solig'i) ushlab qolish",
+                "Ishchilarni mukofotlash"
+            ],
+            "correct_index": 2
+        },
+        {
+            "question_number": 99,
+            "question": "Hisob siyosatiga asosan korxona materiallarni hisob narxlarida aks ettiradi. Yetkazib beruvchidan boʻyoq xarid qilinganda, xarid qiymati hisobda qanday o'tkazma bilan aks ettiriladi?",
+            "options": [
+                "Dt 1010 - Kt 5110",
+                "Dt 2010 - Kt 6010",
+                "Dt 9430 - Kt 6010",
+                "Dt 1510 \"Materiallarni tayyorlash va xarid qilish\" - Kt 6010"
+            ],
+            "correct_index": 3
+        },
+        {
+            "question_number": 100,
+            "question": "Korxona hisobida quyidagilar mavjud: aktivlar 150 mln so'm, joriy majburiyatlar 60 mln so'm, xususiy kapital 80 mln so'm. Korxonaning uzoq muddatli majburiyatlari qaysi summaga teng?",
+            "options": [
+                "10 mln so'm",
+                "20 mln so'm",
+                "30 mln so'm",
+                "50 mln so'm"
+            ],
+            "correct_index": 0
+        }
+    ]
+}

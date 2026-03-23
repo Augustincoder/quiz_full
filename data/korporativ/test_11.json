@@ -1,0 +1,281 @@
+{
+    "test_id": 11,
+    "range": "251-275",
+    "questions": [
+        {
+            "question_number": 251,
+            "question": "Risk-menejmentda \"Risk-ishtaha\" (Risk Appetite) nima?",
+            "options": [
+                "faqat sug'urta qilingan risklar yig'indisi",
+                "xodimlarning noqonuniy ishlarga moyillik darajasi",
+                "Kompaniya o'z maqsadlariga erishish uchun qabul qilishi mumkin bo‘lgan risk miqdori",
+                "davlat byudjetiga to'lanadigan jarimalar miqdori"
+            ],
+            "correct_index": 2
+        },
+        {
+            "question_number": 252,
+            "question": "COSO modeli bo'yicha \"Ichki muhit\" (Internal Environment) nima?",
+            "options": [
+                "Tashkilotdagi intizom, etika va risklarga bo‘lgan yondashuv asosi",
+                "ofisdagi havo harorati va yoritilish darajasi",
+                "faqat kompyuter tarmoqlarining xavfsizlik darajasi",
+                "tashqi auditorlar bilan muzokaralar olib borish muhiti"
+            ],
+            "correct_index": 0
+        },
+        {
+            "question_number": 253,
+            "question": "\"Operatsion risk\" nima?",
+            "options": [
+                "faqatgina birja kotirovkalarining tushib ketish xavfi",
+                "Ichki jarayonlar, odamlar yoki tizimlardagi nosozliklar tufayli zarar ko‘rish xavfi",
+                "mamlakatdagi siyosiy inqiroz tufayli kelib chiqadigan zarar",
+                "raqobatchilarning to'satdan yopilib ketish riski"
+            ],
+            "correct_index": 1
+        },
+        {
+            "question_number": 254,
+            "question": "Kompaniyadagi \"Risk-ofitser\" (CRO) kimga hisobot beradi?",
+            "options": [
+                "mahalliy soliq organlariga",
+                "marketing departamenti boshlig'iga",
+                "xodimlar kasaba uyushmasiga",
+                "Kuzatuv kengashi yoki Risk qo'mitasiga"
+            ],
+            "correct_index": 3
+        },
+        {
+            "question_number": 255,
+            "question": "Riskni \"Mitigatsiya\" qilish (Mitigation) nima?",
+            "options": [
+                "Riskning salbiy oqibatlarini yoki yuzaga kelish ehtimolini kamaytirish",
+                "riskni butunlay e'tiborsiz qoldirish",
+                "barcha risklarni sug'urta kompaniyasiga bepul berish",
+                "kutilmagan riskni bahona qilib xodimlarni ishdan bo'shatish"
+            ],
+            "correct_index": 0
+        },
+        {
+            "question_number": 256,
+            "question": "Kompaniya barqarorligini tekshirish uchun o‘tkaziladigan \"Stress-test\" nima?",
+            "options": [
+                "xodimlarni psixologik suhbatdan o'tkazish",
+                "Ekstremal noqulay sharoitlarda kompaniya moliyaviy holatini modellashtirish",
+                "ofis binosining zilzilaga chidamliligini tekshirish",
+                "kompyuterlarga virus tushirib ko'rish jarayoni"
+            ],
+            "correct_index": 1
+        },
+        {
+            "question_number": 257,
+            "question": "Davlat korxonalarida \"Siyosiy aralashuv\" xavfi qanday kamaytiriladi?",
+            "options": [
+                "davlat muassasalariga kirishni taqiqlash orqali",
+                "barcha qonunlarni aylanib o'tish orqali",
+                "Kuzatuv kengashiga mustaqil professional a'zolarni jalb qilish orqali",
+                "kompaniyani zudlik bilan yopish orqali"
+            ],
+            "correct_index": 2
+        },
+        {
+            "question_number": 258,
+            "question": "Risk-matritsasi nima uchun ishlatiladi?",
+            "options": [
+                "faqat matematika fanida tenglamalar yechish uchun",
+                "xodimlarning oylik maoshini hisoblash uchun",
+                "tashqi dushmanlarning sonini aniqlash uchun",
+                "Risklarni ularning yuzaga kelish ehtimoli va ta'sir darajasi bo‘yicha ustuvorlash (prioritizatsiya)"
+            ],
+            "correct_index": 3
+        },
+        {
+            "question_number": 259,
+            "question": "\"Reputatsiya riski\" deganda nima tushuniladi?",
+            "options": [
+                "Kompaniya imidjining pasayishi natijasida mijozlar va investorlarni yo‘qotish",
+                "ob-havo tufayli tovarlarning aynib qolishi",
+                "yangi xodimlarning ishni bilmasdan xato qilishi",
+                "faqatgina binoning tashqi ko'rinishi xunuklashishi"
+            ],
+            "correct_index": 0
+        },
+        {
+            "question_number": 260,
+            "question": "ISO 31000 standarti nimaga bag'ishlangan?",
+            "options": [
+                "ekologiya va atrof-muhitni asrashga",
+                "Risk-menejment tamoyillari va ko'rsatmalariga",
+                "sifat menejmenti tizimlariga",
+                "oziq-ovqat mahsulotlari xavfsizligiga"
+            ],
+            "correct_index": 1
+        },
+        {
+            "question_number": 261,
+            "question": "Liganing \"Compliance\" (Komplayens) xizmati vazifasi?",
+            "options": [
+                "reklama bannerlarini tayyorlash",
+                "barcha soliqlarni to'lashdan bo'yin tovlash yo'llarini topish",
+                "Kompaniya faoliyatining qonun va ichki qoidalarga muvofiqligini ta'minlash",
+                "xodimlarni ishdan bo'shatish bo'yicha hujjatlarni rasmiylashtirish"
+            ],
+            "correct_index": 2
+        },
+        {
+            "question_number": 262,
+            "question": "Siyosiy risk (Political risk) nima?",
+            "options": [
+                "raqobatchilarning narxlarni arzonlashtirib yuborishi",
+                "ofisda xodimlar o'rtasida siyosat haqida tortishuvlar chiqishi",
+                "ichki auditning xatolarni yashirishi",
+                "Davlat qonunchiligi yoki siyosiy barqarorlikning o'zgarishi natijasidagi zararlar"
+            ],
+            "correct_index": 3
+        },
+        {
+            "question_number": 263,
+            "question": "Riskni \"Transfer\" qilish (Transfer) qanday amalga oshiriladi?",
+            "options": [
+                "Sug'urta qilish yoki autsorsing orqali riskni uchinchi tomonga o'tkazish",
+                "risk haqida hech kimga aytmaslik",
+                "uni hujjatlardan butunlay o'chirib tashlash",
+                "barcha xodimlardan pul yig'ib zararni qoplash"
+            ],
+            "correct_index": 0
+        },
+        {
+            "question_number": 264,
+            "question": "KPI (Key Performance Indicators) nima?",
+            "options": [
+                "Faoliyat samaradorligining asosiy ko'rsatkichlari",
+                "kasaba uyushmasi talablari to'plami",
+                "raqobatchilarga sotiladigan maxfiy ma'lumotlar",
+                "davlatning bojxona tariflari"
+            ],
+            "correct_index": 1
+        },
+        {
+            "question_number": 265,
+            "question": "Davlat korxonalarini \"Korporativlashtirish\" nima?",
+            "options": [
+                "ularni yopib yuborish va xodimlarni tarqatish",
+                "xususiy korxonalarni davlat mulkiga musodara qilish",
+                "Davlat korxonalarini AJ shakliga o'tkazish va bozor tamoyillarini joriy etish",
+                "faqatgina ularning nomini o'zgartirib qo'yish"
+            ],
+            "correct_index": 2
+        },
+        {
+            "question_number": 266,
+            "question": "Risk-menejmentning \"Uch qatorli himoya\" (Three Lines of Defense) modelida birinchi qator kim?",
+            "options": [
+                "Ichki audit xizmati",
+                "Qorovullar va xavfsizlik jamoasi",
+                "Mustaqil tashqi auditorlar",
+                "Operatsion menejerlar va biznes-jarayon egalari"
+            ],
+            "correct_index": 3
+        },
+        {
+            "question_number": 267,
+            "question": "Korporativ firibgarlik (Fraud) turlari orasida eng ko'p uchraydigani:",
+            "options": [
+                "Aktivlarni o'zlashtirish va moliyaviy hisobotlarni manipulyatsiya qilish",
+                "kasal bo'lmasdan byulleten ochtirish",
+                "ishga 10 daqiqa kechikib kelish",
+                "ofis internetidan shaxsiy maqsadda foydalanish"
+            ],
+            "correct_index": 0
+        },
+        {
+            "question_number": 268,
+            "question": "Risklarni xaritaga solish (Risk Mapping) qachon amalga oshiriladi?",
+            "options": [
+                "Riskni aniqlash va baholash bosqichidan so'ng",
+                "korxona bankrot bo'lgandan keyin",
+                "yangi binoga ko'chib o'tayotganda",
+                "xodimlarni ta'tilga chiqarayotganda"
+            ],
+            "correct_index": 1
+        },
+        {
+            "question_number": 269,
+            "question": "ESG tushunchasidagi \"G\" harfi nimani anglatadi?",
+            "options": [
+                "Government (Hukumat)",
+                "Growth (O'sish)",
+                "Governance (Boshqaruv)",
+                "Global (Jahon)"
+            ],
+            "correct_index": 2
+        },
+        {
+            "question_number": 270,
+            "question": "Korporativ madaniyatning \"Muztog‘i\" (Iceberg) modeli bo‘yicha eng katta qism nima?",
+            "options": [
+                "faqat logotip va firma ranglari",
+                "ofisning arxitektura dizayni",
+                "xodimlarning rasmiy kiyinish uslubi (dress-code)",
+                "Ko‘rinmas qadriyatlar, e’tiqodlar va norasmiy normalar"
+            ],
+            "correct_index": 3
+        },
+        {
+            "question_number": 271,
+            "question": "\"Yashil yuvish\" (Greenwashing) nima?",
+            "options": [
+                "Kompaniya o‘zini ekologik toza qilib ko‘rsatishi, lekin amalda bunday bo‘lmasligi",
+                "ofis atrofini daraxtlar bilan bezash va tozalash",
+                "mahsulotlarni faqat yashil rangdagi qutilarga qadoqlash",
+                "chiqindilarni haqiqatdan ham 100% qayta ishlash texnologiyasi"
+            ],
+            "correct_index": 0
+        },
+        {
+            "question_number": 272,
+            "question": "Raqamli korporativ boshqaruvning (Digital Governance) afzalligi?",
+            "options": [
+                "faqatgina internet tariflarini arzonlashtirishi",
+                "Masofaviy ovoz berish, shaffoflik va qaror qabul qilish tezligi",
+                "yig'ilishlarni butunlay bekor qilish imkoniyati",
+                "xodimlarni umuman ishga kelmasligiga ruxsat berilishi"
+            ],
+            "correct_index": 1
+        },
+        {
+            "question_number": 273,
+            "question": "\"Gender xilma-xilligi\" (Gender Diversity) deganda nima tushuniladi?",
+            "options": [
+                "faqatgina yoshlarni ishga qabul qilish strategiyasi",
+                "mahalliy va xorijiy fuqarolarni teng jalb etish",
+                "Kuzatuv kengashi va rahbariyatda ayollar ulushini oshirish",
+                "boshqaruvda faqat bitta millat vakillarini qoldirish"
+            ],
+            "correct_index": 2
+        },
+        {
+            "question_number": 274,
+            "question": "Korporativ ijtimoiy mas'uliyat bo'yicha \"Triple Bottom Line\" nima?",
+            "options": [
+                "Pul, Hokimiyat, Nazorat",
+                "Foyda, Zarar, Qarz",
+                "Soliqlar, Jarimalar, Subsidyalar",
+                "Profit, People, Planet (Foyda, Odamlar, Sayyora)"
+            ],
+            "correct_index": 3
+        },
+        {
+            "question_number": 275,
+            "question": "Kompaniyadagi \"Sotsial kapital\" nima?",
+            "options": [
+                "Xodimlar va hamkorlar o‘rtasidagi ishonch va aloqalar tarmog‘i",
+                "Kompaniyaning davlatga to'lagan soliqlari miqdori",
+                "Chet eldagi bank hisob raqamlari qoldig'i",
+                "Aksiyadorlarning yillik sof daromadi"
+            ],
+            "correct_index": 0
+        }
+    ]
+}

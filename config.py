@@ -1,0 +1,29 @@
+"""
+Configuration settings for the Quiz Bot system.
+"""
+import os
+from pathlib import Path
+
+# Telegram Bot Token - BotFather'dan olingan tokeningiz
+BOT_TOKEN = "8764719096:AAEiFsn-vO6zM5YHaooNv24Pzu2DDZumlOI"
+
+# Data storage
+DATA_DIR = Path(__file__).parent / "data"
+
+# Dasturda mavjud fanlar va ularning papka nomlari
+SUBJECTS = {
+    "korporativ": "🎓 Korporativ Boshqaruv",
+    "moliyaviy": "💰 Moliyaviy Hisob",
+    "ekonometrika": "📈 Ekonometrika"
+}
+
+QUESTIONS_PER_TEST = 25
+
+# Barcha fanlar uchun avtomatik papkalarni yaratib qoyish
+DATA_DIR.mkdir(exist_ok=True)
+for subj_folder in SUBJECTS.keys():
+    (DATA_DIR / subj_folder).mkdir(exist_ok=True)
+
+# --- SUPABASE SOZLAMALARI ---
+SUPABASE_URL = "https://wsvzggnhotzhmvugeyil.supabase.co" # O'zingiznikini qo'ying
+SUPABASE_KEY = "sb_publishable_AVngq5tJafZEgOssAdrPMA_t44dHQQR" # O'zingiznikini qo'ying

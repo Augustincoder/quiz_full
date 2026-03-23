@@ -1,0 +1,119 @@
+{
+    "2014973670": {
+        "tests_completed": 6,
+        "total_correct": 13,
+        "total_wrong": 51,
+        "history": [
+            {
+                "date": "2026-03-23 23:19",
+                "subject": "moliyaviy",
+                "test_id": 13,
+                "correct": 0,
+                "wrong": 2,
+                "mistakes": [
+                    {
+                        "question": "Buxgalteriya balansi qaysi xalqaro moliyaviy hisobot standarti (MHXS - IFRS) bilan tartibga solinadi?",
+                        "correct_ans": "IAS 1 \"Moliyaviy hisobotlarni taqdim etish\"",
+                        "wrong_ans": "IAS 16 \"Asosiy vositalar\""
+                    },
+                    {
+                        "question": "O'zbekistonda Buxgalteriya hisobining milliy standartlari (BHMS) soni jami nechta atrofida?",
+                        "correct_ans": "Hozirgi kunda 20 dan ortiq (24 tagacha) faol standartlar mavjud",
+                        "wrong_ans": "10 ta"
+                    }
+                ]
+            },
+            {
+                "date": "2026-03-23 23:02",
+                "subject": "moliyaviy",
+                "test_id": 13,
+                "correct": 1,
+                "wrong": 5,
+                "mistakes": [
+                    {
+                        "question": "Buxgalteriya balansi qaysi xalqaro moliyaviy hisobot standarti (MHXS - IFRS) bilan tartibga solinadi?",
+                        "correct_ans": "IAS 1 \"Moliyaviy hisobotlarni taqdim etish\"",
+                        "wrong_ans": "IAS 16 \"Asosiy vositalar\""
+                    },
+                    {
+                        "question": "O'zbekiston Respublikasida moliyaviy hisobotlarni tuzishning bosh qoidalari qaysi qonun bilan belgilangan?",
+                        "correct_ans": "\"Buxgalteriya hisobi to'g'risida\"gi qonun bilan",
+                        "wrong_ans": "\"Soliqqa tortish asoslari\" qonuni bilan"
+                    },
+                    {
+                        "question": "Soliq hisoboti va moliyaviy hisobot o'rtasidagi asosiy farq nimada?",
+                        "correct_ans": "Moliyaviy hisobot buxgalteriya qoidalari (BHMS) bo'yicha, soliq hisoboti esa Soliq kodeksi talablari bo'yicha tuziladi",
+                        "wrong_ans": "Moliyaviy hisobot qog'ozda, soliq hisoboti faqat dildan aytiladi"
+                    },
+                    {
+                        "question": "Qaysi hollarda moliyaviy hisobotni majburiy auditorlik tekshiruvidan o'tkazish talab etiladi?",
+                        "correct_ans": "Aksiyadorlik jamiyatlari, banklar, sug'urta tashkilotlari va qonunda belgilangan boshqa yirik korxonalar uchun",
+                        "wrong_ans": "O'zini o'zi band qilgan shaxslar (hunarmandlar) uchun"
+                    },
+                    {
+                        "question": "Tashkilot tugatilayotganda qanday balans tuziladi?",
+                        "correct_ans": "Tugatish balansi (Likvidatsiya balansi)",
+                        "wrong_ans": "Proforma balans"
+                    }
+                ]
+            }
+        ]
+    },
+    "5363468351": {
+        "tests_completed": 1,
+        "total_correct": 1,
+        "total_wrong": 4
+    },
+    "6694997339": {
+        "tests_completed": 1,
+        "total_correct": 22,
+        "total_wrong": 3,
+        "history": [
+            {
+                "date": "2026-03-23 23:13",
+                "subject": "moliyaviy",
+                "test_id": 1,
+                "correct": 22,
+                "wrong": 3,
+                "mistakes": [
+                    {
+                        "question": "Buxgalteriya hisobi to'g'risidagi qonunning yangi tahriri qachon qabul qilindi?",
+                        "correct_ans": "2016 yil 13 aprel",
+                        "wrong_ans": "1996 yil 30 avgust"
+                    },
+                    {
+                        "question": "Asosiy vositalar ishlab chiqarishga qatnashishi nuqtai nazaridan qanday turlarga bo'linadi?",
+                        "correct_ans": "Ishlab chiqarish va noishlab chiqarish asosiy vositalari",
+                        "wrong_ans": "Moddiy va nomoddiy aktivlar"
+                    },
+                    {
+                        "question": "Buxgalter so'zining ma'nosi qaysi javobda to'g'ri ko'rsatilgan?",
+                        "correct_ans": "Nemischa \"buch\" - kitob, \"halter\" - tutuvchi, ya'ni kitob tutuvchi",
+                        "wrong_ans": "Lotincha \"calculus\" - hisoblovchi"
+                    }
+                ]
+            }
+        ]
+    },
+    "7960845224": {
+        "tests_completed": 1,
+        "total_correct": 1,
+        "total_wrong": 1,
+        "history": [
+            {
+                "date": "2026-03-23 23:19",
+                "subject": "moliyaviy",
+                "test_id": 13,
+                "correct": 1,
+                "wrong": 1,
+                "mistakes": [
+                    {
+                        "question": "O'zbekistonda Buxgalteriya hisobining milliy standartlari (BHMS) soni jami nechta atrofida?",
+                        "correct_ans": "Hozirgi kunda 20 dan ortiq (24 tagacha) faol standartlar mavjud",
+                        "wrong_ans": "10 ta"
+                    }
+                ]
+            }
+        ]
+    }
+}

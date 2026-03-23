@@ -1,0 +1,281 @@
+{
+    "test_id": 8,
+    "range": "176-200",
+    "questions": [
+        {
+            "question_number": 176,
+            "question": "Sof foyda buxgalteriya balansining qaysi qismi va nechanchi bo'limida aks ettiradi?",
+            "options": [
+                "Aktiv tomoni, I bo'limida",
+                "Passiv tomoni, \"O'z kapitali\" (I bo'limida) taqsimlanmagan foyda sifatida",
+                "Passiv tomoni, II bo'limida",
+                "Aktiv tomoni, II bo'limida"
+            ],
+            "correct_index": 1
+        },
+        {
+            "question_number": 177,
+            "question": "Moliyaviy hisobotlar qanday shakllarni o'z ichiga oladi?",
+            "options": [
+                "Faqat aylanma qaydnomani",
+                "Daromadlar va xarajatlar smetasini",
+                "Balans, Moliyaviy natijalar, O'z kapitali harakati, Pul oqimlari to'g'risidagi hisobotlar va izohlar",
+                "Ish haqi hisoblash vedomostlarini"
+            ],
+            "correct_index": 2
+        },
+        {
+            "question_number": 178,
+            "question": "Moliyaviy hisobotlar qanday asosiy identifikatsion rekvizitlarni o'z ichiga oladi?",
+            "options": [
+                "Faqat direktorning yashash manzilini",
+                "Xodimlarning pasport raqamlarini",
+                "Bank rekvizitlari va litsenziya raqamini",
+                "Tashkilot nomi, hisobot sanasi (davri), o'lchov birligi, valyuta"
+            ],
+            "correct_index": 3
+        },
+        {
+            "question_number": 179,
+            "question": "Moliyaviy natijalarni shakllantirish foydaning qaysi ko'rsatkichi bilan ifodalanadi?",
+            "options": [
+                "Sof foyda (netto foyda) yoki zarar bilan",
+                "Tannarx bilan",
+                "Yalpi tushum bilan",
+                "Boshlang'ich kapital bilan"
+            ],
+            "correct_index": 0
+        },
+        {
+            "question_number": 180,
+            "question": "Moliyaviy xisobot elementlari - bu...",
+            "options": [
+                "Buxgalter, direktor va kassir",
+                "Aktivlar, majburiyatlar, xususiy kapital, daromadlar va xarajatlar",
+                "Kredit, Debet, Saldo",
+                "Kassa, Bank va Ombor"
+            ],
+            "correct_index": 1
+        },
+        {
+            "question_number": 181,
+            "question": "Moliyaviy hisobot qachon toʻzilgan va taqdim qilingan deb hisoblanadi?",
+            "options": [
+                "Kompyuterda terilganda",
+                "Soliq inspektori og'zaki ruxsat berganda",
+                "Rahbar va bosh buxgalter tomonidan imzolanib, tegishli organlarga jo'natilgan kundan",
+                "Asosiy vositalar ro'yxatga olinganda"
+            ],
+            "correct_index": 2
+        },
+        {
+            "question_number": 182,
+            "question": "Moliyaviy hisobotni tuzish va uni taqdim etishning konseptual asoslaridan biri \"hisoblash tamoyili\" deganda nima tushuniladi?",
+            "options": [
+                "Faqat naqd pullarni hisob-kitob qilish",
+                "Soliqlarni iloji boricha kamaytirish usuli",
+                "Barcha to'lovlarni faqat kelasi yili hisobga olish",
+                "Xo'jalik operatsiyalari pul to'langan yoki olingan vaqtda emas, balki sodir bo'lgan paytida tan olinishi"
+            ],
+            "correct_index": 3
+        },
+        {
+            "question_number": 183,
+            "question": "Moliyaviy hisob qanday vazifalarni bajaradi?",
+            "options": [
+                "Tashqi foydalanuvchilar (investorlar, kreditorlar va b.) uchun tashkilotning moliyaviy holati haqida ishonchli axborot tayyorlash",
+                "Ishchilarni rag'batlantirish va jarimaga tortishni aniqlash",
+                "Faqatgina ombordagi qoldiqlarni sanash",
+                "Kompaniya raqobatchilari ustidan josuslik qilish"
+            ],
+            "correct_index": 0
+        },
+        {
+            "question_number": 184,
+            "question": "Moliyaviy natijalar to'g'risidagi hisobotga quyidagi ma'lumotlarning qaysi biri kiritilmaydi?",
+            "options": [
+                "Mahsulot sotishdan olingan sof tushum",
+                "Asosiy vositalarning xarid (qoldiq) qiymati",
+                "Davr xarajatlari",
+                "Daromad solig'i"
+            ],
+            "correct_index": 1
+        },
+        {
+            "question_number": 185,
+            "question": "Moliyaviy natijalarning shakllanishi qaysi hisobot shaklida ko'rsatiladi?",
+            "options": [
+                "1-shakl (Balans)",
+                "3-shakl (O'z kapitali harakati)",
+                "2-shakl (Moliyaviy natijalar to'g'risidagi hisobot)",
+                "4-shakl (Pul oqimlari)"
+            ],
+            "correct_index": 2
+        },
+        {
+            "question_number": 186,
+            "question": "Buxgalteriya balansining aktiv tamoni necha bo'limdan iborat?",
+            "options": [
+                "1 bo'lim",
+                "3 bo'lim",
+                "4 bo'lim",
+                "2 bo'lim (Uzoq muddatli aktivlar va Joriy aktivlar)"
+            ],
+            "correct_index": 3
+        },
+        {
+            "question_number": 187,
+            "question": "Pul oqimi to'g'risidagi hisobot qaysi davrga tuziladi?",
+            "options": [
+                "Hisobot yiliga (1-yanvardan 31-dekabrgacha)",
+                "Har kuni kechqurun",
+                "Korxona faoliyati boshlangandan to tugatilgunigacha",
+                "Besh yillik muddatga"
+            ],
+            "correct_index": 0
+        },
+        {
+            "question_number": 188,
+            "question": "Xususiy kapital qatoriga kiruvchi mablag'lar:",
+            "options": [
+                "Qisqa muddatli bank kreditlari",
+                "Ustav kapitali, qo'shilgan kapital, zaxira kapitali, taqsimlanmagan foyda",
+                "Olinadigan bo'naklar va byudjetga to'lovlar",
+                "Kassadagi naqd pullar"
+            ],
+            "correct_index": 1
+        },
+        {
+            "question_number": 189,
+            "question": "Grantlar, subsidiyalar va beg'araz yordamlarni hisobga olish qaysi BHMSga asosan tartibga solinadi?",
+            "options": [
+                "4-son BHMS",
+                "5-son BHMS",
+                "10-son BHMS",
+                "21-son BHMS"
+            ],
+            "correct_index": 2
+        },
+        {
+            "question_number": 190,
+            "question": "Moliyaviy hisobotni tuzish va uni taqdim etishning konseptual asoslarining biri ikkiyoqlama yozish usuli nima?",
+            "options": [
+                "Hisobotni ikki tilda (o'zbek va rus) tayyorlash",
+                "Kassa kitobini ikki nusxada yuritish",
+                "Daromadlarni ikki marta ko'paytirib ko'rsatish",
+                "Har bir operatsiyani bir xil summada bir schyotning debeti, ikkinchi schyotning kreditida aks ettirish"
+            ],
+            "correct_index": 3
+        },
+        {
+            "question_number": 191,
+            "question": "Hisobot davri oxiriga qolgan sof foydani balansga o'tkazish nima deb ataladi?",
+            "options": [
+                "Schyotlarni yopish va moliyaviy natijani shakllantirish (reformatsiya)",
+                "Kassani inkassatsiya qilish",
+                "Inventarizatsiya qoldig'i",
+                "Kredit majburiyatini to'lash"
+            ],
+            "correct_index": 0
+        },
+        {
+            "question_number": 192,
+            "question": "Xoʻjalik yurituvchi subyektlarning moliyaviy natijalari qaysi me'yoriy hujjat asosida shakllanadi?",
+            "options": [
+                "Davlat xaridlari to'g'risidagi qonun",
+                "Mahsulot (ish, xizmat)larni ishlab chiqarish va sotish xarajatlarining tarkibi hamda moliyaviy natijalarni shakllantirish tartibi to'g'risidagi Nizom",
+                "Mehnat kodeksi",
+                "Bojxona kodeksi"
+            ],
+            "correct_index": 1
+        },
+        {
+            "question_number": 193,
+            "question": "Pul mablag'lari hisobi yuritilishining asosiy maqsadi qaysi?",
+            "options": [
+                "Faqat soliqlarni to'lash",
+                "Xodimlarga mukofot ajratish",
+                "Ularning butunligini ta'minlash, kirim va chiqimlarni o'z vaqtida to'g'ri aks ettirish",
+                "Chet el valyutasini saqlash"
+            ],
+            "correct_index": 2
+        },
+        {
+            "question_number": 194,
+            "question": "Kassa kirim orderi (KIO) qachon rasmiylashtiriladi?",
+            "options": [
+                "Ish haqini tarqatayotganda",
+                "Buxgalter ishga kelganda",
+                "Bankdan qarz so'raganda",
+                "Kassaga naqd pul mablag'lari qabul qilinayotganda"
+            ],
+            "correct_index": 3
+        },
+        {
+            "question_number": 195,
+            "question": "Kassa chiqim orderi (KChO) qachon tuziladi?",
+            "options": [
+                "Kassadan naqd pul mablag'lari berilayotganda (chiqim qilinayotganda)",
+                "Mol yetkazib beruvchidan material olinganda",
+                "Bozorda narxlar oshganda",
+                "Korxonaga tovarlar sotilganda"
+            ],
+            "correct_index": 0
+        },
+        {
+            "question_number": 196,
+            "question": "Pul mablag'lari harakati to'g'risidagi hisobot bu -",
+            "options": [
+                "Soliq inspeksiyasining tekshiruv dalolatnomasi",
+                "Tashkilotning operatsion, investitsion va moliyaviy faoliyatidan kelib tushgan va chiqib ketgan pul oqimlarini ko'rsatuvchi hisobot (4-shakl)",
+                "Asosiy vositalarning eskirish hisoboti",
+                "Ombordagi qoldiqlar ro'yxati"
+            ],
+            "correct_index": 1
+        },
+        {
+            "question_number": 197,
+            "question": "Kassa kitobi nima uchun yuritiladi?",
+            "options": [
+                "Xodimlarning mehnat daftarchalarini ro'yxatga olish uchun",
+                "Chet ellik mehmonlarni qayd etish uchun",
+                "Kassadagi barcha kirim va chiqim operatsiyalarini kunlik qayd etish va qoldiqni chiqarish uchun",
+                "Faqatgina qattiq mebellarni ro'yxatga olish uchun"
+            ],
+            "correct_index": 2
+        },
+        {
+            "question_number": 198,
+            "question": "Hisob-kitob schyoti bo'yicha bank hisobotidan ko'chirmada quyidagi operatsiyalar ko'rsatilgan: debet boʻyicha 40 ming so'm, kredit bo'yicha 70 ming so'm. Bu operatsiyalar korxona uchun nimani bildiradi?",
+            "options": [
+                "Hech qanday o'zgarish bo'lmaganligini",
+                "Davlatga 110 ming qarz bo'linganligini",
+                "40 ming qarzga mol olinganligini, 70 ming sotilganligini",
+                "Bank nuqtai nazaridan korxona hisobiga 70 ming kelib tushdi (kirim), 40 ming esa to'landi (chiqim)"
+            ],
+            "correct_index": 3
+        },
+        {
+            "question_number": 199,
+            "question": "Bank hisobvaraqlari boʻyicha muomalalar odatda qaysi hujjat bilan tasdiqlanadi?",
+            "options": [
+                "Bank ko'chirmasi (vipiska) va unga ilova qilingan to'lov hujjatlari bilan",
+                "Kassa orderlari bilan",
+                "Xodimlarning ishonchnomalari bilan",
+                "Faqat bojxona deklaratsiyalari bilan"
+            ],
+            "correct_index": 0
+        },
+        {
+            "question_number": 200,
+            "question": "Hisob-kitob schyotidagi mablag'lar qaysi ko'rinishda saqlanadi?",
+            "options": [
+                "Omborda saqlanadigan oltin quymalarida",
+                "Naqd pulsiz ko'rinishda (bankdagi elektron yozuvlar sifatida)",
+                "Faqat chet el valyutalarida",
+                "Direktorning seyfida naqd pul shaklida"
+            ],
+            "correct_index": 1
+        }
+    ]
+}

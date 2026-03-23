@@ -1,0 +1,281 @@
+{
+    "test_id": 2,
+    "range": "26-50",
+    "questions": [
+        {
+            "question_number": 26,
+            "question": "Korporativ boshqaruvda shaffoflikni oshirish uchun qanday vositalar ishlatiladi?",
+            "options": [
+                "xodimlarni tez-tez almashtirish va shtatlarni qisqartirish",
+                "muntazam hisobotlar, oshkor etish siyosati va audit",
+                "faqat banklar bilan ishlash va ma'lumotlarni yashirish",
+                "reklama xarajatlarini oshirish va marketingni kuchaytirish"
+            ],
+            "correct_index": 1
+        },
+        {
+            "question_number": 27,
+            "question": "Korporatsiya missiyasi nimani bildiradi?",
+            "options": [
+                "kompaniyaning maqsadi va qadriyatlarini",
+                "raqobatchilarni yo'q qilishning yashirin rejasini",
+                "yil yakunidagi sof foydaning aniq miqdorini",
+                "aksiyadorlarning yillik soliq to'lovlarini"
+            ],
+            "correct_index": 0
+        },
+        {
+            "question_number": 28,
+            "question": "Aksiyadorlar manfaatlarini himoya qiluvchi asosiy organ:",
+            "options": [
+                "kasaba uyushmasi rahbarlari",
+                "mahalliy hokimiyat organlari",
+                "direktorlar kengashi",
+                "kompaniyaning marketing bo'limi"
+            ],
+            "correct_index": 2
+        },
+        {
+            "question_number": 29,
+            "question": "Korporativ boshqaruv tizimidagi asosiy risk turlari:",
+            "options": [
+                "ob-havo va iqlim risklari",
+                "faqat kadrlarning yetishmasligi riski",
+                "siyosiy va harbiy risklar",
+                "moliyaviy, operatsion va strategik risklar"
+            ],
+            "correct_index": 3
+        },
+        {
+            "question_number": 30,
+            "question": "Tashqi auditorning asosiy vazifasi:",
+            "options": [
+                "kompaniya moliyaviy hisobotining ishonchliligini tekshirish",
+                "kunlik buxgalteriya hisobini yuritish",
+                "yangi mijozlarni jalb qilish rejasini tuzish",
+                "xodimlarni ishga qabul qilish va bo'shatish"
+            ],
+            "correct_index": 0
+        },
+        {
+            "question_number": 31,
+            "question": "Korporativ boshqaruvda etika kodeksi nima uchun zarur?",
+            "options": [
+                "soliq to'lovlaridan qonuniy qochish uchun",
+                "xodimlar va rahbarlarning xulq-atvor me’yorlarini belgilaydi",
+                "ishlab chiqarish hajmini avtomatik belgilash uchun",
+                "raqobatchilar ustidan yashirin nazorat o'rnatish uchun"
+            ],
+            "correct_index": 1
+        },
+        {
+            "question_number": 32,
+            "question": "Bosh direktorning javobgarligi nimada ifodalanadi?",
+            "options": [
+                "davlat byudjetidagi umumiy kamomadga nisbatan",
+                "barcha aksiyadorlarning shaxsiy qarzlariga nisbatan",
+                "qarorlar natijasida korporatsiyaga yetkazilgan zararga nisbatan",
+                "faqat xorijiy investorlarning foydasiga nisbatan"
+            ],
+            "correct_index": 2
+        },
+        {
+            "question_number": 33,
+            "question": "Korporativ boshqaruv tizimida ichki nazoratning asosiy maqsadi:",
+            "options": [
+                "ishchilarni ommaviy ishdan bo'shatishga tayyorlash",
+                "xom-ashyo narxlarini davlat nomidan belgilash",
+                "xalqaro bozorlarga chiqish strategiyasini tuzish",
+                "firibgarlikni oldini olish va ishonchlilikni ta’minlash"
+            ],
+            "correct_index": 3
+        },
+        {
+            "question_number": 34,
+            "question": "Korporativ boshqaruvda manfaatlar to‘qnashuvi holatida kim chora ko‘radi?",
+            "options": [
+                "kuzatuv kengashi",
+                "bosh hisobchi",
+                "oddiy ishchilar jamoasi",
+                "kompaniya qorovuli"
+            ],
+            "correct_index": 0
+        },
+        {
+            "question_number": 35,
+            "question": "Aksiyadorlik jamiyatida kim dividend siyosatini belgilaydi?",
+            "options": [
+                "davlat soliq qo'mitasi",
+                "direktorlar kengashi",
+                "moliya vazirligi",
+                "xususiy bank menejerlari"
+            ],
+            "correct_index": 1
+        },
+        {
+            "question_number": 36,
+            "question": "Korporativ boshqaruvning xalqaro standartlari asosiy manbai:",
+            "options": [
+                "JST (Jahon savdo tashkiloti)",
+                "BMT Xavfsizlik kengashi",
+                "OECD (Iqtisodiy hamkorlik va rivojlanish tashkiloti)",
+                "Xalqaro qizil xoch qo'mitasi"
+            ],
+            "correct_index": 2
+        },
+        {
+            "question_number": 37,
+            "question": "Korporativ boshqaruvning milliy modeli nimaga asoslanadi?",
+            "options": [
+                "faqat bosh direktorning kayfiyati va xohishiga",
+                "boshqa rivojlangan davlatlarning qonunlariga",
+                "iqlim va geografik sharoitlarga",
+                "mamlakat qonunchiligi va biznes madaniyatiga"
+            ],
+            "correct_index": 3
+        },
+        {
+            "question_number": 38,
+            "question": "Korporativ boshqaruvda “audit qo‘mitasi”ning roli:",
+            "options": [
+                "moliyaviy nazorat va hisobotlarning ishonchliligini ta’minlash",
+                "yangi zavod va binolar qurishni loyihalashtirish",
+                "mahsulotlarni telekanallarda reklama qilish",
+                "xodimlarning ish vaqtidagi kiyinish uslubini nazorat qilish"
+            ],
+            "correct_index": 0
+        },
+        {
+            "question_number": 39,
+            "question": "Korporativ boshqaruv samaradorligi qayerda o‘lchanadi?",
+            "options": [
+                "ofisdagi eng so'nggi rusumdagi kompyuterlar sonida",
+                "kompaniya rentabelligi va aksiyalar qiymatida",
+                "xodimlarning yillik ta'til kunlarining miqdorida",
+                "korporatsiya binosining dizayni va balandligida"
+            ],
+            "correct_index": 1
+        },
+        {
+            "question_number": 40,
+            "question": "Kompaniyaning yillik umumiy yig'ilishi o'tkazilganda:",
+            "options": [
+                "har oyning oxirgi juma kunida",
+                "har besh yilda bir marta tasdiqlangan vaqtda",
+                "hisobot yilidan keyingi 6 oyda",
+                "yil boshidagi birinchi ish haftasida"
+            ],
+            "correct_index": 2
+        },
+        {
+            "question_number": 41,
+            "question": "Aksiyadorlik jamiyatining aksyalar nazorat paketi qanchani tashkil etadi:",
+            "options": [
+                "10 foiz va undan kam qismini",
+                "faqat imtiyozli aksiyalarning 100 foizini",
+                "ustav kapitalining 25 foizi miqdorida",
+                "Kompaniyaning oddiy aksiyalarining 50+ foiz"
+            ],
+            "correct_index": 3
+        },
+        {
+            "question_number": 42,
+            "question": "\"Aksiyadorlik jamiyatlari to‘g‘risida\" gi Qonuniga muvofiq aksyalarning quyidagi turlari mavjud:",
+            "options": [
+                "50% va 1 imtiyozli ulush",
+                "100% davlat ulushidagi yopiq aksiyalar",
+                "faqatgina oddiy va xorijiy aksiyalar",
+                "xodimlarning vaqtinchalik ijaradagi aksiyalari"
+            ],
+            "correct_index": 0
+        },
+        {
+            "question_number": 43,
+            "question": "Aksiyadorlik jamiyatining zaxirali kapitali qanchani tashkil etadi:",
+            "options": [
+                "50 foizdan yuqori bo'lishi talab etiladi",
+                "aksiyadorlik kapitalining kamida 15% foizi",
+                "qonun bo'yicha nolga teng bo'lishi shart",
+                "maksimal ravishda 1 foizdan kam qismini"
+            ],
+            "correct_index": 1
+        },
+        {
+            "question_number": 44,
+            "question": "Aksiyadorlik jamiyatida Kuzatuv kengashini tuzish majburiydir, aksiyadorlar soni :",
+            "options": [
+                "faqat 5 kishigacha bo'lganda",
+                "jami aksiyadorlar 1 kishi bo'lganda",
+                "30 dan ortiq kishi",
+                "shaxslar soni qat'iy cheklanmagan miqdorda"
+            ],
+            "correct_index": 2
+        },
+        {
+            "question_number": 45,
+            "question": "Ovozlarning oddiy ko'pchiligi:",
+            "options": [
+                "jami ovozlarning 10 foizi",
+                "jami ovozlarning 99% va 2 ovoz",
+                "mutlaq 30 foiz ovozlar",
+                "51% va 1 ovoz"
+            ],
+            "correct_index": 3
+        },
+        {
+            "question_number": 46,
+            "question": "Аksionerlik jamiyat aksiyalarning nominal narxi bo'yicha sotishi mumkinmi?",
+            "options": [
+                "Ha",
+                "Yo'q, bu qat'iyan taqiqlangan",
+                "Faqat chet el fuqarolariga sotishi mumkin",
+                "Faqat yil oxirida sota oladi"
+            ],
+            "correct_index": 0
+        },
+        {
+            "question_number": 47,
+            "question": "Boshqaruv organi kompaniyaning ijroiya organi nima deb aytiladi?",
+            "options": [
+                "Ta'ftish komissiyasi",
+                "Kompaniyaning kengashi",
+                "Xodimlar kasaba uyushmasi",
+                "Davlat nazorat reyestri"
+            ],
+            "correct_index": 1
+        },
+        {
+            "question_number": 48,
+            "question": "Aksiyadorga 1 ta ulush \"nima beradi\":",
+            "options": [
+                "Kompaniya mulkidan shaxsiy maqsadda bepul foydalanish huquqini",
+                "Bosh direktorni o'z xohishi bilan mustaqil tayinlash huquqini",
+                "Umumiy yig'ilishlarda har bir masalani hal qilish ushun 1 ovoz berish",
+                "Barcha soliq to'lovlaridan to'liq ozod etilish huquqini"
+            ],
+            "correct_index": 2
+        },
+        {
+            "question_number": 49,
+            "question": "AJ aksiyalar qiymatining qancha ulushi imtiyozli aksiya bo’lishi mumkin?",
+            "options": [
+                "jami aksiyalarning 50 foizi",
+                "jami aksiyalarning 80 foizi",
+                "jami aksiyalarning 100 foizi",
+                "20%"
+            ],
+            "correct_index": 3
+        },
+        {
+            "question_number": 50,
+            "question": "Kompaniya faqat dividendlarni to'laydi:",
+            "options": [
+                "naqd pulda",
+                "tayyor mahsulot va xom-ashyo bilan",
+                "kompaniya ofis jihozlari bilan",
+                "davlat qarz obligatsiyalari hisobidan"
+            ],
+            "correct_index": 0
+        }
+    ]
+}

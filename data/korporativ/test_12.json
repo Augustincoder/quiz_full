@@ -1,0 +1,204 @@
+{
+    "test_id": 12,
+    "range": "276-293",
+    "questions": [
+        {
+            "question_number": 276,
+            "question": "Zamonaviy trend: \"Say on Pay\" nima?",
+            "options": [
+                "oddiy xodimlarning o'z maoshini o'zi belgilashi",
+                "Aksiyadorlarning top-menejerlar maoshini tasdiqlashda ovoz berish huquqi",
+                "mijozlarning tovar narxini tushirishni so'rash tizimi",
+                "faqat naqd pul bilan hisob-kitob qilish majburiyati"
+            ],
+            "correct_index": 1
+        },
+        {
+            "question_number": 277,
+            "question": "\"Kiberxavfsizlik\" korporativ boshqaruvning qaysi qismiga kiradi?",
+            "options": [
+                "faqatgina kichik kompyuter xizmatlari muammosiga",
+                "kadrlar bo'limining asosiy vazifalariga",
+                "Kuzatuv kengashi darajasidagi strategik riskga",
+                "mahsulotlarni qadoqlash jarayoniga"
+            ],
+            "correct_index": 2
+        },
+        {
+            "question_number": 278,
+            "question": "Etik investitsiya (Ethical Investing) nima?",
+            "options": [
+                "faqat noqonuniy qurol-yarog' savdosiga pul tikish",
+                "xodimlarni jarimaga tortib foyda ko'rish",
+                "qimor va kazino bizneslariga davlat orqali sarmoya kiritish",
+                "Atrof-muhitga va jamiyatga zarar yetkazmaydigan sohalarga investitsiya qilish"
+            ],
+            "correct_index": 3
+        },
+        {
+            "question_number": 279,
+            "question": "\"Vulture Capitalism\" (Kaltakesak kapitalizmi) nima?",
+            "options": [
+                "Inqirozga uchragan kompaniyalarni arzon sotib olib, qismlarga bo‘lib sotib yuborish",
+                "parrandachilik bilan shug'ullanuvchi yirik monopoliyalar",
+                "yosh startaplarga katta miqdorda sarmoya kirituvchi farishta investorlar",
+                "faqatgina tabiatni asrashga qaratilgan notijorat tashkilotlari"
+            ],
+            "correct_index": 0
+        },
+        {
+            "question_number": 280,
+            "question": "Kompaniya madaniyatini o'zgartirishda \"Tone at the Top\" tamoyili nimani bildiradi?",
+            "options": [
+                "Barcha o'zgarishlar faqat farroshlar va ishchilardan boshlanadi",
+                "Yuqori rahbariyatning xodimlarga namuna bo'lishini",
+                "Direktorlar kengashining ovozi baland bo'lishi kerakligini",
+                "Faqat tashqi mutaxassislar maslahati muhimligini"
+            ],
+            "correct_index": 1
+        },
+        {
+            "question_number": 281,
+            "question": "\"Proxy Access\" nima?",
+            "options": [
+                "internet tezligini ta'minlovchi mahalliy server tizimi",
+                "kompaniya ofislariga magnit kartochkalar bilan kirish ruxsati",
+                "Aksiyadorlarning o'z nomzodlarini direktorlar kengashiga saylash uchun byulletenga kiritish huquqi",
+                "kasaba uyushmalarining kompaniya daromadini tekshirish huquqi"
+            ],
+            "correct_index": 2
+        },
+        {
+            "question_number": 282,
+            "question": "Korporativ boshqaruvda \"Agile\" yondashuvi nimani anglatadi?",
+            "options": [
+                "Barcha qarorlarni kamida 1 yil o'ylab keyin qabul qilish",
+                "Eski va konservativ qoidalarga qat'iy rioya etish",
+                "Kengash a'zolarini o'zgartirmasdan 10 yil davomida ishlash",
+                "Moslashuvchanlik, tezkor qaror qabul qilish va doimiy o‘zgarishlarga tayyorlik"
+            ],
+            "correct_index": 3
+        },
+        {
+            "question_number": 283,
+            "question": "Kompaniyaning \"Missiyasi\" nima?",
+            "options": [
+                "Kompaniyaning mavjud bo'lishidan maqsad va uning ijtimoiy roli",
+                "Faqatgina joriy oyda eng ko'p mahsulot sotish qisqa rejasi",
+                "Raqobatchilarga yashirin zarbalar berish taktikasi",
+                "Bankrotlikdan qochishning huquqiy va ma'muriy choralari"
+            ],
+            "correct_index": 0
+        },
+        {
+            "question_number": 284,
+            "question": "Global Reporting Initiative (GRI) nima?",
+            "options": [
+                "qishloq xo'jaligi hosildorligini oshirish bo'yicha tashabbus",
+                "Barqarorlik va ijtimoiy hisobotlar bo‘yicha xalqaro standartlar",
+                "faqat harbiylar va xavfsizlik kuchlari uchun axborot portali",
+                "birja brokerlarining norasmiy kelishuvi"
+            ],
+            "correct_index": 1
+        },
+        {
+            "question_number": 285,
+            "question": "\"Stakeholder Capitalism\" (Steykxolder kapitalizmi) tarafdori kim?",
+            "options": [
+                "Karl Marks",
+                "Adam Smit",
+                "Klaus Shvab",
+                "Edvard Friman"
+            ],
+            "correct_index": 2
+        },
+        {
+            "question_number": 286,
+            "question": "Kompaniya \"Qadriyatlari\" (Values) nima uchun kerak?",
+            "options": [
+                "soliqlardan yashirinish yo'llarini topish uchun",
+                "faqatgina xorijlik mehmonlarni hayratda qoldirish uchun",
+                "har chorakda bonus pullarini yozish uchun",
+                "Qaror qilishda va xulq-atvorda mo'ljal bo'lishi uchun"
+            ],
+            "correct_index": 3
+        },
+        {
+            "question_number": 287,
+            "question": "\"Kognitiv xilma-xillik\" (Cognitive Diversity) kengash tarkibida nima beradi?",
+            "options": [
+                "Muammolarga turlicha qarash va sifatliroq qaror qabul qilish imkonini",
+                "Har kuni kelishmovchiliklar va janjallarning ko'payishini",
+                "Bosh direktorning mutlaq yakka hokimligini",
+                "Yig'ilishlarning doimiy ravishda kechikishini"
+            ],
+            "correct_index": 0
+        },
+        {
+            "question_number": 288,
+            "question": "Aksiyadorlik jamiyatida \"Minoritar aksiyador\" kim?",
+            "options": [
+                "100% nazorat paketiga ega bo'lgan shaxs",
+                "Jamiyatni boshqarishda hal qiluvchi ovozga ega bo‘lmagan kichik aksiyador",
+                "faqat chet el valyutasida qarz beruvchi kreditor",
+                "kompaniyani audit tekshiruvidan o'tkazuvchi mutaxassis"
+            ],
+            "correct_index": 1
+        },
+        {
+            "question_number": 289,
+            "question": "\"Dual-class shares\" (Ikki toifali aksiyalar) nima?",
+            "options": [
+                "barcha aksiyadorlarni ovoz berish huquqidan butunlay mahrum etuvchi tizim",
+                "faqat bankrot kompaniyalarga yordam beruvchi davlat ulushi",
+                "Muassislarga ko'proq ovoz huquqini beruvchi, oddiy aksiyadorlarga esa kamroq ovoz beruvchi tizim",
+                "aksiyalarning faqat yarmigagina dividend to'lash amaliyoti"
+            ],
+            "correct_index": 2
+        },
+        {
+            "question_number": 290,
+            "question": "Korporativ boshqaruvda \"Artificial Intelligence\" (Sun'iy intellekt) qayerda ishlatilmoqda?",
+            "options": [
+                "xodimlarni to'g'ridan-to'g'ri jismoniy jazolashda",
+                "kuzatuv kengashini to'liq bekor qilib uning o'rniga boshqarishda",
+                "faqat bino isitish va sovitish tizimini yoqishda",
+                "Katta hajmdagi ma'lumotlarni tahlil qilish va risklarni bashorat qilishda"
+            ],
+            "correct_index": 3
+        },
+        {
+            "question_number": 291,
+            "question": "\"Impact Investing\" nima?",
+            "options": [
+                "Ijobiy ijtimoiy yoki ekologik natija bilan birga moliyaviy foyda oluvchi investitsiya",
+                "faqatgina daromadni ko'zlaydigan sovuqqon sarmoya kiritish",
+                "faqat davlat loyihalarini majburiy moliyalashtirish",
+                "atrof-muhitga zarar keltiruvchi kimyo sanoatiga homiylik qilish"
+            ],
+            "correct_index": 0
+        },
+        {
+            "question_number": 292,
+            "question": "Kompaniyaning \"Viziyasi\" (Vision) nima?",
+            "options": [
+                "xodimlarning ko'rish qobiliyatini tekshiruvchi tibbiy ko'rik",
+                "Kompaniyaning kelajakdagi orzusi va uzoq muddatli holati",
+                "faqat bir kunlik qisqa rejalarning yig'indisi",
+                "raqobatchilarning biznes rejasini yashirin kuzatish tizimi"
+            ],
+            "correct_index": 1
+        },
+        {
+            "question_number": 293,
+            "question": "Korporativ boshqaruv kodeksiga rioya qilmaslikning oqibati (O’zbekistonda):",
+            "options": [
+                "hech qanday huquqiy va moliyaviy oqibatlarga olib kelmaydi",
+                "faqat og'zaki tanbeh beriladi",
+                "Birja listingidan chiqarish, jarimalar va investorlar ishonchini yo'qotish",
+                "Kompaniya rahbari umrbod qamoq jazosiga hukm qilinadi"
+            ],
+            "correct_index": 2
+        }
+    ]
+}

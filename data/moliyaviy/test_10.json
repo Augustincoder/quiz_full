@@ -1,0 +1,281 @@
+{
+    "test_id": 10,
+    "range": "226-250",
+    "questions": [
+        {
+            "question_number": 226,
+            "question": "\"A\" material 5-yanvarda 1000 dona (100 so'mdan), 15-yanvarda 2000 dona (150 so'mdan), 20-yanvarda 1000 dona (200 so'mdan) kelib tushdi. Yanvarda jami 3500 ta sarflandi. AVECO usulida ishlab chiqarishga berilgan va omborda qolgan qiymatni toping.",
+            "options": [
+                "Sarflandi: 500 000 so'm, Qoldi: 100 000 so'm",
+                "Sarflandi: 450 000 so'm, Qoldi: 150 000 so'm",
+                "Sarflandi: 600 000 so'm, Qoldi: 0 so'm",
+                "Sarflandi: 525 000 so'm (O'rtacha 150 so'mdan * 3500), Omborda qoldi: 75 000 so'm (500*150)"
+            ],
+            "correct_index": 3
+        },
+        {
+            "question_number": 227,
+            "question": "Investitsiya tushunchasi nimani bildiradi?",
+            "options": [
+                "Kelajakda iqtisodiy naf (daromad) olish maqsadida boshqa subyektlar kapitaliga yoki qimmatli qog'ozlariga mablag' yo'naltirish",
+                "O'z korxonasining joriy xarajatlarini to'lash",
+                "Davlat tomonidan beriladigan bepul subsidiyalar",
+                "Xodimlar ish haqidan ushlab qolinadigan pensiya badallari"
+            ],
+            "correct_index": 0
+        },
+        {
+            "question_number": 228,
+            "question": "Qisqa muddatli moliyaviy investitsiyalar odatda qanday maqsadda olinadi?",
+            "options": [
+                "Kompaniyani bankrot qilish uchun",
+                "Vaqtincha bo'sh turgan pul mablag'laridan qisqa muddat (1 yilgacha) ichida daromad olish maqsadida",
+                "Bino va inshootlar qurishni moliyalashtirish uchun",
+                "Boshqa korxona ustidan doimiy strategik nazorat o'rnatish uchun"
+            ],
+            "correct_index": 1
+        },
+        {
+            "question_number": 229,
+            "question": "Qimmatli qog'ozlarga investitsiya misoli qaysi?",
+            "options": [
+                "Tadbirkorlik patentini sotib olish",
+                "Transport vositasini ijaraga berish",
+                "Boshqa kompaniyalarning aksiyalari va davlat obligatsiyalarini sotib olish",
+                "Bankdan qisqa muddatli kredit jalb qilish"
+            ],
+            "correct_index": 2
+        },
+        {
+            "question_number": 230,
+            "question": "Investitsiyalar bo'yicha daromadning bir turi qaysi?",
+            "options": [
+                "Soliq imtiyozi",
+                "Kompensatsiya to'lovi",
+                "Bojxona chegirmai",
+                "Aksiyalar bo'yicha dividendlar yoki qarz qog'ozlari bo'yicha foizlar"
+            ],
+            "correct_index": 3
+        },
+        {
+            "question_number": 231,
+            "question": "Uzoq muddatli investitsiyalar ko'pincha qaysi obyektlarni qamrab oladi?",
+            "options": [
+                "1 yildan ortiq ushlab turiladigan aksiyalar, sho'ba korxonalarga kiritilgan ustav kapitali ulushlari, uzoq muddatli qarzlar",
+                "Faqat birjada tez-tez sotiladigan qisqa muddatli fyucherslar",
+                "Korxonaning o'z omboridagi xom-ashyolar",
+                "Xodimlar o'rtasida tarqatiladigan sovg'alar"
+            ],
+            "correct_index": 0
+        },
+        {
+            "question_number": 232,
+            "question": "Investitsiyalarni dastlabki baholash odatda nimaga teng bo'ladi?",
+            "options": [
+                "Faqat nominal qiymatiga",
+                "Haqiqiy xarid qiymatiga (sotib olish narxi, brokerlik xizmatlari va boshqa bog'liq xarajatlar yig'indisiga)",
+                "Kelajakda kutilayotgan foydaning yarmiga",
+                "Davlat tomonidan qat'iy belgilangan narxga"
+            ],
+            "correct_index": 1
+        },
+        {
+            "question_number": 233,
+            "question": "Qayta baholash natijasida yuzaga keladigan farq odatda nima deb ataladi?",
+            "options": [
+                "Inflyatsiya zarari",
+                "Qo'shilgan qiymat solig'i",
+                "Qayta baholash saldosi (yoki rezervi)",
+                "Kreditorlik qarzining o'sishi"
+            ],
+            "correct_index": 2
+        },
+        {
+            "question_number": 234,
+            "question": "Investitsiyalarni hisobga olishda asosiy xavf nimadan iborat?",
+            "options": [
+                "Binolarning jismoniy eskirib qolishidan",
+                "Hukumatning ularni musodara qilishidan",
+                "Ombordagi tovarlarning yaroqsiz bo'lib qolishidan",
+                "Investitsiya qilingan ob'ekt qiymatining qadrsizlanishi (bozor xavfi) yoki to'lov qobiliyatining yo'qolishi (kredit xavfi)dan"
+            ],
+            "correct_index": 3
+        },
+        {
+            "question_number": 235,
+            "question": "Investitsiya obyektidan ulushli ishtirokda nazorat kuchayganda natija nima bo'lishi mumkin?",
+            "options": [
+                "Sarmoya kiritilayotgan korxona sho'ba korxonaga (qaram jamiyatga) aylanadi va hisobotlar konsolidatsiya qilinadi",
+                "Aksiyadorlar umuman daromad olmay qo'yishadi",
+                "Kompaniya avtomatik ravishda yopilib ketadi",
+                "Investitsiyalar nol qiymatida baholanadi"
+            ],
+            "correct_index": 0
+        },
+        {
+            "question_number": 236,
+            "question": "Investitsiyalarni sotishdan olingan moliyaviy natija qanday aniqlanadi?",
+            "options": [
+                "Sotish narxi va haqiqiy balans (qoldiq) qiymati o'rtasidagi farq moliyaviy natija (daromad yoki zarar) sifatida aniqlanadi",
+                "Faqat sotishdan tushgan pul to'liq sof foyda deyiladi",
+                "Soliq summalarini qo'shish orqali aniqlanadi",
+                "Bozordagi boshqa investorlarning daromadiga qarab belgilanadi"
+            ],
+            "correct_index": 1
+        },
+        {
+            "question_number": 237,
+            "question": "Asosiy vosita deganda nima tushuniladi?",
+            "options": [
+                "Faqat savdo avtomatlari va hisoblagichlar",
+                "Intellektual mulk va litsenziyalar",
+                "Korxona faoliyatida uzoq muddat (1 yildan ortiq) foydalaniladigan va qiymati BHMning 50 barobaridan yuqori bo'lgan moddiy aktivlar",
+                "Sotish maqsadida olingan barcha ko'chmas mulklar"
+            ],
+            "correct_index": 2
+        },
+        {
+            "question_number": 238,
+            "question": "Asosiy vosita qachon aktiv sifatida tan olinadi?",
+            "options": [
+                "Uni olib kelish to'g'risida og'zaki kelishilganda",
+                "G'oya yoki loyiha qog'ozda paydo bo'lganda",
+                "Uning qiymati qancha bo'lishidan qat'i nazar istalgan vaqtda",
+                "Kelgusida undan iqtisodiy naf kelishi ehtimoli yuqori bo'lsa va qiymati ishonchli baholansa"
+            ],
+            "correct_index": 3
+        },
+        {
+            "question_number": 239,
+            "question": "Dastlabki (boshlang'ich) qiymat tarkibiga nimalar kiradi?",
+            "options": [
+                "Sotib olish narxi, yetkazib berish, bojxona to'lovlari, montaj va ishchi holatga keltirish bilan bog'liq xarajatlar",
+                "Faqatgina buyumning chet el valyutasidagi zavod narxi",
+                "Bir yillik elektr energiya va ishchilarni o'qitish xarajati",
+                "Reklama xarajatlari va bank krediti foizlari"
+            ],
+            "correct_index": 0
+        },
+        {
+            "question_number": 240,
+            "question": "Amortizatsiya nima?",
+            "options": [
+                "Aktivning foydali xizmat muddati davomida uning eskiradigan qiymatini xarajatlarga tizimli ravishda taqsimlab (o'tkazib) borish",
+                "Mulkni sug'urta qilish uchun har yili to'lanadigan badal",
+                "Asosiy vositani bankka garovga qo'yish jarayoni",
+                "Har yili davlatga to'lanadigan majburiy soliq to'lovi"
+            ],
+            "correct_index": 1
+        },
+        {
+            "question_number": 241,
+            "question": "To'g'ri chiziqli amortizatsiya usulining mazmuni qaysi?",
+            "options": [
+                "Birinchi yil eng ko'p, oxirgi yil eng kam eskirish hisoblash",
+                "Bozor konyunkturasiga qarab har yili hisobchini ixtiyori bilan eskirish hisoblash",
+                "Aktivning foydali xizmat muddati davomida har yili bir xil miqdorda (teng) eskirish hisoblash",
+                "Faqat ishlab chiqarilgan mahsulot soniga qarab eskirish hisoblash"
+            ],
+            "correct_index": 2
+        },
+        {
+            "question_number": 242,
+            "question": "Asosiy vosita ta'miri xarajatlari odatda qanday tasniflanadi?",
+            "options": [
+                "Barcha ta'mirlar asosiy vosita qiymatini tushiradi",
+                "Barcha ta'mir xarajatlari davlat tomonidan qoplab beriladi",
+                "Hech qanday schyotlarda ko'rsatilmasligi kerak",
+                "Joriy ta'mirlar davr xarajati/tannarx qilinadi, kapital ta'mirlar (modernizatsiya) esa aktiv qiymatini oshiradi"
+            ],
+            "correct_index": 3
+        },
+        {
+            "question_number": 243,
+            "question": "Asosiy vositalar inventarizatsiyasi nima uchun o'tkaziladi?",
+            "options": [
+                "Ularning haqiqiy mavjudligini, texnik holatini va buxgalteriya hisobi yozuvlariga mosligini tekshirish uchun",
+                "Xaridorlarga yangi mahsulotlarni tanishtirish uchun",
+                "Faqatgina ombor qorovulini jazolash bahonasi sifatida",
+                "Uskunalarning rangini yangilash uchun"
+            ],
+            "correct_index": 0
+        },
+        {
+            "question_number": 244,
+            "question": "Asosiy vosita hisobdan chiqarilganda moliyaviy natija qanday aniqlanadi?",
+            "options": [
+                "Faqatgina bino baholovchi aytgan narx to'liq foyda hisoblanadi",
+                "Sotish narxi va uning qoldiq qiymati (plyus sotish xarajatlari) o'rtasidagi farq sifatida (9210-schyot orqali)",
+                "Boshlang'ich qiymati bilan sotish narxini qo'shish orqali",
+                "Amortizatsiya summasini to'liq davlatga o'tkazish orqali"
+            ],
+            "correct_index": 1
+        },
+        {
+            "question_number": 245,
+            "question": "Qoldiq (balans) qiymat nima?",
+            "options": [
+                "Aktivning zavoddan chiqqan kunidagi bozor narxi",
+                "Mulkni hurdaga (metallolomga) topshirgandagi puli",
+                "Boshlang'ich (yoki tiklanish) qiymatidan jamlangan amortizatsiyani ayirib tashlagandan keyingi qiymat",
+                "Ikkita asosiy vositaning narxlar farqi"
+            ],
+            "correct_index": 2
+        },
+        {
+            "question_number": 246,
+            "question": "Asosiy vositalar bo'yicha inventar raqami nima uchun beriladi?",
+            "options": [
+                "Faqat chiroyli ko'rinish va dizayn uchun",
+                "Asosiy vositani birjadagi reytingini ko'rsatish uchun",
+                "Mulkni sotsa qancha soliq to'lashini bilish uchun",
+                "Aktivni aniq ro'yxatga olish, saqlanishini nazorat qilish va hisobga olishda boshqalari bilan chalkashtirmaslik uchun"
+            ],
+            "correct_index": 3
+        },
+        {
+            "question_number": 247,
+            "question": "Nomoddiy aktiv deganda nima tushuniladi?",
+            "options": [
+                "Jismoniy shaklga (moddiy ko'rinishga) ega bo'lmagan, uzoq muddat foydalaniladigan va daromad keltiradigan aktiv",
+                "Korxonadagi o'ta qimmatbaho uskunalar va dastgohlar",
+                "Muddatidan oldin eskirgan tovar-moddiy zaxiralar",
+                "Bankdagi hisobraqamda saqlanayotgan barcha pul mablag'lari"
+            ],
+            "correct_index": 0
+        },
+        {
+            "question_number": 248,
+            "question": "Nomoddiy aktiv tan olinishi uchun eng muhim shartlardan biri qaysi?",
+            "options": [
+                "Aktivni aniq identifikatsiya qilish mumkinligi va uning ustidan korxona nazorat o'rnatgan bo'lishi",
+                "Aktivning og'irligi 10 kilogrammdan oshishi kerakligi",
+                "Faqat xorijiy davlatdan olib kelingan bo'lishi",
+                "Barcha xodimlar ruxsat etgan bo'lishi"
+            ],
+            "correct_index": 1
+        },
+        {
+            "question_number": 249,
+            "question": "Nomoddiy aktivlarga misol qaysi?",
+            "options": [
+                "Ombordagi bo'yoq va yog'och materiallari",
+                "Boshqaruvchining xizmat avtomobili",
+                "Patentlar, litsenziyalar, dasturiy ta'minot, gudvil va tovar belgilari",
+                "Mijozlardan olingan qisqa muddatli qarzlar"
+            ],
+            "correct_index": 2
+        },
+        {
+            "question_number": 250,
+            "question": "Nomoddiy aktivlar dastlab qanday baholanadi?",
+            "options": [
+                "Birjadagi o'rtacha yillik narx bo'yicha",
+                "Har bir xodimning maoshiga nisbatan foizda",
+                "Ixtiyoriy tarzda, baholovchilar fikriga ko'ra",
+                "Haqiqiy sotib olish (yoki yaratish) va ro'yxatga olish xarajatlari summasida (boshlang'ich qiymatda)"
+            ],
+            "correct_index": 3
+        }
+    ]
+}

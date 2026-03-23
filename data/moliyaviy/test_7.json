@@ -1,0 +1,281 @@
+{
+    "test_id": 7,
+    "range": "151-175",
+    "questions": [
+        {
+            "question_number": 151,
+            "question": "Mehnatga haq to'lashning qanday shakllari mavjud?",
+            "options": [
+                "Vaqtbay va ishbay shakllari",
+                "Naqd va naqdsiz shakllari",
+                "Aksiyalar bilan va obligatsiyalar bilan",
+                "Faqat mukofot va rag'batlantirish shakllari"
+            ],
+            "correct_index": 0
+        },
+        {
+            "question_number": 152,
+            "question": "Mol yetkazib beruvchilarning qarzi qisqa muddatli bank krediti hisobidan to'langanda qanday buxgalteriya provodkasi beriladi?",
+            "options": [
+                "Dt 5110 - Kt 6810",
+                "Dt 6010 - Kt 6810",
+                "Dt 6810 - Kt 6010",
+                "Dt 1010 - Kt 6010"
+            ],
+            "correct_index": 1
+        },
+        {
+            "question_number": 153,
+            "question": "Mol yetkazib beruvchilarga berilgan bo'naklar (avanslar) hisobdan chiqarilganda (yopilganda) qanday buxgalteriya provodkasi beriladi?",
+            "options": [
+                "Dt 4310 - Kt 5110",
+                "Dt 5110 - Kt 6010",
+                "Dt 6010 - Kt 4310 (yoki 4320)",
+                "Dt 6010 - Kt 1010"
+            ],
+            "correct_index": 2
+        },
+        {
+            "question_number": 154,
+            "question": "Mol yetkazib beruvchilardan qarzga materiallar olindi, sodir bo'lgan operasiyani aniqlang:",
+            "options": [
+                "Dt 5110 - Kt 6010",
+                "Dt 6010 - Kt 1010",
+                "Dt 1010 - Kt 4310",
+                "Dt 1010 - Kt 6010"
+            ],
+            "correct_index": 3
+        },
+        {
+            "question_number": 155,
+            "question": "Hisobot davri oxiriga sal'doga ega bo'lib, buxgalteriya balansida aks ettiriladigan aktivlar, majburiyatlar, sarmoyalarni aks ettiruvchi schyotlar - bu...?",
+            "options": [
+                "Doimiy (Balans) schyotlari",
+                "Tranzit schyotlari",
+                "Natijaviy schyotlar",
+                "Daromad va xarajat schyotlari"
+            ],
+            "correct_index": 0
+        },
+        {
+            "question_number": 156,
+            "question": "Homiladorlik va tug'ish nafaqasi soliq solish maqsadlarida jismoniy shaxsning qaysi turdagi daromadlariga kiradi?",
+            "options": [
+                "Mehnatga haq to'lash tarzidagi daromadlariga",
+                "Boshqa daromadlariga (ijtimoiy nafaqalar)",
+                "Moddiy naf tarzidagi daromadlariga",
+                "Mulk tarzidagi daromadlariga"
+            ],
+            "correct_index": 1
+        },
+        {
+            "question_number": 157,
+            "question": "Boshlang'ich hisob xujjatlarga qachon yozuvlar qilinadi?",
+            "options": [
+                "Xo'jalik operatsiyasi amalga oshirilgandan keyingi oyda",
+                "Faqat auditorlik tekshiruvi kelganda",
+                "Xo'jalik operatsiyasi amalga oshirilayotgan vaqtda yoki u tugallangandan keyin darhol",
+                "Yil yakuni bo'yicha hisobot topshirishdan oldin"
+            ],
+            "correct_index": 2
+        },
+        {
+            "question_number": 158,
+            "question": "Ish haqining qanday turlari mavjud?",
+            "options": [
+                "Moddiy va nomoddiy ish haqi",
+                "Oylik va yillik ish haqi",
+                "Naqd va naqdsiz ish haqi",
+                "Asosiy va qo'shimcha ish haqi"
+            ],
+            "correct_index": 3
+        },
+        {
+            "question_number": 159,
+            "question": "Ish haqining qanday shakllarini bilasiz?",
+            "options": [
+                "Vaqtbay va ishbay",
+                "Doimiy va o'zgaruvchan",
+                "Kunduzgi va tungi",
+                "Soliqli va soliqsiz"
+            ],
+            "correct_index": 0
+        },
+        {
+            "question_number": 160,
+            "question": "Ijtimoiy ahamiyatga ega boʻlgan kasalliklar (sil, onkologiya) bo'yicha to'lanadigan vaqtinchalik ishga layoqatsizlik nafaqasiga berilgan yondoshuvlardan qaysi biri toʻgʻri?",
+            "options": [
+                "Ish haqining 50% miqdorida to'lanadi",
+                "Ish haqining 100% miqdorida to'lanadi",
+                "Ishlanmagan kunlar uchun umuman to'lanmaydi",
+                "Kasaba uyushmasi byudjetidan 80% to'lanadi"
+            ],
+            "correct_index": 1
+        },
+        {
+            "question_number": 161,
+            "question": "Xodimning qaysi daromadlaridan alimentlar ushlab qolinmaydi?",
+            "options": [
+                "Qo'shimcha ishlagan vaqti uchun berilgan puldan",
+                "Oylik mukofot pullaridan",
+                "Xizmat safari xarajatlari, farzand tug'ilgandagi nafaqalar, dafn marosimi uchun yordam pulidan",
+                "Kasallik (byulleten) varaqasi bo'yicha to'lanadigan puldan"
+            ],
+            "correct_index": 2
+        },
+        {
+            "question_number": 162,
+            "question": "Korxonaning uzoq muddatli bank kreditlari Buxgalteriya balansining qayerida va nechanchi satrida qayd etiladi?",
+            "options": [
+                "Aktiv tomonining I bo'limida",
+                "Passiv tomonining II bo'limida (Joriy majburiyatlar)",
+                "Passivning I bo'limi, 420-satrida (O'z kapitali)",
+                "Passiv tomoni, \"Uzoq muddatli majburiyatlar\" bo'limi, 490-satrida"
+            ],
+            "correct_index": 3
+        },
+        {
+            "question_number": 163,
+            "question": "Korxona tomonidan qisqa muddatli qarz shartnomasiga koʻra 180 mln so'mlik olingan materiallar qaytarilganda qanday buxgalteriya pravodkasi beriladi?",
+            "options": [
+                "Dt 6820 \"Qisqa muddatli qarzlar\" - Kt 1010 \"Materiallar\"",
+                "Dt 1010 - Kt 6820",
+                "Dt 6010 - Kt 1010",
+                "Dt 5110 - Kt 6820"
+            ],
+            "correct_index": 0
+        },
+        {
+            "question_number": 164,
+            "question": "Ishlab chiqarish zaxiralari mazmuni to'liqroq berilgan javobni belgilang:",
+            "options": [
+                "Faqatgina sotib olingan tayyor mahsulotlar",
+                "Xom-ashyo, materiallar, xarid qilingan yarim tayyor mahsulotlar, butlovchi qismlar, yoqilg'i, ehtiyot qismlar va idishlar",
+                "Bino, inshootlar va transport vositalari",
+                "Xodimlar uchun ajratilgan kiyim-kechaklar"
+            ],
+            "correct_index": 1
+        },
+        {
+            "question_number": 165,
+            "question": "Korxona tekinga tovarlar oldi. Bozor qiymati 12 000 ming so'm. Tovarlarni transportirovka qilish 500 ming, sertifikatsiya 300 ming so'mni tashkil etdi. Tovar qaysi summadagi qiymatda hisobga olinishi kerak?",
+            "options": [
+                "12 000 ming so'm",
+                "12 500 ming so'm",
+                "12 800 ming so'm",
+                "11 200 ming so'm"
+            ],
+            "correct_index": 2
+        },
+        {
+            "question_number": 166,
+            "question": "Korxonaga tekinga tovarlar kelib tushdi. Qabul qilish-topshirish dalolatnomasida ularning qiymati koʻrsatilmagan. Korxona bu tovarlarni qaysi qiymat bo'yicha hisobga kiritishi lozim?",
+            "options": [
+                "0 so'm deb",
+                "Soliq inspeksiyasi aytgan narxda",
+                "Direktorning ixtiyoriy belgilagan narxida",
+                "Buxgalteriya hisobiga qabul qilingan sanadagi joriy bozor narxi bo'yicha"
+            ],
+            "correct_index": 3
+        },
+        {
+            "question_number": 167,
+            "question": "Sintetik schotlar qanday ma'lumotlarni beradi?",
+            "options": [
+                "Umumlashtirilgan, yig'ma pul ifodasidagi ma'lumotlarni",
+                "Faqat natural ko'rsatkichlardagi ma'lumotlarni",
+                "Har bir xodimning shaxsiy ma'lumotlarini",
+                "Faqat chet el valyutasidagi qoldiqlarni"
+            ],
+            "correct_index": 0
+        },
+        {
+            "question_number": 168,
+            "question": "Hisobot yilining yakunlari boʻyicha korxona foyda olsa qanday buxgalteriya provodkasi beriladi?",
+            "options": [
+                "Dt 8710 - Kt 9910",
+                "Dt 9910 \"Yakuniy moliyaviy natija\" - Kt 8710 \"Taqsimlanmagan foyda\"",
+                "Dt 5110 - Kt 9910",
+                "Dt 9430 - Kt 8710"
+            ],
+            "correct_index": 1
+        },
+        {
+            "question_number": 169,
+            "question": "Davr xarajatlarini hisobga oluvchi schyotlarning yopilishi qaysi buxgalteriya schyotlarida aks ettiriladi?",
+            "options": [
+                "Dt 2010 - Kt 9410, 9420, 9430",
+                "Dt 8710 - Kt 9410",
+                "Dt 9910 \"Yakuniy moliyaviy natija\" - Kt 9410, 9420, 9430",
+                "Dt 9410, 9420, 9430 - Kt 5110"
+            ],
+            "correct_index": 2
+        },
+        {
+            "question_number": 170,
+            "question": "\"Favqulodda foydalar\"ni hisobga oluvchi schyotlarning yopilishi qaysi buxgalteriya schyotlarida aks ettiriladi?",
+            "options": [
+                "Dt 5110 - Kt 9710",
+                "Dt 8710 - Kt 9710",
+                "Dt 9910 - Kt 9710",
+                "Dt 9710 (yoki 9720) - Kt 9910"
+            ],
+            "correct_index": 3
+        },
+        {
+            "question_number": 171,
+            "question": "Hisobot yilining yakunlari boʻyicha korxona zarar koʻrsa qanday buxgalteriya schyotlari korrespondensiyasi amalga oshiriladi?",
+            "options": [
+                "Dt 8710 \"Taqsimlanmagan foyda (qoplanmagan zarar)\" - Kt 9910",
+                "Dt 9910 - Kt 8710",
+                "Dt 5110 - Kt 9910",
+                "Dt 9430 - Kt 8710"
+            ],
+            "correct_index": 0
+        },
+        {
+            "question_number": 172,
+            "question": "Moliyaviy hisobotga Buxgalteriya hisobi to'g'risidagi qonunning nechanchi moddasida ta'rif berilgan?",
+            "options": [
+                "10-moddasida",
+                "16-moddasida",
+                "5-moddasida",
+                "22-moddasida"
+            ],
+            "correct_index": 1
+        },
+        {
+            "question_number": 173,
+            "question": "Balans passivi boʻlimini aks ettirilgan to'g'ri javobni ko'rsating?",
+            "options": [
+                "Asosiy vositalar va Joriy aktivlar",
+                "Moliyaviy investitsiyalar va Pul mablag'lari",
+                "O'z kapitali, Uzoq muddatli majburiyatlar va Joriy majburiyatlar",
+                "Daromadlar va Xarajatlar"
+            ],
+            "correct_index": 2
+        },
+        {
+            "question_number": 174,
+            "question": "Buxgalteriya balansining aktiv qismida, joriy davrda asosiy vositalarga tegishli bo'lgan ma'lumot qanday keltirilgan?",
+            "options": [
+                "Faqat eskirish summasi ko'rsatiladi",
+                "Faqat bozor narxi ko'rsatiladi",
+                "Ularning ijara qiymati bilan",
+                "Asosiy vositalarning qoldiq qiymati (boshlang'ich qiymat chegiruv eskirish) bilan"
+            ],
+            "correct_index": 3
+        },
+        {
+            "question_number": 175,
+            "question": "Buxgalteriya balansining passiv tomonining birinchi bo'limining jami nechanchi satrda ko'rsatiladi?",
+            "options": [
+                "480-satrda (\"O'z kapitali jami\")",
+                "400-satrda",
+                "600-satrda",
+                "770-satrda"
+            ],
+            "correct_index": 0
+        }
+    ]
+}

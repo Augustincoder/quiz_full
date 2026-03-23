@@ -1,0 +1,281 @@
+{
+    "test_id": 6,
+    "range": "126-150",
+    "questions": [
+        {
+            "question_number": 126,
+            "question": "Korxonalar yillik moliyaviy hisoboti tarkibi nechta shakldan iborat bo'lishi lozim?",
+            "options": [
+                "2 ta (Kichik korxonalardan tashqari barcha uchun)",
+                "5 ta shakldan (Balans, Moliyaviy natijalar, Asosiy vositalar harakati, Pul oqimlari, Xususiy kapital to'g'risida)",
+                "Faqat 1 ta balansdan",
+                "8 ta majburiy shakldan"
+            ],
+            "correct_index": 1
+        },
+        {
+            "question_number": 127,
+            "question": "Me'yoriy-huquqiy hujjatlarga binoan, qanday hollarda tasdiqlangan hisob siyosatiga o'zgartirishlar kiritish mumkin?",
+            "options": [
+                "Har kuni xohishga ko'ra",
+                "Yangi buxgalter ishga kelganida",
+                "Qonunchilik yoxud standartlar o'zgarganda yoki korxona faoliyati tubdan o'zgarganda",
+                "Mahsulot narxlari ko'tarilganda"
+            ],
+            "correct_index": 2
+        },
+        {
+            "question_number": 128,
+            "question": "Ombordagi tayyor mahsulotlar qanday baholarda hisobga olinadi?",
+            "options": [
+                "Kelajakda sotiladigan eng yuqori bozor narxida",
+                "Raqobatchilarning ulgurji narxida",
+                "Chegirma narxlarda",
+                "Haqiqiy ishlab chiqarish tannarxida (yoki reja-hisob narxlarida)"
+            ],
+            "correct_index": 3
+        },
+        {
+            "question_number": 129,
+            "question": "Xarid narxlari bo'yicha baholash usullarining qaysi biri hozirda (ko'pchilik xalqaro standartlarda) qo'llanilmaydi?",
+            "options": [
+                "LIFO (Oxirgi kelgan - birinchi ketadi) usuli",
+                "FIFO usuli",
+                "AVECO usuli",
+                "Maxsus identifikatsiya usuli"
+            ],
+            "correct_index": 0
+        },
+        {
+            "question_number": 130,
+            "question": "Konsignatsiyaga berilgan tovarlar nima?",
+            "options": [
+                "Sotib olingan, lekin hali omborga yetib kelmagan tovarlar",
+                "Sotish uchun vositachiga (konsignatorga) berilgan, lekin to sotilguncha mulk huquqi yuk jo'natuvchida qoladigan tovarlar",
+                "Sifatsizligi uchun yaroqsiz deb topilgan tovarlar",
+                "Chet eldan keltirilgan bojxona tovarlari"
+            ],
+            "correct_index": 1
+        },
+        {
+            "question_number": 131,
+            "question": "Dt 6310 «Olingan bo'naklar» - Kt 4010 «Olinadigan schyotlar» provodkasi nimani bildiradi?",
+            "options": [
+                "Yangi bo'nak qabul qilinganligini",
+                "Soliq to'langanligini",
+                "Mahsulot sotilib, xaridordan oldin olingan bo'nak (avans) summasining hisobga olinganligini (yopilganini)",
+                "Ish haqi to'langanini"
+            ],
+            "correct_index": 2
+        },
+        {
+            "question_number": 132,
+            "question": "Asosiy vositalarga amortizatsiya hisoblashning necha xil usuli mavjud?",
+            "options": [
+                "2 xil usuli",
+                "5 xil usuli",
+                "Faqat 1 xil usul",
+                "4 xil (To'g'ri chiziqli, Ishlab chiqarish, Qoldiqni kamaytirish, Yillar summasi-kumulyativ usul)"
+            ],
+            "correct_index": 3
+        },
+        {
+            "question_number": 133,
+            "question": "Inventarizatsiya paytida qiymatliklarning mavjudligi qanday aniqlanadi?",
+            "options": [
+                "Ularni haqiqatda sanash, o'lchash va tortish orqali aniqlanadi",
+                "Faqat qog'oz hujjatlarga qarab ko'rib chiqiladi",
+                "Tashqi auditorlardan so'rab bilib olinadi",
+                "Raqobatchilarning ma'lumotlari orqali"
+            ],
+            "correct_index": 0
+        },
+        {
+            "question_number": 134,
+            "question": "Xoʻjalik hisobi turlarida qanday o'lchov birliklari qoʻllaniladi?",
+            "options": [
+                "Faqat og'irlik o'lchovlari",
+                "Natural, mehnat va pul o'lchovlari",
+                "Faqat xorijiy valyutalar",
+                "Vaqt va masofa o'lchovlari"
+            ],
+            "correct_index": 1
+        },
+        {
+            "question_number": 135,
+            "question": "Tovar-moddiy zaxiralar buxgalteriya balansining qaysi bo'limida aks etiriladi?",
+            "options": [
+                "Passiv tomonining I bo'limida",
+                "Aktiv tomonining I bo'limida (Uzoq muddatli aktivlar)",
+                "Aktiv tomonining II bo'limida (Joriy aktivlar)",
+                "Balansdan tashqari schyotlarda"
+            ],
+            "correct_index": 2
+        },
+        {
+            "question_number": 136,
+            "question": "Korxonaga tegishli nomoddiy aktivlar balansning qaysi tomonida ko'rsatiladi?",
+            "options": [
+                "Majburiyatlar orasida",
+                "Xususiy kapital tarkibida",
+                "Joriy aktivlar bo'limida",
+                "Aktiv tomonining I bo'limida (Uzoq muddatli aktivlar sifatida)"
+            ],
+            "correct_index": 3
+        },
+        {
+            "question_number": 137,
+            "question": "Buxgalteriya balansining faqat passiviga ta'sir qiladigan muomalani toping?",
+            "options": [
+                "Taqsimlanmagan foyda hisobidan zaxira kapitalini shakllantirish (Dt 8710 - Kt 8520)",
+                "Bankdan kassaga pul olib kelish (Dt 5010 - Kt 5110)",
+                "Qarzga mol yetkazib beruvchidan materiallar olish (Dt 1010 - Kt 6010)",
+                "Bankdagi hisob raqamidan ish haqini to'lash (Dt 6710 - Kt 5110)"
+            ],
+            "correct_index": 0
+        },
+        {
+            "question_number": 138,
+            "question": "Korxona xususiy kapitali tarkibiga kiritiladigan elementni ko'rsating?",
+            "options": [
+                "Olinadigan bank kreditlari",
+                "Zaxira kapitali (va taqsimlanmagan foyda)",
+                "Nolga tenglashtirilgan qarzdorliklar",
+                "Oldindan to'langan ijara haqi"
+            ],
+            "correct_index": 1
+        },
+        {
+            "question_number": 139,
+            "question": "Korxona xususiy kapitali tarkibiga qaysi element kiradi?",
+            "options": [
+                "Kassadagi naqd pul",
+                "Binolar va mashinalar",
+                "Ustav kapitali",
+                "Byudjetga to'lanadigan soliqlar"
+            ],
+            "correct_index": 2
+        },
+        {
+            "question_number": 140,
+            "question": "Korxona aktivi tarkibiga kiritiladigan elementni aniqlang?",
+            "options": [
+                "Soliq qarzdlari",
+                "Ishchilarga berilishi kerak bo'lgan oylik maosh",
+                "Ustav kapitali",
+                "Asosiy vositalar va pul mablag'lari"
+            ],
+            "correct_index": 3
+        },
+        {
+            "question_number": 141,
+            "question": "Korxona majburiyatlari tarkibiga kiritiladigan elementni belgilang.",
+            "options": [
+                "Mol yetkazib beruvchilardan va byudjetdan qarzdorlik",
+                "Taqsimlanmagan sof foyda",
+                "Ombordagi ehtiyot qismlar",
+                "Dastgohlar va uskunalar"
+            ],
+            "correct_index": 0
+        },
+        {
+            "question_number": 142,
+            "question": "Ayollarga tuqqunga qadar 70 kalendar kun va tuqqanidan keyin 56 kalendar kun (jami 126 kun) homiladorlik ta'tili berilishi Yangi Mehnat kodeksining nechanchi moddasida berilgan?",
+            "options": [
+                "233-moddasida",
+                "Yangi MKning 404-moddasida",
+                "150-moddasida",
+                "100-moddasida"
+            ],
+            "correct_index": 1
+        },
+        {
+            "question_number": 143,
+            "question": "Uzoq muddatli majburiyatlar nima?",
+            "options": [
+                "Faqat bir oy ichida to'lanadigan qarzlar",
+                "Xaridorlardan kutilayotgan pullar",
+                "Bir yil (yoki bir operatsion sikl) dan ortiq muddatda to'lanishi lozim bo'lgan qarzlar",
+                "Hech qachon to'lanmaydigan davlat qarzlari"
+            ],
+            "correct_index": 2
+        },
+        {
+            "question_number": 144,
+            "question": "Qisqa muddatli majburiyatlar nima?",
+            "options": [
+                "15 yillik bank kreditlari",
+                "Besh yildan so'ng qoplanadigan moliyaviy ijaralar",
+                "Korxona faoliyati yopilguncha saqlanadigan ustav fondi",
+                "Bir yil (yoki bir operatsion sikl) ichida to'lanishi lozim bo'lgan majburiyatlar"
+            ],
+            "correct_index": 3
+        },
+        {
+            "question_number": 145,
+            "question": "Byudjetga to'lovlar bo'yicha imtiyozlar qanday aks ettiriladi?",
+            "options": [
+                "Maqsadli tushumlar (yoki davlat subsidiyasi) sifatida tegishli hisobvaraqlarda",
+                "Joriy operatsion xarajat sifatida",
+                "Zarar ko'rilgan deb hisobga olinadi",
+                "Hech qanday schyotlarda aks ettirilmaydi"
+            ],
+            "correct_index": 0
+        },
+        {
+            "question_number": 146,
+            "question": "Kredit so'zining ma'nosi qaysi javobda ko'rsatilgan?",
+            "options": [
+                "Lotincha \"credere\" - ishonaman, qarz beraman degan ma'noni bildiradi",
+                "Yunoncha \"kreditos\" - mulk demakdir",
+                "Inglizcha \"credit\" - foyda olish usuli",
+                "Fransuzcha - yo'qotish degani"
+            ],
+            "correct_index": 1
+        },
+        {
+            "question_number": 147,
+            "question": "Kredit kelishuvi qarzdan foydalanish shartlari qayd etilganda qaysi hujjat bilan rasmiylashtiriladi?",
+            "options": [
+                "Hisob-faktura (Invoice) orqali",
+                "Buxgalteriya ma'lumotnomasi bilan",
+                "Tomonlar o'rtasida tuzilgan Kredit shartnomasi bilan",
+                "Omborning qabul qilish dalolatnomasi bilan"
+            ],
+            "correct_index": 2
+        },
+        {
+            "question_number": 148,
+            "question": "Korxona bankdan 10 mln so'm miqdorda kreditni 1 yilga olgan. Kredit uchun yillik 17% belgilangan bo'lsa, bir oylik hisoblanadigan foiz summasini toping?",
+            "options": [
+                "170 000 so'm",
+                "85 000 so'm",
+                "1 700 000 so'm",
+                "141 666 so'm"
+            ],
+            "correct_index": 3
+        },
+        {
+            "question_number": 149,
+            "question": "Mol yetkazib beruvchilarga idishlar uchun ilgari o'tkazib berilgan avans hisobga olinganda qanday provodka beriladi?",
+            "options": [
+                "Dt 6010 - Kt 4310 (yoki 4320)",
+                "Dt 5110 - Kt 6010",
+                "Dt 1010 - Kt 5110",
+                "Dt 6710 - Kt 4310"
+            ],
+            "correct_index": 0
+        },
+        {
+            "question_number": 150,
+            "question": "Mehnatga to'lanadigan haqni to'g'ri belgilash maqsadida tarif tizimi necha qismdan iborat?",
+            "options": [
+                "Faqat bitta minimal oylik ish haqidan",
+                "3 ta qismdan (Tarif stavkasi, Tarif setkasi va Tarif-malaka ma'lumotnomasi)",
+                "5 ta qismdan iborat",
+                "Kompaniya rahbarining kunlik buyruqlaridan iborat"
+            ],
+            "correct_index": 1
+        }
+    ]
+}

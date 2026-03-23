@@ -1,0 +1,281 @@
+{
+    "test_id": 11,
+    "range": "251-275",
+    "questions": [
+        {
+            "question_number": 251,
+            "question": "Nizom jamg'armasi (Ustav kapitali) qachon shakllantiriladi?",
+            "options": [
+                "Korxona o'z faoliyatini to'xtatayotganda",
+                "Foyda taqsimlanayotgan vaqtda",
+                "Ta'sischilar tomonidan korxona davlat ro'yxatidan o'tayotganda",
+                "Birinchi marta bank kreditini olayotganda"
+            ],
+            "correct_index": 2
+        },
+        {
+            "question_number": 252,
+            "question": "Ustav kapitalini hisobga oluvchi passiv schyotni ko'rsating.",
+            "options": [
+                "8520",
+                "8330",
+                "8710",
+                "5110"
+            ],
+            "correct_index": 1
+        },
+        {
+            "question_number": 253,
+            "question": "Qo'shilgan kapital asosan qanday yuzaga keladi?",
+            "options": [
+                "Ishchilarning oylik maoshlaridan ushlab qolinishidan",
+                "Davlat soliqlarini to'lamaslik hisobiga",
+                "Aksiyalarni nominal qiymatidan yuqori narxda sotishdan (emissiya daromadidan)",
+                "Asosiy vositalarni eskirishini hisoblash orqali"
+            ],
+            "correct_index": 2
+        },
+        {
+            "question_number": 254,
+            "question": "Qo'shilgan kapital qaysi schyot guruhlarida hisobga olinadi?",
+            "options": [
+                "8400 - \"Qo'shilgan kapital\"",
+                "6000 - \"Mol yetkazib beruvchilar bilan hisob-kitoblar\"",
+                "9000 - \"Asosiy faoliyat daromadlari\"",
+                "4000 - \"Olinadigan schyotlar\""
+            ],
+            "correct_index": 0
+        },
+        {
+            "question_number": 255,
+            "question": "Zaxira kapitali korxonada nima maqsadda tashkil etiladi?",
+            "options": [
+                "Raqobatchilarni sotib olish uchun",
+                "Kutilmagan zararlarni qoplash, obligatsiyalarni so'ndirish va dividendlar to'lashni ta'minlash uchun",
+                "Faqatgina ofis xarajatlarini to'lash uchun",
+                "Xodimlarga har oylik maosh o'rniga berish uchun"
+            ],
+            "correct_index": 1
+        },
+        {
+            "question_number": 256,
+            "question": "Zaxira kapitalini hisobga oluvchi schyotni belgilang.",
+            "options": [
+                "1010",
+                "4310",
+                "8520",
+                "9910"
+            ],
+            "correct_index": 2
+        },
+        {
+            "question_number": 257,
+            "question": "Taqsimlanmagan foyda nima?",
+            "options": [
+                "Xaridorlardan hali undirilmagan qarzlar",
+                "Barcha soliqlar va dividendlar to'langandan so'ng korxona ixtiyorida qoladigan sof foyda qismi",
+                "Kassadagi naqd pullarning hammasi",
+                "Faqat ustav kapitalining qo'shimcha qismi"
+            ],
+            "correct_index": 1
+        },
+        {
+            "question_number": 258,
+            "question": "Taqsimlanmagan foydani hisobga oluvchi schyot qayd etilgan qatorni toping.",
+            "options": [
+                "5110",
+                "8710",
+                "2010",
+                "6710"
+            ],
+            "correct_index": 1
+        },
+        {
+            "question_number": 259,
+            "question": "Xususiy kapitalning tarkibiy qismlarini ko'rsating.",
+            "options": [
+                "Ustav kapitali, qo'shilgan kapital, zaxira kapitali, taqsimlanmagan foyda",
+                "Asosiy vositalar va nomoddiy aktivlar",
+                "Bank kreditlari va kreditorlik qarzlari",
+                "Materiallar, tovarlar va pul mablag'lari"
+            ],
+            "correct_index": 0
+        },
+        {
+            "question_number": 260,
+            "question": "Moliyaviy natija (foyda yoki zarar) qanday aniqlanadi?",
+            "options": [
+                "Faqat jami daromadlarni hisoblash orqali",
+                "Davr davomida olingan jami daromadlar va qilingan xarajatlarni taqqoslash (ayirish) orqali",
+                "Aktivlarni qarzlar miqdoriga bo'lish orqali",
+                "Zaxiralarni inventarizatsiya qilish bilan"
+            ],
+            "correct_index": 1
+        },
+        {
+            "question_number": 261,
+            "question": "Asosiy faoliyatdan olingan daromadlarga nimalar kiradi?",
+            "options": [
+                "Mahsulot (ish, xizmat)larni sotishdan olingan sof tushum",
+                "Asosiy vositalarni sotishdan tushgan foyda",
+                "Chet el valyutasi kurs farqidan foyda",
+                "Dividendlar va olingan foizlar"
+            ],
+            "correct_index": 0
+        },
+        {
+            "question_number": 262,
+            "question": "Tayyor mahsulot sotishdan olingan sof tushum qaysi schyotda aks ettiriladi?",
+            "options": [
+                "2810",
+                "1010",
+                "9010",
+                "8710"
+            ],
+            "correct_index": 2
+        },
+        {
+            "question_number": 263,
+            "question": "Boshqa operatsion daromadlarga qaysilar kiradi?",
+            "options": [
+                "Asosiy faoliyat tushumi",
+                "Asosiy vositalarni sotishdan foyda, jarimalar va penya tushumlari, ijaradan daromad",
+                "Xodimlarning ushlab qolingan ish haqi",
+                "Ustav fondiga kiritilgan mablag'lar"
+            ],
+            "correct_index": 1
+        },
+        {
+            "question_number": 264,
+            "question": "Moliyaviy faoliyatdan olingan daromadlarga qaysilar kiradi?",
+            "options": [
+                "Olingan dividendlar, foizlar, valyuta kurslari farqidan ijobiy farq",
+                "Davlat subsidiyalari va byudjet mablag'lari",
+                "Buzilgan uskunadan qolgan metallolom sotuvi",
+                "Ombordagi ortiqcha tovarlar savdosi"
+            ],
+            "correct_index": 0
+        },
+        {
+            "question_number": 265,
+            "question": "Korxonaning boshqa jamiyatlardan olgan dividendlari qaysi schyotda hisobga olinadi?",
+            "options": [
+                "9540",
+                "9520 - \"Dividendlar ko'rinishidagi daromadlar\"",
+                "9010",
+                "4010"
+            ],
+            "correct_index": 1
+        },
+        {
+            "question_number": 266,
+            "question": "Valyuta kursi farqidan olingan ijobiy daromadlar qaysi schyotda hisobga olinadi?",
+            "options": [
+                "5210",
+                "9540 - \"Valyuta kurslari farqidan daromadlar\"",
+                "9620",
+                "8520"
+            ],
+            "correct_index": 1
+        },
+        {
+            "question_number": 267,
+            "question": "Asosiy faoliyatning boshqa operatsion xarajatlari qaysi schyotda yuritiladi?",
+            "options": [
+                "9410",
+                "9420",
+                "9430 - \"Boshqa operatsion xarajatlar\"",
+                "9020"
+            ],
+            "correct_index": 2
+        },
+        {
+            "question_number": 268,
+            "question": "Moliyaviy faoliyat bo'yicha xarajatlarga nimalar kiradi?",
+            "options": [
+                "Zavod ishchilariga to'langan oylik",
+                "Omborni ijaraga olish to'lovlari",
+                "Qisqa va uzoq muddatli bank kreditlari bo'yicha foiz xarajatlari hamda valyuta kursining salbiy farqi",
+                "Materiallarni tashish xarajatlari"
+            ],
+            "correct_index": 2
+        },
+        {
+            "question_number": 269,
+            "question": "Bank krediti bo'yicha to'langan foizlar qaysi schyotda aks ettiriladi?",
+            "options": [
+                "9610 - \"Foizlar ko'rinishidagi xarajatlar\"",
+                "6920",
+                "5110",
+                "6710"
+            ],
+            "correct_index": 0
+        },
+        {
+            "question_number": 270,
+            "question": "Valyuta kursi farqidan ko'rilgan zararlar qaysi schyotda hisobga olinadi?",
+            "options": [
+                "9430",
+                "9620 - \"Valyuta kurslari farqidan zararlar\"",
+                "9540",
+                "8710"
+            ],
+            "correct_index": 1
+        },
+        {
+            "question_number": 271,
+            "question": "Yakuniy moliyaviy natija (sof foyda yoki zarar) barcha daromad va xarajat schyotlari yopilgach, qaysi schyotda shakllanadi?",
+            "options": [
+                "5010",
+                "6010",
+                "9910 - \"Yakuniy moliyaviy natija\"",
+                "8330"
+            ],
+            "correct_index": 2
+        },
+        {
+            "question_number": 272,
+            "question": "Dt 9910 - Kt 8710 provodkasi nimani bildiradi?",
+            "options": [
+                "Ustav kapitali shakllanganini",
+                "Kassadan naqd pul olinganini",
+                "Foyda solig'i to'langanini",
+                "Hisobot yili oxirida olingan sof foydaning taqsimlanmagan foydaga o'tkazilishini (reformatsiya)"
+            ],
+            "correct_index": 3
+        },
+        {
+            "question_number": 273,
+            "question": "Dt 8710 - Kt 9910 provodkasi nimani bildiradi?",
+            "options": [
+                "Hisobot yilida ko'rilgan zararni taqsimlanmagan foyda hisobidan qoplashni",
+                "Davlat byudjetidan qaytarib olingan soliqni",
+                "Sotilgan mahsulot qiymatini",
+                "Bank kreditining so'ndirilishini"
+            ],
+            "correct_index": 0
+        },
+        {
+            "question_number": 274,
+            "question": "Foyda solig'i (Daromad solig'i) bo'yicha hisoblangan xarajatlar qaysi schyotda yuritiladi?",
+            "options": [
+                "9810 - \"Foyda solig'i bo'yicha xarajatlar\"",
+                "6410",
+                "9910",
+                "6010"
+            ],
+            "correct_index": 0
+        },
+        {
+            "question_number": 275,
+            "question": "Qonunchilikka ko'ra foyda solig'ining bazaviy stavkasi qancha (umumiy belgilangan soliq to'lovchilar uchun)?",
+            "options": [
+                "12 foiz",
+                "15 foiz",
+                "20 foiz",
+                "24 foiz"
+            ],
+            "correct_index": 1
+        }
+    ]
+}

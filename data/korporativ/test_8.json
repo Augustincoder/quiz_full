@@ -1,0 +1,281 @@
+{
+    "test_id": 8,
+    "range": "176-200",
+    "questions": [
+        {
+            "question_number": 176,
+            "question": "Angliya-Amerika korporativ boshqaruv modelining asosiy xususiyati:",
+            "options": [
+                "davlatning qattiq nazorati",
+                "aksiyadorlar manfaatlarining ustuvorligi",
+                "banklarning mutlaq hukmronligi",
+                "xodimlarning boshqaruvdagi ustunligi"
+            ],
+            "correct_index": 1
+        },
+        {
+            "question_number": 177,
+            "question": "Germaniya korporativ boshqaruv modeli nimasi bilan farqlanadi?",
+            "options": [
+                "bir pog'onali boshqaruv tizimi bilan",
+                "xorijiy investorlarning taqiqlanishi bilan",
+                "ikki pog‘onali (dual board) boshqaruv tizimi bilan",
+                "faqatgina islom qonunlariga tayanishi bilan"
+            ],
+            "correct_index": 2
+        },
+        {
+            "question_number": 178,
+            "question": "Korporativ boshqaruv tamoyillariga qaysi biri kiradi?",
+            "options": [
+                "shaffoflik va hisobdorlik",
+                "maxfiylik va yakkaboshchilik",
+                "korrupsiya va yashirin kelishuvlar",
+                "majburiy mehnat va monopoliyalash"
+            ],
+            "correct_index": 0
+        },
+        {
+            "question_number": 179,
+            "question": "Shaffoflik tamoyili nimani anglatadi?",
+            "options": [
+                "kompaniya sirlarini raqobatchilarga sotish",
+                "axborotlarning ochiqligi va oshkor etilishi",
+                "barcha ma'lumotlarni davlatdan yashirish",
+                "faqat rahbarlarning daromadlarini ko'rsatish"
+            ],
+            "correct_index": 1
+        },
+        {
+            "question_number": 180,
+            "question": "Davlat sektorida korporativ boshqaruvning asosiy maqsadi:",
+            "options": [
+                "davlat byudjetini talon-taroj qilish",
+                "xususiy sektorni bozordan siqib chiqarish",
+                "davlat aktivlaridan samarali foydalanish",
+                "barcha fuqarolarga bepul aksiyalar tarqatish"
+            ],
+            "correct_index": 2
+        },
+        {
+            "question_number": 181,
+            "question": "Davlat ulushi mavjud korxonalarda kim asosiy nazoratni amalga oshiradi?",
+            "options": [
+                "faqatgina chet ellik investorlar",
+                "oddiy xodimlar kasaba uyushmasi",
+                "kompaniya qorovullari va xavfsizlik xizmati",
+                "davlat vakillari ishtirokidagi direktorlar kengashi"
+            ],
+            "correct_index": 3
+        },
+        {
+            "question_number": 182,
+            "question": "Korporativ risklarni boshqarish nimaga qaratilgan?",
+            "options": [
+                "xatarlarni aniqlash, baholash va kamaytirishga",
+                "risklarni butunlay inkor etishga",
+                "raqobatchilarga ataylab zarar yetkazishga",
+                "xodimlarni asossiz jarimaga tortishga"
+            ],
+            "correct_index": 0
+        },
+        {
+            "question_number": 183,
+            "question": "Strategik risklarga qaysi misol to‘g‘ri keladi?",
+            "options": [
+                "bitta kompyuterning tasodifan buzilib qolishi",
+                "noto‘g‘ri biznes strategiya tanlanishi",
+                "xodimning bir kun ishga kelmasligi",
+                "ofisda xom-ashyo (kofe) tugab qolishi"
+            ],
+            "correct_index": 1
+        },
+        {
+            "question_number": 184,
+            "question": "Listing kompaniya deganda nimani tushunasiz?",
+            "options": [
+                "faqat o'z xodimlariga aksiya sotuvchi yopiq kompaniya",
+                "hech qachon foyda ko'rmagan bankrot korxona",
+                "fond birjasida aksiyalari joylashtirilgan kompaniya",
+                "davlat sirlarini saqlovchi maxfiy harbiy obyekt"
+            ],
+            "correct_index": 2
+        },
+        {
+            "question_number": 185,
+            "question": "Listing kompaniyalarida korporativ boshqaruv talablari:",
+            "options": [
+                "umuman talab qilinmaydi",
+                "oddiy xususiy firmalardan ko'ra ancha yengil bo'ladi",
+                "faqat ixtiyoriy tusga ega bo'ladi",
+                "yuqori darajada qat’iy va shaffof bo‘ladi"
+            ],
+            "correct_index": 3
+        },
+        {
+            "question_number": 186,
+            "question": "Korporativ madaniyat nimani ifodalaydi?",
+            "options": [
+                "kompaniya qadriyatlari, xulq-atvor va an’analarini",
+                "faqatgina qat'iy kiyinish uslubini (dres-kodni)",
+                "xodimlarning shaxsiy hayotidagi odatlarini",
+                "kompaniyaning yillik soliq to'lovlarini"
+            ],
+            "correct_index": 0
+        },
+        {
+            "question_number": 187,
+            "question": "Kuchli korporativ madaniyat nimaga olib keladi?",
+            "options": [
+                "kompaniya inqirozga yuz tutishiga",
+                "xodimlar sadoqati va samaradorligining oshishiga",
+                "ishchilar o'rtasida janjal va nizolar ko'payishiga",
+                "aksiyalar narxining keskin pasayib ketishiga"
+            ],
+            "correct_index": 1
+        },
+        {
+            "question_number": 188,
+            "question": "Zamonaviy korporativ boshqaruv trendlaridan biri:",
+            "options": [
+                "ekologiyaga mutlaqo e'tibor bermaslik",
+                "faqat qisqa muddatli foydani ko'zlash",
+                "ESG (ekologik, ijtimoiy va boshqaruv) yondashuvi",
+                "xodimlarning ijtimoiy huquqlarini cheklash"
+            ],
+            "correct_index": 2
+        },
+        {
+            "question_number": 189,
+            "question": "ESG yondashuvida “G” harfi nimani anglatadi?",
+            "options": [
+                "davlat (Government)",
+                "global (Global)",
+                "yashil (Green)",
+                "boshqaruv (Governance)"
+            ],
+            "correct_index": 3
+        },
+        {
+            "question_number": 190,
+            "question": "Korporativ boshqaruvda manfaatdor tomonlar (stakeholders) kimlar?",
+            "options": [
+                "aksiyadorlar, xodimlar, mijozlar va davlat",
+                "faqat kompaniya rahbarlari va ularning oila a'zolari",
+                "faqat qimmatli qog'ozlar birjasi maklerlari",
+                "kompaniyaga mutlaqo aloqador bo'lmagan shaxslar"
+            ],
+            "correct_index": 0
+        },
+        {
+            "question_number": 191,
+            "question": "Risklarni boshqarishda “oldini olish” nimani anglatadi?",
+            "options": [
+                "zararni qabul qilib, indamay o'tirish",
+                "risk yuzaga kelish ehtimolini kamaytirish",
+                "xatarlarni sun'iy ravishda ko'paytirish",
+                "faqat sug'urta kompaniyasini aldash"
+            ],
+            "correct_index": 1
+        },
+        {
+            "question_number": 192,
+            "question": "Direktorlar kengashining asosiy vazifasi:",
+            "options": [
+                "ofisni tozalash va texnik ishlarni bajarish",
+                "barcha xodimlarni har kuni hisobga olish",
+                "strategik boshqaruv va nazoratni ta’minlash",
+                "faqat ijtimoiy tarmoqlarda postlar yozish"
+            ],
+            "correct_index": 2
+        },
+        {
+            "question_number": 193,
+            "question": "Korporativ boshqaruvning zamonaviy maqsadi:",
+            "options": [
+                "raqobatchi kompaniyalarni jismonan yo'q qilish",
+                "soliq to'lashdan qonunga xilof ravishda qochish",
+                "foydani faqat bosh direktorga sarflash",
+                "kompaniya barqarorligi va qiymatini oshirish"
+            ],
+            "correct_index": 3
+        },
+        {
+            "question_number": 194,
+            "question": "\"Agentlik nazariyasi\"da (Agency theory) asosiy ziddiyat kimlar o‘rtasida yuzaga keladi?",
+            "options": [
+                "Aksiyadorlar (prinsipal) va yollanma menejerlar (agentlar)",
+                "Davlat organlari va oddiy fuqarolar",
+                "Kreditorlar va xususiy bankirlar",
+                "Xodimlar va mehnat kasaba uyushmalari"
+            ],
+            "correct_index": 0
+        },
+        {
+            "question_number": 195,
+            "question": "\"Steykxolderlar nazariyasi\" (Stakeholder theory) muallifi kim?",
+            "options": [
+                "Adam Smit",
+                "Edvard Friman",
+                "Karl Marks",
+                "Jon Meynard Keyns"
+            ],
+            "correct_index": 1
+        },
+        {
+            "question_number": 196,
+            "question": "Mulkchilikning boshqaruvdan ajralishi natijasida yuzaga kelgan \"Menejerlar inqilobi\" qaysi davrga to‘g‘ri keladi?",
+            "options": [
+                "XVIII asrning boshlari",
+                "XXI asrning birinchi o'n yilligi",
+                "XX asrning 30-yillari",
+                "XIX asr oxiriga"
+            ],
+            "correct_index": 2
+        },
+        {
+            "question_number": 197,
+            "question": "\"Resurslarga qaramlik nazariyasi\" (Resource Dependency Theory) nimani tushuntiradi?",
+            "options": [
+                "Kompaniyaning faqat ichki resurslardan foydalanishi kerakligini",
+                "Ishchilarning o'z rahbarlariga moliyaviy qaramligini",
+                "Bozor monopoliyasini qanday qilib tezkor o'rnatishni",
+                "Kuzatuv kengashining tashqi resurslar va aloqalarni ta'minlashdagi rolini"
+            ],
+            "correct_index": 3
+        },
+        {
+            "question_number": 198,
+            "question": "\"Konservativ\" boshqaruv tizimidan zamonaviy korporativ boshqaruvga o‘tishning asosiy sababi nima?",
+            "options": [
+                "Kapital bozorlarining globallashuvi va investorlar ishonchini qozonish zaruriyati",
+                "Zavod va fabrikalarda kompyuterlarning ommaviy ixtiro qilinishi",
+                "Xodimlarning oylik maoshlarining keskin tushib ketishi",
+                "Mahalliy hokimiyatlarning kompaniyalarga doimiy tazyiqi"
+            ],
+            "correct_index": 0
+        },
+        {
+            "question_number": 199,
+            "question": "Mulkdor va menejer manfaatlari mos kelmasligi natijasida yuzaga keladigan xarajatlar qanday ataladi?",
+            "options": [
+                "Tranzaksion xarajatlar",
+                "Agentlik xarajatlari (Agency costs)",
+                "Fiksirlangan ijara xarajatlari",
+                "Amortizatsiya va eskirish xarajatlari"
+            ],
+            "correct_index": 1
+        },
+        {
+            "question_number": 200,
+            "question": "\"Styuardship nazariyasi\" (Stewardship theory) menejerlarga qanday yondashadi?",
+            "options": [
+                "Menejerlarni o'g'ri va ishonchsiz insonlar deb hisoblaydi",
+                "Menejerlarni faqat o'z manfaatini o'ylaydigan xudbin sifatida ko'radi",
+                "Menejerlarni tashkilot muvaffaqiyati uchun jon kuydiruvchi \"ishonchli vakil\" deb hisoblaydi",
+                "Menejerlarni hech qanday boshqaruv bilimiga ega bo'lmagan ijrochi deb biladi"
+            ],
+            "correct_index": 2
+        }
+    ]
+}

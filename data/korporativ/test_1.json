@@ -1,0 +1,281 @@
+{
+    "test_id": 1,
+    "range": "1-25",
+    "questions": [
+        {
+            "question_number": 1,
+            "question": "Korporativ boshqaruv tizimida manfaatdor tomonlar (stakeholders) kimlar hisoblanadi?",
+            "options": [
+                "faqat kompaniya ta'sischilari va rahbarlari",
+                "aksiyadorlar, xodimlar, mijozlar",
+                "davlat soliq organlari va xususiy auditorlar",
+                "faqat qimmatli qog'ozlar bozori ishtirokchilari"
+            ],
+            "correct_index": 1
+        },
+        {
+            "question_number": 2,
+            "question": "Korporativ boshqaruvning asosiy tamoyillariga nimalar kiradi?",
+            "options": [
+                "maxfiylik, yakkaboshchilik va tezkorlik",
+                "davlat nazorati va monopoliyani ta'minlash",
+                "shaffoflik, javobgarlik va adolatlilik",
+                "faqatgina daromadni maksimal darajada oshirish"
+            ],
+            "correct_index": 2
+        },
+        {
+            "question_number": 3,
+            "question": "Mustaqil direktorlarning asosiy vazifasi nima?",
+            "options": [
+                "manfaatlar to‘qnashuvini kamaytirish, ob’ektiv qarorlar qilish",
+                "kompaniyaning kundalik operatsion ishlarini boshqarish",
+                "soliq hisobotlarini tayyorlash va davlatga topshirish",
+                "xodimlarni ishga qabul qilish va bo'shatish"
+            ],
+            "correct_index": 0
+        },
+        {
+            "question_number": 4,
+            "question": "Ichki audit xizmati korporativ boshqaruvda qanday rol o‘ynaydi?",
+            "options": [
+                "tashqi auditorlarni ishga yollaydi",
+                "aksiyadorlarga bevosita dividend to'laydi",
+                "marketing strategiyasini ishlab chiqadi",
+                "ichki nazorat tizimini baholaydi"
+            ],
+            "correct_index": 3
+        },
+        {
+            "question_number": 5,
+            "question": "Direktorlar kengashi yig‘ilishi qanchalik tez-tez o‘tkazilishi lozim?",
+            "options": [
+                "yiliga kamida 4 marta",
+                "har kuni",
+                "yiliga faqat 1 marta",
+                "har 5 yilda bir marta"
+            ],
+            "correct_index": 0
+        },
+        {
+            "question_number": 6,
+            "question": "Korporativ nizomni kim o‘zgartirishi mumkin?",
+            "options": [
+                "bosh direktor",
+                "aksiyadorlarning umumiy yig‘ilishi",
+                "kuzatuv kengashi raisi",
+                "tashqi auditorlik tashkiloti"
+            ],
+            "correct_index": 1
+        },
+        {
+            "question_number": 7,
+            "question": "Korporativ boshqaruv tizimida “agentlik muammosi” nimani anglatadi?",
+            "options": [
+                "tashqi agentlar va davlat o'rtasidagi kelishmovchilik",
+                "xodimlar va mijozlar o'rtasidagi tushunmovchilik",
+                "menejerlar va aksiyadorlar manfaatlari to‘qnashuvi",
+                "aksiyadorlarning o'zaro daromad taqsimlashdagi janjali"
+            ],
+            "correct_index": 2
+        },
+        {
+            "question_number": 8,
+            "question": "Korporativ boshqaruvning asosiy maqsadi nima?",
+            "options": [
+                "faqatgina soliq to'lovlarini kamaytirish",
+                "boshqaruv apparati xarajatlarini ko'paytirish",
+                "ishlab chiqarish hajmini sun'iy ravishda tushirish",
+                "kompaniya qiymatini oshirish va manfaatdor tomonlar balansi"
+            ],
+            "correct_index": 3
+        },
+        {
+            "question_number": 9,
+            "question": "Korporativ boshqaruv tizimi kim tomonidan nazorat qilinadi?",
+            "options": [
+                "direktorlar kengashi",
+                "kasaba uyushmasi",
+                "mahalliy hokimiyat organlari",
+                "raqobatchi kompaniyalar"
+            ],
+            "correct_index": 0
+        },
+        {
+            "question_number": 10,
+            "question": "“Transparency” tamoyili nimani anglatadi?",
+            "options": [
+                "boshqaruvda maxfiylikni saqlashni",
+                "ma’lumotlarning ochiqligi va shaffofligini",
+                "korrupsiyaga qarshi kurashishni",
+                "xodimlarning ijtimoiy himoyasini"
+            ],
+            "correct_index": 1
+        },
+        {
+            "question_number": 11,
+            "question": "Korporativ ijtimoiy mas’uliyatning tarkibiy qismi nimalardan iborat?",
+            "options": [
+                "faqat ekologik muammolarni hal qilish",
+                "xodimlarga tibbiy xizmat ko'rsatish va dam olishni tashkil etish",
+                "iqtisodiy, ekologik va ijtimoiy yo‘nalishlar",
+                "davlat byudjetiga qo'shimcha to'lovlar qilish"
+            ],
+            "correct_index": 2
+        },
+        {
+            "question_number": 12,
+            "question": "Kuzatuv kengashi tarkibiga kimlar kiritiladi?",
+            "options": [
+                "faqat oddiy ishchilar va xodimlar",
+                "davlat soliq inspeksiyasi vakillari",
+                "raqobatchi firmalar rahbarlari",
+                "mustaqil va ijro etuvchi bo‘lmagan direktorlar"
+            ],
+            "correct_index": 3
+        },
+        {
+            "question_number": 13,
+            "question": "Korporativ mojarolarni hal qilishning eng samarali usuli",
+            "options": [
+                "muzokara va vositachilik",
+                "aksiyadorlarni jamiyatdan chiqarib yuborish",
+                "sud orqali kompaniyani yopish",
+                "barcha xodimlarni ishdan bo'shatish"
+            ],
+            "correct_index": 0
+        },
+        {
+            "question_number": 14,
+            "question": "Kompaniya kotibining asosiy vazifasi",
+            "options": [
+                "yangi xodimlarni ishga qabul qilish",
+                "hujjat aylanishi va boshqaruv organlari o‘rtasida muvofiqlashtirish",
+                "kompaniya moliyasini to'g'ridan-to'g'ri boshqarish",
+                "mahsulot narxlarini belgilash"
+            ],
+            "correct_index": 1
+        },
+        {
+            "question_number": 15,
+            "question": "Korporativ madaniyat qanday ahamiyatga ega?",
+            "options": [
+                "faqat bayramlarni tashkil qilishda kerak bo'ladi",
+                "davlat organlari oldida hisobot berish uchun zarur",
+                "xodimlar xulq-atvori va qarorlar sifatiga ta’sir etadi",
+                "aksiyalar narxini sun'iy ravishda tushiradi"
+            ],
+            "correct_index": 2
+        },
+        {
+            "question_number": 16,
+            "question": "Korporativ boshqaruv tizimidagi “compliance” funksiyasi nimani anglatadi?",
+            "options": [
+                "reklama va PR faoliyatini boshqarish",
+                "xodimlarga maosh to'lashni nazorat qilish",
+                "yangi filiallar ochish rejasini tuzish",
+                "qonun va ichki qoidalarga rioya etilishini nazorat qilish"
+            ],
+            "correct_index": 3
+        },
+        {
+            "question_number": 17,
+            "question": "Direktorlar kengashi a’zolarini qanday tanlash kerak?",
+            "options": [
+                "tajriba, malaka va mustaqillik mezonlariga asoslanib",
+                "faqat aksiyadorlar bilan qarindoshlik aloqalariga qarab",
+                "yosh va jinsiga qarab tasodifiy tarzda",
+                "eng ko'p maosh talab qiladiganlarni tanlab"
+            ],
+            "correct_index": 0
+        },
+        {
+            "question_number": 18,
+            "question": "Korporativ boshqaruv kodeksi qanday hujjatdir?",
+            "options": [
+                "davlat tomonidan majburiy qilib qo'yilgan qonun",
+                "korporatsiya boshqaruvi uchun ixtiyoriy me’yoriy hujjat",
+                "faqat xorijiy investorlar uchun mo'ljallangan qoida",
+                "xodimlarni jarimaga tortish bo'yicha yo'riqnoma"
+            ],
+            "correct_index": 1
+        },
+        {
+            "question_number": 19,
+            "question": "Bosh direktor faoliyati kim tomonidan baholanadi?",
+            "options": [
+                "oddiy ishchilar kasaba uyushmasi",
+                "mijozlar va iste'molchilar",
+                "direktorlar kengashi",
+                "auditorlik kompaniyalari"
+            ],
+            "correct_index": 2
+        },
+        {
+            "question_number": 20,
+            "question": "Korporativ boshqaruv samaradorligini oshirish uchun nimalar zarur?",
+            "options": [
+                "faqat rahbarlarning oyligini oshirish",
+                "barcha boshqaruv qoidalarini sir saqlash",
+                "ishchilarni nazorat qilishni butunlay to'xtatish",
+                "ichki nazoratni kuchaytirish va manfaatdor tomonlar o‘rtasidagi ishonch"
+            ],
+            "correct_index": 3
+        },
+        {
+            "question_number": 21,
+            "question": "Ijro etuvchi organlar kimlar hisoblanadi?",
+            "options": [
+                "bosh direktor va uning o‘rinbosarlari",
+                "aksiyadorlar va mustaqil kuzatuvchilar",
+                "faqat tashqi auditorlar va yuristlar",
+                "kasaba uyushmasi raislari"
+            ],
+            "correct_index": 0
+        },
+        {
+            "question_number": 22,
+            "question": "Aksiyadorlarning asosiy huquqi",
+            "options": [
+                "kompaniya sirlarini ommaga tarqatish",
+                "dividend olish va boshqaruvda ishtirok etish",
+                "kompaniya ofisida bepul yashash",
+                "bosh direktorni xohlagan vaqtda ishdan olish"
+            ],
+            "correct_index": 1
+        },
+        {
+            "question_number": 23,
+            "question": "Direktorlar kengashi raisining vakolat muddati",
+            "options": [
+                "hech qanday cheklovlarga ega emas, umrbod saylanadi",
+                "davlat organlari tomonidan belgilanadi",
+                "ustavda belgilangan muddat bilan cheklanadi",
+                "faqat kompaniya inqirozga uchraguncha davom etadi"
+            ],
+            "correct_index": 2
+        },
+        {
+            "question_number": 24,
+            "question": "Korporativ boshqaruv modelini tanlashda asosiy omil",
+            "options": [
+                "faqat rahbarlarning shaxsiy xohishi",
+                "xalqaro tashkilotlarning to'g'ridan-to'g'ri bosimi",
+                "korxonaning qaysi shaharda joylashganligi",
+                "mamlakatning huquqiy tizimi va bozor rivojlanish darajasi"
+            ],
+            "correct_index": 3
+        },
+        {
+            "question_number": 25,
+            "question": "“Dual board” tizimi qaysi modelga xos?",
+            "options": [
+                "Germaniya modeli",
+                "Angliya-Amerika modeli",
+                "Yaponiya modeli",
+                "Islom korporativ modeli"
+            ],
+            "correct_index": 0
+        }
+    ]
+}

@@ -1,0 +1,281 @@
+{
+    "test_id": 7,
+    "range": "151-175",
+    "questions": [
+        {
+            "question_number": 151,
+            "question": "Aksiyadorlik jamiyatining asosiy xususiyati nimada?",
+            "options": [
+                "foydaning faqat davlatga o'tishida",
+                "ishtirokchilarning kompaniya majburiyatlari bo'yicha cheklangan javobgarligida",
+                "ishchilarning boshqaruvdagi mutlaq hukmronligida",
+                "kredit olishning butunlay taqiqlanganligida"
+            ],
+            "correct_index": 1
+        },
+        {
+            "question_number": 152,
+            "question": "Emitent bu –",
+            "options": [
+                "aksiyalarni sotib oluvchi xorijiy investor",
+                "kompaniya ustidan nazorat qiluvchi prokuror",
+                "qimmatli qog‘ozlarni chiqaradigan va ular bo‘yicha majburiyat oladigan yuridik shaxs",
+                "birja savdolarida qatnashuvchi makler (vositachi)"
+            ],
+            "correct_index": 2
+        },
+        {
+            "question_number": 153,
+            "question": "Aksiyadorlik jamiyatida qanday boshqaruv organlari yaratiladi?",
+            "options": [
+                "Faqat Bosh direktor va kadrlar bo'limi",
+                "Soliq qo'mitasi va Moliya bo'limi",
+                "Faqat Umumiy yig'ilish",
+                "Umumiy yig'ilish, Kuzatuv kengashi, Boshqaruv (ijro) va Taftish komissiyasi"
+            ],
+            "correct_index": 3
+        },
+        {
+            "question_number": 154,
+            "question": "Dividend hisoblash: “Baraka Invest” AJ sof foydasi 3 mlrd so‘m. Aksiyalar soni 600 000 dona. Foydaning 30% qismi dividendga ajratildi. 1 ta aksiya uchun dividend miqdorini aniqlang.",
+            "options": [
+                "1 500 so‘m",
+                "1 000 so‘m",
+                "2 000 so‘m",
+                "500 so‘m"
+            ],
+            "correct_index": 0
+        },
+        {
+            "question_number": 155,
+            "question": "Aksiyador daromadi: Investor 1 500 dona aksiya egasi. 1 aksiya uchun dividend 2 000 so‘m. Investor qancha dividend oladi?",
+            "options": [
+                "1,5 mln so‘m",
+                "3 mln so‘m",
+                "4 mln so‘m",
+                "2,5 mln so‘m"
+            ],
+            "correct_index": 1
+        },
+        {
+            "question_number": 156,
+            "question": "IPO mablag‘i: Kompaniya 800 000 dona aksiya chiqardi. 1 aksiya narxi 15 000 so‘m. IPO orqali jalb qilingan jami mablag‘ qancha?",
+            "options": [
+                "8 mlrd so'm",
+                "10 mlrd so'm",
+                "12 mlrd so'm",
+                "15 mlrd so'm"
+            ],
+            "correct_index": 2
+        },
+        {
+            "question_number": 157,
+            "question": "Rentabellik hisoblash: Investor aksiyani 20 000 so‘mga sotib oldi. Yil ichida dividend – 2 000 so‘m oldi. Yil oxirida aksiyani 23 000 so‘mga sotdi. Rentabellik (%) qancha?",
+            "options": [
+                "15%",
+                "20%",
+                "30%",
+                "25%"
+            ],
+            "correct_index": 3
+        },
+        {
+            "question_number": 158,
+            "question": "Dividend siyosati: Kompaniya foydasi 8 mlrd so‘m. Aksiyalar soni 2 mln dona. Foydaning 40% qismi dividendga ajratildi. 1 aksiya uchun dividend qancha?",
+            "options": [
+                "1 600 so‘m",
+                "2 000 so‘m",
+                "1 200 so‘m",
+                "800 so‘m"
+            ],
+            "correct_index": 0
+        },
+        {
+            "question_number": 159,
+            "question": "Reinvestitsiya miqdori: Kompaniyaning sof foydasi 5 mlrd so‘m. Dividend to'lashga 25% ajratildi. Kompaniyaning rivojlanishi uchun o'zida qancha mablag‘ qoladi?",
+            "options": [
+                "1,25 mlrd so'm",
+                "3,75 mlrd so'm",
+                "4,00 mlrd so'm",
+                "2,50 mlrd so'm"
+            ],
+            "correct_index": 1
+        },
+        {
+            "question_number": 160,
+            "question": "EPS hisoblash: Kompaniya sof foydasi – 4 mlrd so‘m. Imtiyozli aksiyalar yo'q. Oddiy aksiyalar soni – 1 mln dona. Bir aksiyaga tushadigan sof foyda (EPS) qancha?",
+            "options": [
+                "2 000 so'm",
+                "3 000 so'm",
+                "4 000 so'm",
+                "5 000 so'm"
+            ],
+            "correct_index": 2
+        },
+        {
+            "question_number": 161,
+            "question": "P/E koeffitsienti: Aksiyaning bozor narxi (P) – 24 000 so‘m. Bir aksiyaga foyda (EPS) – 3 000 so‘m. P/E koeffitsienti qancha?",
+            "options": [
+                "6",
+                "7",
+                "12",
+                "8"
+            ],
+            "correct_index": 3
+        },
+        {
+            "question_number": 162,
+            "question": "Dividend payout ratio: Sof foyda – 5 mlrd so'm. Shundan jami to'langan dividend – 2 mlrd so'm. Dividend to'lash koeffitsienti (payout ratio) qancha?",
+            "options": [
+                "40%",
+                "30%",
+                "50%",
+                "20%"
+            ],
+            "correct_index": 0
+        },
+        {
+            "question_number": 163,
+            "question": "Dividend yield: 1 aksiya uchun yillik dividend – 1 500 so‘m. Aksiyaning bozor narxi – 15 000 so‘m. Dividend daromadliligi (yield) necha foiz?",
+            "options": [
+                "5%",
+                "10%",
+                "15%",
+                "20%"
+            ],
+            "correct_index": 1
+        },
+        {
+            "question_number": 164,
+            "question": "EPS o‘sishi: Kompaniyaning o‘tgan yilgi EPS ko'rsatkichi – 2 000 so'm. Joriy yil EPS – 2 600 so'm. Foydaning o‘sish sur’ati necha foiz?",
+            "options": [
+                "20%",
+                "25%",
+                "30%",
+                "35%"
+            ],
+            "correct_index": 2
+        },
+        {
+            "question_number": 165,
+            "question": "ROE ko'rsatkichining yuqori bo‘lishi nimani bildiradi?",
+            "options": [
+                "kompaniya qarzga botganligini",
+                "xodimlarning ish haqi kamayganligini",
+                "soliq yuki ortganligini",
+                "Kapital samarali ishlatilayotganini"
+            ],
+            "correct_index": 3
+        },
+        {
+            "question_number": 166,
+            "question": "EPS hisoblash: Sof foyda 8 mlrd so'm, imtiyozli aksiyalar bo'yicha to'langan dividend 1 mlrd so'm, muomaladagi oddiy aksiyalar soni 1 mln dona. Oddiy aksiyalar bo'yicha EPS qancha?",
+            "options": [
+                "7 000 so'm",
+                "8 000 so'm",
+                "9 000 so'm",
+                "6 000 so'm"
+            ],
+            "correct_index": 0
+        },
+        {
+            "question_number": 167,
+            "question": "Kompaniyada ROE (O'z kapitali rentabelligi) kamayishi sababi nima bo'lishi mumkin?",
+            "options": [
+                "Sof foydaning keskin oshishi",
+                "Kapital oshib, foydaning kamayishi",
+                "Qarz majburiyatlarining butunlay uzilishi",
+                "Aksiyalar sonining kamayishi"
+            ],
+            "correct_index": 1
+        },
+        {
+            "question_number": 168,
+            "question": "P/E koeffitsientining bozorda o'rtachadan yuqori bo‘lishi nimani bildiradi?",
+            "options": [
+                "Kompaniya yaqin orada bankrot bo'lishini",
+                "Kompaniya mutlaqo foyda ko'rmayotganini",
+                "Investorlar kompaniyadan kelajakda kuchli o‘sish kutayotganligini",
+                "Aksiyalar narxi sun'iy tushirilganini"
+            ],
+            "correct_index": 2
+        },
+        {
+            "question_number": 169,
+            "question": "ROE hisoblash: Kompaniyaning yillik sof foydasi – 9 mlrd so'm, O'z kapitali miqdori – 45 mlrd so'm. ROE ko'rsatkichi necha foiz?",
+            "options": [
+                "15%",
+                "18%",
+                "25%",
+                "20%"
+            ],
+            "correct_index": 3
+        },
+        {
+            "question_number": 170,
+            "question": "P/E hisoblash: Aksiyaning bozordagi narxi 30 000 so'm, unga to'g'ri keluvchi foyda (EPS) 5 000 so'm. P/E qancha?",
+            "options": [
+                "6",
+                "5",
+                "8",
+                "10"
+            ],
+            "correct_index": 0
+        },
+        {
+            "question_number": 171,
+            "question": "Dividend daromadliligi: Aksiya bo'yicha yillik dividend 2 000 so'm, aksiyaning sotib olingan narxi 25 000 so'm. Dividend yield qancha?",
+            "options": [
+                "5%",
+                "8%",
+                "10%",
+                "12%"
+            ],
+            "correct_index": 1
+        },
+        {
+            "question_number": 172,
+            "question": "EPS hisoblash: Kompaniyaning sof foydasi 10 mlrd so'm, muomaladagi oddiy aksiyalar soni 2 mln dona. EPS qancha?",
+            "options": [
+                "2 000 so'm",
+                "4 000 so'm",
+                "5 000 so'm",
+                "10 000 so'm"
+            ],
+            "correct_index": 2
+        },
+        {
+            "question_number": 173,
+            "question": "ROE (O'z kapitali rentabelligi) formulasi qaysi?",
+            "options": [
+                "Aktivlar / Sof foyda",
+                "Sof foyda / Majburiyatlar",
+                "Yalpi foyda / Aksiyalar soni",
+                "Sof foyda / O‘z kapitali"
+            ],
+            "correct_index": 3
+        },
+        {
+            "question_number": 174,
+            "question": "Korporativ boshqaruvning huquqiy asosi nimadan iborat?",
+            "options": [
+                "qonunlar, normativ-huquqiy hujjatlar va korporativ nizomlar",
+                "faqatgina prezident farmonlaridan",
+                "xalqaro tashkilotlarning og'zaki tavsiyalaridan",
+                "bosh direktorning yashirin buyruqlaridan"
+            ],
+            "correct_index": 0
+        },
+        {
+            "question_number": 175,
+            "question": "Korporativ boshqaruvning institutsional asosiga qaysilar kiradi?",
+            "options": [
+                "soliq va bojxona organlari",
+                "aksiyadorlar, direktorlar kengashi, ijro etuvchi organlar",
+                "raqobatchi kompaniyalar va ularning xodimlari",
+                "davlat xavfsizlik va mudofaa tuzilmalari"
+            ],
+            "correct_index": 1
+        }
+    ]
+}

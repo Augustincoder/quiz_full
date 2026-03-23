@@ -1,0 +1,281 @@
+{
+    "test_id": 6,
+    "range": "126-150",
+    "questions": [
+        {
+            "question_number": 126,
+            "question": "Xodimlarning korporatsiyaning ustuvor vazifalarini idrok etish xususiyatlari nimani tashkil etadi?",
+            "options": [
+                "mehnat intizomini",
+                "korporativ madaniyatni",
+                "moddiy rag'batlantirish tizimini",
+                "ishlab chiqarish rejasini"
+            ],
+            "correct_index": 1
+        },
+        {
+            "question_number": 127,
+            "question": "Kompaniyaning dividend siyosati nima?",
+            "options": [
+                "xodimlarni yollash strategiyasi",
+                "xom-ashyo sotib olish rejasi",
+                "bu foydani taqsimlash siyosati",
+                "aksiyalarni birjada sotish mexanizmi"
+            ],
+            "correct_index": 2
+        },
+        {
+            "question_number": 128,
+            "question": "Aktivlarning rentabelligi qanday aniqlanadi?",
+            "options": [
+                "sof foyda / aktivlar nisbati",
+                "yalpi tushum / ishchilar soni",
+                "ustav kapitali / sof foyda",
+                "dividend / aksiyalar narxi"
+            ],
+            "correct_index": 0
+        },
+        {
+            "question_number": 129,
+            "question": "Aktivlarning likvidligi deganda nima tushuniladi?",
+            "options": [
+                "ulardan foydalanib olinadigan maksimal foyda",
+                "bu ularning pul shakliga aylanish qobiliyati",
+                "davlat ro'yxatidan o'tganlik darajasi",
+                "amortizatsiya qilinish muddati"
+            ],
+            "correct_index": 1
+        },
+        {
+            "question_number": 130,
+            "question": "Korporatsiyaning ustavini kim tasdiqlaydi?",
+            "options": [
+                "Bosh direktor o'z buyrug'i bilan",
+                "Davlat Adliya vazirligi",
+                "aksiyadorlarning umumiy yig'ilishi",
+                "Kreditor banklar kengashi"
+            ],
+            "correct_index": 2
+        },
+        {
+            "question_number": 131,
+            "question": "Yaponiya korporatsiyalarida mehnatni rag'batlantirish ushun asos nima?",
+            "options": [
+                "Tez-tez ish joyini almashtirish imkoniyati",
+                "Yuqori jismoniy dam olish vaqtlari",
+                "G'arbcha boshqaruv uslubini joriy etish",
+                "Yuqori moddiy mukofotlar olish"
+            ],
+            "correct_index": 3
+        },
+        {
+            "question_number": 132,
+            "question": "Menejment va xodimlar o'rtasida tushunishga erishishning eng oson yo'li quyidagilardan iborat:",
+            "options": [
+                "ularning umumiy vazifalari va maqsadlarini belgilash",
+                "faqat qattiq jazo choralarini qo'llash",
+                "xodimlarning oylik maoshini umuman to'lamaslik",
+                "barcha boshqaruv ma'lumotlarini qat'iy sir saqlash"
+            ],
+            "correct_index": 0
+        },
+        {
+            "question_number": 133,
+            "question": "Korporativ boshqaruv tizimining asosi nima?",
+            "options": [
+                "faqat raqobatchilarni bozordan siqib chiqarish jarayoni",
+                "kompaniya menejerlari faoliyati ustidan uning egalari nomidan ichki nazoratni qurish va samarali amalga oshirish jarayoni",
+                "barcha soliq va yig'imlarni to'lashdan qonuniy qochish usuli",
+                "mahalliy hokimiyat organlari bilan yashirin kelishuvlar qilish"
+            ],
+            "correct_index": 1
+        },
+        {
+            "question_number": 134,
+            "question": "Kapital qo'yilmalar ob'ekti bo'lgan investitsiya (kapital) qimmatli qog'ozlari qaysilar?",
+            "options": [
+                "faqat bank omonatlari",
+                "naqd xorijiy valyutalar",
+                "aksiyalar, obligatsiyalar, fyucherslar",
+                "ko'chmas mulk va yer uchastkalari"
+            ],
+            "correct_index": 2
+        },
+        {
+            "question_number": 135,
+            "question": "Korporativ boshqaruvning ichki modeli (insider model) nimasi bilan xarakterlanadi?",
+            "options": [
+                "fond bozorining o'ta faolligi bilan",
+                "banklar va yirik mulkdorlar tomonidan yuqori darajadagi nazorat bilan",
+                "oddiy ishchilarning 100% boshqaruvi bilan",
+                "davlatning bevosita monopoliyasi bilan"
+            ],
+            "correct_index": 1
+        },
+        {
+            "question_number": 136,
+            "question": "O'zbekistonda mavjud bo'lgan 688 ta aksiyadorlik jamiyatidan nechtasida xorijiy investorlar mavjud (ma'lumotlarga ko'ra)?",
+            "options": [
+                "105 tasida",
+                "210 tasida",
+                "333 tasida",
+                "500 dan ortig'ida"
+            ],
+            "correct_index": 2
+        },
+        {
+            "question_number": 137,
+            "question": "\"Aksiyadorlik jamiyati ikki marta soliq to'laydi\" degan tushuncha qanday izohlanadi?",
+            "options": [
+                "davlatga ikki barobar ko'p jarima to'laydi",
+                "xodimlardan ikki marta daromad solig'i ushlanadi",
+                "faqat bojxona to'lovlarini ikki marta to'laydi",
+                "yiliga ikki marta soliq to'laydi (korporativ foyda va dividend solig'i)"
+            ],
+            "correct_index": 3
+        },
+        {
+            "question_number": 138,
+            "question": "Minoritar aksiyadorlar kimlar?",
+            "options": [
+                "kichik (nazorat paketiga ega bo'lmagan) aksiyadorlar",
+                "faqat xorijdan kelgan aksiyadorlar",
+                "kompaniyaning boshqaruv raislari",
+                "mustaqil auditorlik tashkilotlari"
+            ],
+            "correct_index": 0
+        },
+        {
+            "question_number": 139,
+            "question": "Korporativ boshqaruvning paydo bo'lishining asosiy sababi nima?",
+            "options": [
+                "iqtisodiy inqirozlar",
+                "boshqaruv funktsiyasini mulkdan (mulkdordan) ajratilishi",
+                "kreditorlarning bosimi",
+                "soliq tizimining murakkablashuvi"
+            ],
+            "correct_index": 1
+        },
+        {
+            "question_number": 140,
+            "question": "Direktorlar Kengashi huzuridagi qo'mitalarning asosiy vazifasi:",
+            "options": [
+                "xodimlarni har kuni nazorat qilish",
+                "soliq organlari bilan muzokaralar olib borish",
+                "muhim masalalarni oldindan ko‘rib chiqish va strategik tavsiyalar tayyorlash",
+                "tayyor mahsulotlarni xaridorlarga yetkazib berish"
+            ],
+            "correct_index": 2
+        },
+        {
+            "question_number": 141,
+            "question": "Germaniya modelini amalga oshirishdagi asosiy ishtirokchi organ:",
+            "options": [
+                "Aksiyadorlarning yashirin kengashi",
+                "Kasaba uyushmasi raislari",
+                "Xalqaro sud tizimi",
+                "Kuzatuv kengashi"
+            ],
+            "correct_index": 3
+        },
+        {
+            "question_number": 142,
+            "question": "Korporatsiya ustavi kim tomonidan qabul qilinadi?",
+            "options": [
+                "aksiyadorlarning umumiy yig‘ilishi tomonidan",
+                "kompaniyaning bosh direktori tomonidan",
+                "Mustaqil auditorlar kengashi tomonidan",
+                "Qimmatli qog'ozlar komissiyasi tomonidan"
+            ],
+            "correct_index": 0
+        },
+        {
+            "question_number": 143,
+            "question": "Navbatdan tashqari umumiy yig‘ilishni chaqirish huquqiga kim ega?",
+            "options": [
+                "har qanday 1 dona aksiyasi bor shaxs",
+                "kamida 5% oddiy aksiyaga ega bo‘lgan aksiyador",
+                "bosh buxgalterning o'rinbosari",
+                "faqatgina 50% dan yuqori aksiyasi bor davlat"
+            ],
+            "correct_index": 1
+        },
+        {
+            "question_number": 144,
+            "question": "Aksiyadorlik jamiyati ustav kapitalining eng kam miqdori qancha?",
+            "options": [
+                "eng kam oylik ish haqining 400 barobari",
+                "100 ming AQSh dollari",
+                "o‘rnatilmagan",
+                "1 milliard so'm"
+            ],
+            "correct_index": 2
+        },
+        {
+            "question_number": 145,
+            "question": "Qaror qabul qilingandan so'ng dividendlarni to‘lash muddati:",
+            "options": [
+                "10 kundan oshmasligi kerak",
+                "6 oydan so'ng to'lanadi",
+                "ixtiyoriy ravishda yil oxirigacha",
+                "60 kundan kech bo‘lmasligi kerak"
+            ],
+            "correct_index": 3
+        },
+        {
+            "question_number": 146,
+            "question": "Samarali korporativ boshqaruvning asosiy afzalligi nimada?",
+            "options": [
+                "kapital jalb qilish narxining (cost of capital) pasayishi va aktivlar qiymatining oshishi",
+                "xodimlarning ijtimoiy to'lovlarini nolga tushirish",
+                "korxona qarzdorligining cheksiz ortib borishi",
+                "raqobatchilarni noqonuniy yo'l bilan yo'q qilish"
+            ],
+            "correct_index": 0
+        },
+        {
+            "question_number": 147,
+            "question": "Mas’uliyati cheklangan jamiyat ustav kapitalining eng kam miqdori qancha?",
+            "options": [
+                "Eng kam oylik ish haqining 40 barobari",
+                "o‘rnatilmagan",
+                "10 million so'm",
+                "Kompaniya ta'sischisi xohlagan har qanday summa"
+            ],
+            "correct_index": 1
+        },
+        {
+            "question_number": 148,
+            "question": "Bosh direktor bir vaqtning o‘zida qaysi lavozimda ishlashi mumkin emas?",
+            "options": [
+                "boshqa kichik korxona xodimi",
+                "xayriya fondi a'zosi",
+                "ichki audit xizmati a’zosi",
+                "o'zining shaxsiy avtomobili haydovchisi"
+            ],
+            "correct_index": 2
+        },
+        {
+            "question_number": 149,
+            "question": "Korporatsiyalar daromad olish maqsadiga ko‘ra qanday tasniflanadi?",
+            "options": [
+                "ochiq va yopiq",
+                "xalqaro va mahalliy",
+                "davlat va xususiy",
+                "tijorat va notijorat"
+            ],
+            "correct_index": 3
+        },
+        {
+            "question_number": 150,
+            "question": "Axborotni oshkor qilishning eng qat’iy qoidalari qaysi modelda mavjud?",
+            "options": [
+                "Angliya-Amerika modelida",
+                "Germaniya modelida",
+                "Yaponiya modelida",
+                "Markaziy Osiyo modelida"
+            ],
+            "correct_index": 0
+        }
+    ]
+}

@@ -1,0 +1,281 @@
+{
+    "test_id": 5,
+    "range": "101-125",
+    "questions": [
+        {
+            "question_number": 101,
+            "question": "Jami aktivlar 250 mln. so'm, joriy majburiyatlar 60 mln. so'm, uzoq muddatli majburiyatlar 90 mln. soʻm. Ushbu holda korxonaning xususiy kapital qaysi summaga teng?",
+            "options": [
+                "250 mln so'm",
+                "150 mln so'm",
+                "100 mln so'm",
+                "400 mln so'm"
+            ],
+            "correct_index": 2
+        },
+        {
+            "question_number": 102,
+            "question": "Inventarizatsiya - bu...",
+            "options": [
+                "Mol-mulk va majburiyatlarni haqiqatda mavjudligini buxgalteriya hisobi ma'lumotlari bilan solishtirish",
+                "Faqat kassa apparatini tekshirish jarayoni",
+                "Yangi xodimlarni ishga qabul qilish tartibi",
+                "Bozordagi narxlarni o'rganish"
+            ],
+            "correct_index": 0
+        },
+        {
+            "question_number": 103,
+            "question": "Inventarizatsiyada hisobga olinmagan ehtiyot qismlar aniqlandi. Oldin olinganlari 13 000 so'm, keyingilari 14 000 so'm, hozirgi bozor narxi 13 500 so'm. Ortiqcha chiqqan ehtiyot qismlarni qaysi narxda kirim qilish kerak?",
+            "options": [
+                "13 000 so'mdan",
+                "Joriy bozor narxi – 13 500 so'mdan",
+                "14 000 so'mdan",
+                "O'rtacha 13 250 so'mdan"
+            ],
+            "correct_index": 1
+        },
+        {
+            "question_number": 104,
+            "question": "1 tonna (1000 kg) boʻyoq xarid qilindi. 1 kg narxi 12 000 so'm. Vositachilik haqi 360 000 so'm, bank komissiyasi 55 000 so'm. 1 kg bo'yoq qaysi qiymatda hisobga qabul qilinadi?",
+            "options": [
+                "12 000 so'm",
+                "12 360 so'm",
+                "12 055 so'm",
+                "12 415 so'm"
+            ],
+            "correct_index": 3
+        },
+        {
+            "question_number": 105,
+            "question": "Buxgalteriya balansi aktivida: asosiy vositalar boshlang'ich qiymati 19250, eskirish 7250; tayyor mahsulot 25000; pul mablag'lari 15250; berilgan bo'naklar 800; kapital qoʻyilmalar 18600. Uzoq muddatli va joriy aktivlar nimaga teng?",
+            "options": [
+                "Uzoq muddatli: 30600; Joriy aktivlar: 41050",
+                "Uzoq muddatli: 37850; Joriy aktivlar: 41050",
+                "Uzoq muddatli: 12000; Joriy aktivlar: 40250",
+                "Uzoq muddatli: 30600; Joriy aktivlar: 25800"
+            ],
+            "correct_index": 0
+        },
+        {
+            "question_number": 106,
+            "question": "Korxona va uning tarkibiy bo'linmalariga joriy rahbarlik qilish maqsadida ma'lumotlarni tezkor ravishda olish hamda foydalanish qaysi hisobning vazifasi?",
+            "options": [
+                "Moliyaviy hisob",
+                "Soliq hisobi",
+                "Operativ (Boshqaruv) hisobi",
+                "Statistik hisob"
+            ],
+            "correct_index": 2
+        },
+        {
+            "question_number": 107,
+            "question": "Korxonaga tegishli asosiy vositalar va nomoddiy aktivlar balansning qaysi tomonida ko'rsatiladi?",
+            "options": [
+                "Passiv tomonida",
+                "Aktiv tomonining I bo'limida (Uzoq muddatli aktivlar)",
+                "Aktiv tomonining II bo'limida (Joriy aktivlar)",
+                "Balansdan tashqari schyotlarda"
+            ],
+            "correct_index": 1
+        },
+        {
+            "question_number": 108,
+            "question": "Quyidagilardan qaysi biri kelib tushgan materiallar tannarxiga kiritilmaydi?",
+            "options": [
+                "Materiallarni tashish xarajatlari",
+                "Bojxona tojlari va soliqlari",
+                "Sotib olish narxi",
+                "Korxonaning ma'muriy va umumxo'jalik xarajatlari"
+            ],
+            "correct_index": 3
+        },
+        {
+            "question_number": 109,
+            "question": "200 000 ming so'mga tovar kredit hisobiga olindi (yillik 24%). Bank komissiyasi 1%. Kredit bo'yicha qaysi xarajatlar tovarning tannarxiga kiritiladi?",
+            "options": [
+                "Faqat kredit bo'yicha foizlar",
+                "Kredit bo'yicha foizlar tovarning tannarxiga kiritilmaydi (u davr xarajati), faqat bank komissiyasi kiritilishi mumkin",
+                "Ham foizlar, ham komissiya to'liq kiritiladi",
+                "Hech qanday xarajat kiritilmaydi"
+            ],
+            "correct_index": 1
+        },
+        {
+            "question_number": 110,
+            "question": "16 000 so'mdan 20 ta kalkulyator sotib olindi. Ularning qiymati balansda qanday qilib hisobga olinadi?",
+            "options": [
+                "Asosiy vositalar tarkibida (0100)",
+                "Inventar va xo'jalik jihozlari sifatida (1080 schyotida)",
+                "Tayyor mahsulot sifatida",
+                "Kelgusi davr xarajatlari sifatida"
+            ],
+            "correct_index": 1
+        },
+        {
+            "question_number": 111,
+            "question": "Xarajatlar hisobi qaysi normativ-huquqiy hujjat bilan tartibga solinadi?",
+            "options": [
+                "Soliq kodeksining Maxsus qismi bilan",
+                "Xalqaro moliyaviy hisobot standartlari bilan",
+                "Mahsulot (ish, xizmat)larni ishlab chiqarish va sotish xarajatlari tarkibi hamda moliyaviy natijalarni shakllantirish tartibi to'g'risidagi Nizom bilan",
+                "Buxgalteriya hisobi to'g'risidagi qonun bilan"
+            ],
+            "correct_index": 2
+        },
+        {
+            "question_number": 112,
+            "question": "Nizomga muvofiq xarajatlar qanday tasniflanadi?",
+            "options": [
+                "Mahsulot tannarxiga kiritiladigan xarajatlar va Davr xarajatlari",
+                "Doimiy va O'zgaruvchan xarajatlar",
+                "Moddiy va Nomoddiy xarajatlar",
+                "Qisqa muddatli va Uzoq muddatli xarajatlar"
+            ],
+            "correct_index": 0
+        },
+        {
+            "question_number": 113,
+            "question": "Asosiy ishlab chiqarish faoliyatida ishlayotgan xodimlarga hisoblangan ish haqi buxgalteriya hisobida qanday aks ettiriladi?",
+            "options": [
+                "Dt 9420 - Kt 6710",
+                "Dt 1010 - Kt 6710",
+                "Dt 2010 - Kt 6710",
+                "Dt 2510 - Kt 6710"
+            ],
+            "correct_index": 2
+        },
+        {
+            "question_number": 114,
+            "question": "Ishlab chiqarish tannarxiga kiritilmaydigan xarajatlarni aniqlang?",
+            "options": [
+                "Ishchilarning ish haqi",
+                "Xom-ashyo xarajatlari",
+                "Sex uskunalari amortizatsiyasi",
+                "Davr xarajatlari (Ma'muriy, Sotish, Boshqa operatsion xarajatlar)"
+            ],
+            "correct_index": 3
+        },
+        {
+            "question_number": 115,
+            "question": "Asosiy ishlab chiqarishdagi stanoklarga eskirish hisoblandi. Provodkani aniqlang.",
+            "options": [
+                "Dt 2010 - Kt 0220",
+                "Dt 9420 - Kt 0220",
+                "Dt 0120 - Kt 0220",
+                "Dt 0220 - Kt 2010"
+            ],
+            "correct_index": 0
+        },
+        {
+            "question_number": 116,
+            "question": "Ishlab chiqarish sexining boshlig'iga hisoblangan ish haqi qaysi xarajat tarkibiga kiradi?",
+            "options": [
+                "To'g'ridan-to'g'ri moddiy xarajatlarga",
+                "Umumishlab chiqarish xarajatlariga (ustama xarajatlarga)",
+                "Davr xarajatlariga",
+                "Sotish xarajatlariga"
+            ],
+            "correct_index": 1
+        },
+        {
+            "question_number": 117,
+            "question": "Asosiy ishlab chiqarishga xizmat qilayotgan yuk avtotransportida ortib qolgan benzin omborga qaytarilsa qanday provodka beriladi?",
+            "options": [
+                "Dt 2010 - Kt 1030",
+                "Dt 5110 - Kt 1030",
+                "Dt 1030 \"Yoqilg'i\" - Kt 2010 (yoki 2510)",
+                "Dt 1030 - Kt 6010"
+            ],
+            "correct_index": 2
+        },
+        {
+            "question_number": 118,
+            "question": "Kalkulyasiya - bu...",
+            "options": [
+                "Soliqlarni hisoblash jarayoni",
+                "Asosiy vositalar eskirishini hisoblash usuli",
+                "Inventarizatsiya natijalarini rasmiylashtirish",
+                "Mahsulot (ish, xizmat) birligini ishlab chiqarishga ketgan xarajatlarni (tannarxni) hisoblash usuli"
+            ],
+            "correct_index": 3
+        },
+        {
+            "question_number": 119,
+            "question": "Qayta baholashgacha asosiy vosita qiymati 36000, amortizatsiya 24000. 8510 schyot kredit oboroti (qayta baholashdan o'sish) 3600 ga ko'paydi. Qayta baholash qaysi indeks bo'yicha o'tkazilgan?",
+            "options": [
+                "1.1",
+                "1.3 (Sof qiymat 12000, o'sish 3600. 3600/12000=0.3 yoki 30% ga oshgan)",
+                "1.5",
+                "2.0"
+            ],
+            "correct_index": 1
+        },
+        {
+            "question_number": 120,
+            "question": "Tovarlar xarid qilinganda ularning tannarxiga quyida keltirilgan xarajatlardan qaysi biri kiritilmaydi?",
+            "options": [
+                "Sotib olish narxi",
+                "Bojxona to'lovlari",
+                "Tovarlarni sotish (reklama va realizatsiya) xarajatlari",
+                "Transport-tayyorlov xarajatlari"
+            ],
+            "correct_index": 2
+        },
+        {
+            "question_number": 121,
+            "question": "21-BHMSga muvofiq buxgalteriya balansining \"Tovar-moddiy zaxiralari\" satrida qaysi schyotlar qoldiqlari birlashtirilgan?",
+            "options": [
+                "1000, 2000, 2100, 2800 va 2900 guruh schyotlari",
+                "Faqat 1000 va 0100 schyotlari",
+                "5100, 5200 va 5000 schyotlari",
+                "6000, 4000, 6700 schyotlari"
+            ],
+            "correct_index": 0
+        },
+        {
+            "question_number": 122,
+            "question": "Asosiy vositalarga to'g'ri chiziqli usulda eskirish hisoblaganda qaysi qiymatlardan foydalaniladi?",
+            "options": [
+                "Faqatgina joriy bozor narxi va birja kursidan",
+                "Asosiy vositaning boshlang'ich (tiklanish) qiymati, tugatish qiymati va xizmat muddatidan",
+                "Aktivning og'irligi va ishchilarga to'lanadigan ish haqidan",
+                "Kompaniyaning ustav kapitali qiymatidan"
+            ],
+            "correct_index": 1
+        },
+        {
+            "question_number": 123,
+            "question": "Asosiy vositalar amortizatsiyasi toʻgʻri chiziqli usulda qanday hisoblanadi?",
+            "options": [
+                "Faqat qoldiq qiymatning belgilangan foizini hisoblash orqali",
+                "Boshlang'ich qiymatni qoldiq qiymatiga ko'paytirish orqali",
+                "(Boshlang'ich qiymat - tugatish qiymati) / Foydali xizmat yillari",
+                "Jamlangan amortizatsiyani ikki barobarga oshirish orqali"
+            ],
+            "correct_index": 2
+        },
+        {
+            "question_number": 124,
+            "question": "Asosiy vositalarning qoldiq qiymati qanday aniqlanadi?",
+            "options": [
+                "Aktivning dastlabki bahosini ikki marta oshirish orqali",
+                "Tugatish qiymatidan xarajatlarni ayirish orqali",
+                "Bozor narxidan soliqni ayirib tashlash bilan",
+                "Asosiy vositaning boshlang'ich (tiklanish) qiymatidan uning jamlangan amortizatsiya summasini ayirish orqali"
+            ],
+            "correct_index": 3
+        },
+        {
+            "question_number": 125,
+            "question": "Asosiy vositalarning sintetik hisobi qaysi schyotda aks ettiriladi?",
+            "options": [
+                "0100 guruh (Asosiy vositalar) schyotlarida",
+                "1000 (Materiallar) schyotlarida",
+                "5110 (Hisob-kitob schyoti) da",
+                "0400 (Nomoddiy aktivlar) da"
+            ],
+            "correct_index": 0
+        }
+    ]
+}

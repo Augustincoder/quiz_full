@@ -1,0 +1,281 @@
+{
+    "test_id": 5,
+    "range": "101-125",
+    "questions": [
+        {
+            "question_number": 101,
+            "question": "Korporatsiyaning yuridik shaxs maqomi qanday tasdiqlanadi?",
+            "options": [
+                "ofis binosi sotib olingan kundan boshlab",
+                "davlat organida ro'yxatdan o'tkazish faktlari bilan",
+                "birinchi xodim ishga qabul qilinganda",
+                "birinchi daromad solig'i to'langandan so'ng"
+            ],
+            "correct_index": 1
+        },
+        {
+            "question_number": 102,
+            "question": "Mahalliy korporatsiyalarni tashkil etishning eng keng tarqalgan tashkiliy-huquqiy shakli:",
+            "options": [
+                "yakka tartibdagi tadbirkorlik",
+                "mas'uliyati cheklangan jamiyat",
+                "aksiyadorlik jamiyati",
+                "davlat unitar korxonasi"
+            ],
+            "correct_index": 2
+        },
+        {
+            "question_number": 103,
+            "question": "Aksiyadorlik jamiyati shaklida tashkil etilgan korporatsiyalarning xususiyatlaridan biri bu:",
+            "options": [
+                "aksiyadorlarning kompaniya qarzlari uchun butun mol-mulki bilan javob berishi",
+                "davlat tomonidan to'liq subsidiyalanishi",
+                "aksiyalarni sotib olishga sarflangan mablag'lar bilan korporatsiya majburiyatlari bo'yicha cheklangan javobgarligi",
+                "soliqlardan butunlay ozod etilishi"
+            ],
+            "correct_index": 2
+        },
+        {
+            "question_number": 104,
+            "question": "Aksiyadorga o'ziga tegishli bo'lgan har bir aksiya uchun to'lanadigan sof foydaning ma'lum bir turi deyiladi:",
+            "options": [
+                "dividend",
+                "mukofot puli",
+                "kompensatsiya",
+                "ustama daromad"
+            ],
+            "correct_index": 0
+        },
+        {
+            "question_number": 105,
+            "question": "Kimning qarori bilan aksiyadorlik jamiyati qo'shimcha aksiyalar chiqarishi mumkin?",
+            "options": [
+                "moliya vazirligi buyrug'i bilan",
+                "aksiyadorlar umumiy yig'ilishining qarori bilan",
+                "kreditor bankning talabi bilan",
+                "tashqi auditorlik tashkilotining qarori bilan"
+            ],
+            "correct_index": 1
+        },
+        {
+            "question_number": 106,
+            "question": "Aksiyadorlik jamiyati dividendlar to'laydi:",
+            "options": [
+                "faqat xorijiy valyutada",
+                "ofis texnikasi yoki xom-ashyo ko'rinishida",
+                "davlat obligatsiyalari hisobidan",
+                "pul mablag'lari, boshqa to'lov vositalari yoki qimmatli qog'ozlari bilan"
+            ],
+            "correct_index": 3
+        },
+        {
+            "question_number": 107,
+            "question": "Jamiyat aksiyalari nimani tasdiqlaydi?",
+            "options": [
+                "aksiyadorning korporativ huquqlari",
+                "korxonaning bankrot bo'lish xavfini",
+                "davlat byudjeti oldidagi qarzdorlikni",
+                "xodimlarning ijtimoiy himoyasini"
+            ],
+            "correct_index": 0
+        },
+        {
+            "question_number": 108,
+            "question": "Umumiy yig'ilishda saylanadigan, kompaniyaning moliyaviy-xo'jalik faoliyati ustidan nazoratni amalga oshiradigan va bevosita umumiy yig'ilishga hisobot beradigan kompaniya organi:",
+            "options": [
+                "marketing departamenti",
+                "kuzatuv kengashi",
+                "taftish komissiyasi",
+                "kadrlar bo'limi"
+            ],
+            "correct_index": 2
+        },
+        {
+            "question_number": 109,
+            "question": "O'zR \"Aksiyadorlik jamiyatlari va aksiyadorlarning huquqlarini himoya qilish to‘g‘risida\"gi qonunining yangi tahriri qachon qabul qilingan?",
+            "options": [
+                "1996 yil 26 aprel",
+                "2014 yil 6 may",
+                "2003 yil 1 yanvar",
+                "2020 yil 15 sentyabr"
+            ],
+            "correct_index": 1
+        },
+        {
+            "question_number": 110,
+            "question": "Korporativ tuzilmaning shakllaridan biri bu xolding - bu...",
+            "options": [
+                "boshqa korxonalar aksiyalarining nazorat paketlariga egalik qiluvchi yuridik shaxs",
+                "davlatning xususiy korxonalar ustidan nazorat qo'mitasi",
+                "faqat xalqaro bozorlarda faoliyat yurituvchi fond",
+                "kichik biznesni qo'llab-quvvatlash agentligi"
+            ],
+            "correct_index": 0
+        },
+        {
+            "question_number": 111,
+            "question": "O'zR qimmatli qog'ozlar bozorini tartibga solish bo'yicha vakolatli davlat organi:",
+            "options": [
+                "Markaziy Bank",
+                "Soliq qo'mitasi",
+                "Adliya vazirligi",
+                "Qimmatli qog'ozlar bozorini muvofiqlashtirish va rivojlantirish markazi"
+            ],
+            "correct_index": 3
+        },
+        {
+            "question_number": 112,
+            "question": "Jamiyat faoliyatini umumiy boshqarish, uning strategiyasi va tijorat vazifalarini... aniqlash uchun mas'ul bo'lgan organ:",
+            "options": [
+                "ijroiya organi",
+                "direktorlar Kengashi",
+                "oddiy aksiyadorlar guruhi",
+                "mahalliy hokimiyat"
+            ],
+            "correct_index": 1
+        },
+        {
+            "question_number": 113,
+            "question": "Aksiyadorlar bir qator asosiy qarorlarni qabul qiladigan va tasdiqlaydigan jamiyatning yuqori boshqaruv organi:",
+            "options": [
+                "aksiyadorlarning umumiy yig'ilishi",
+                "direktorlar kengashi",
+                "kasaba uyushmasi",
+                "taftish komissiyasi"
+            ],
+            "correct_index": 0
+        },
+        {
+            "question_number": 114,
+            "question": "O’zbekiston Respublikasida (ma'lumotlarga ko'ra) nechta aksiyadorlik jamiyati mavjud?",
+            "options": [
+                "125 ta",
+                "350 ta",
+                "688 ta",
+                "1500 dan ortiq"
+            ],
+            "correct_index": 2
+        },
+        {
+            "question_number": 115,
+            "question": "Axborotni oshkor qilish quyidagilar orqali amalga oshiriladi:",
+            "options": [
+                "faqat xodimlarning shaxsiy yig'ilishlarida",
+                "ommaviy axborot vositalarida axborot nashrlari",
+                "chet ellik investorlarga maxfiy xat yuborish orqali",
+                "telefon suhbatlari orqali"
+            ],
+            "correct_index": 1
+        },
+        {
+            "question_number": 116,
+            "question": "Quyidagilardan qaysi biri aksiyadorlik jamiyatining filiali emas?",
+            "options": [
+                "hududiy savdo markazi",
+                "ishlab chiqarish sexi",
+                "jamiyat qarzdorlari",
+                "xorijdagi vakolatxona"
+            ],
+            "correct_index": 2
+        },
+        {
+            "question_number": 117,
+            "question": "Korporatsiyalar odamlarning hayot sifatini yaxshilashga katta hissa qo'shishi kerak degan nazariya qanday nomga ega?",
+            "options": [
+                "monopoliya nazariyasi",
+                "ijtimoiy javobgarlik nazariyasi",
+                "sof kapitalizm nazariyasi",
+                "xususiylashtirish nazariyasi"
+            ],
+            "correct_index": 1
+        },
+        {
+            "question_number": 118,
+            "question": "Korporativ muhit ishtirokchilaridan qaysi biri korporatsiyadan adolatli ish haqini talab qilishi mumkin?",
+            "options": [
+                "xodimlar",
+                "kreditorlar",
+                "aksiyadorlar",
+                "davlat soliqchilari"
+            ],
+            "correct_index": 0
+        },
+        {
+            "question_number": 119,
+            "question": "Korporativ boshqaruv tizimidagi eng muhim vazifalar:",
+            "options": [
+                "ishchilar sonini doimiy qisqartirib borish",
+                "barcha mulkni sotib yuborish",
+                "korporativ siyosatni takomillashtirish",
+                "boshqaruvni butunlay davlatga topshirish"
+            ],
+            "correct_index": 2
+        },
+        {
+            "question_number": 120,
+            "question": "Aksiyadorlarning majburiyatlari qaysi hujjat bilan belgilanadi?",
+            "options": [
+                "Faqatgina ichki mehnat tartibi qoidalari bilan",
+                "Jinoyat kodeksi bilan",
+                "BMT xalqaro konvensiyalari bilan",
+                "\"Aksiyadorlik jamiyatlari va aksiyadorlarni himoya qilish huquqlari to‘g‘risida\"gi qonun bilan"
+            ],
+            "correct_index": 3
+        },
+        {
+            "question_number": 121,
+            "question": "Aksiyadorlik korporatsiyasining ustav kapitali birligi:",
+            "options": [
+                "aksiya",
+                "obligatsiya",
+                "kvota",
+                "veksel"
+            ],
+            "correct_index": 0
+        },
+        {
+            "question_number": 122,
+            "question": "Banklar korporativ munosabatlarning asosiy ishtirokchilaridir:",
+            "options": [
+                "Angliya-Amerika modelida",
+                "nemis modelida",
+                "Lotin Amerikasi modelida",
+                "Islom modelida"
+            ],
+            "correct_index": 1
+        },
+        {
+            "question_number": 123,
+            "question": "Aksiyadorlik jamiyatining ustav kapitali miqdori:",
+            "options": [
+                "davlat byudjetidan berilgan subsidiyalar yig'indisi",
+                "kompaniya ofislari maydonining umumiy qiymati",
+                "chiqarilgan barcha aksiyalarning nominal qiymati",
+                "birjadagi aksiyalarning kunlik bozor qiymati"
+            ],
+            "correct_index": 2
+        },
+        {
+            "question_number": 124,
+            "question": "Korporativ shartnoma - bu:",
+            "options": [
+                "xalqaro banklar bilan qarz kelishuvi",
+                "oddiy xodimlar mehnat shartnomasi",
+                "davlat bilan tuziladigan soliq shartnomasi",
+                "mustaqil tartibga solish akti"
+            ],
+            "correct_index": 3
+        },
+        {
+            "question_number": 125,
+            "question": "Korporatsiyalarni transmilliy deb tasniflashning asosiy mezonlari quyidagilardan iborat:",
+            "options": [
+                "ishchilarining umumiy soni",
+                "xorijiy filiallar soni",
+                "boshqaruvchilarning fuqaroligi",
+                "foydalanadigan valyuta turi"
+            ],
+            "correct_index": 1
+        }
+    ]
+}

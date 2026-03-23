@@ -1,0 +1,281 @@
+{
+    "test_id": 9,
+    "range": "201-225",
+    "questions": [
+        {
+            "question_number": 201,
+            "question": "Korporativ boshqaruvning \"Institutsional nazariyasi\" nimani o‘rganadi?",
+            "options": [
+                "Faqatgina ishlab chiqarish uskunalarining fizik sifatini",
+                "Birja dilerlarining savdo usullarini",
+                "Xalqaro bojxona va soliq qonunchiligini",
+                "Jamiyatdagi normalar, qoidalar va madaniyatning boshqaruvga ta'sirini"
+            ],
+            "correct_index": 3
+        },
+        {
+            "question_number": 202,
+            "question": "Adolf Berli va Gardiner Minzning 1932-yildagi tadqiqoti nima haqida edi?",
+            "options": [
+                "Mulkchilik va nazoratning bir-biridan ajralishi",
+                "Elektron tijoratning iqtisodiyotdagi kelajagi",
+                "Global iqlim o'zgarishlarining biznesga ta'siri",
+                "Birinchi jahon urushining iqtisodiy oqibatlari"
+            ],
+            "correct_index": 0
+        },
+        {
+            "question_number": 203,
+            "question": "Tranzaksion xarajatlar nazariyasi (Transaction Cost Economics) asoschisi kim?",
+            "options": [
+                "Maks Veber",
+                "Oliver Uilyamson",
+                "Genri Ford",
+                "Milton Fridman"
+            ],
+            "correct_index": 1
+        },
+        {
+            "question_number": 204,
+            "question": "\"Anglo-amerika\" (Outsider) modelining asosiy xususiyati nima?",
+            "options": [
+                "Davlatning korxonalarga yuz foiz to'liq egalik qilishi",
+                "Banklarning korxonalar boshqaruviga to'g'ridan-to'g'ri aralashuvi",
+                "Aksiyadorlar tarkibining tarqoqligi va fond bozorining yuqori roli",
+                "Aksiyalarning faqat bir oila a'zolariga tegishli bo'lishi"
+            ],
+            "correct_index": 2
+        },
+        {
+            "question_number": 205,
+            "question": "\"Kontinental\" (Insider/Germaniya) modelida Kuzatuv kengashining o‘ziga xosligi nimada?",
+            "options": [
+                "U umuman mavjud emas, hamma qarorni bitta bosh menejer qabul qiladi",
+                "Kengash faqatgina davlat vazirlaridan iborat bo'ladi",
+                "Kengash a'zolari faqat xorijlik maxsus investorlardan tashkil topadi",
+                "U ikki darajali bo‘lib, tarkibiga banklar va xodimlar vakillari kiradi"
+            ],
+            "correct_index": 3
+        },
+        {
+            "question_number": 206,
+            "question": "Yaponiyaning \"Keiretsu\" modeli nimaga tayanadi?",
+            "options": [
+                "Kompaniyalarning o‘zaro aksiyalarga egaligi va \"Asosiy bank\" tizimiga",
+                "Aksiyadorlarning to'liq tarqoqligi va fond birjasi chayqovlariga",
+                "Xususiy banklarning bozorda umuman ishtirok etmasligiga",
+                "Faqat qaytarilmas davlat subsidiyalari va yordamiga"
+            ],
+            "correct_index": 0
+        },
+        {
+            "question_number": 207,
+            "question": "\"Oilaviy-klan\" (Janubiy Koreya - Chaebol) modelining xavfi nimada?",
+            "options": [
+                "Chet el kapitalining kompaniyada haddan tashqari ko'payib ketishi",
+                "Affillangan shaxslar o‘rtasidagi bitimlar va kichik aksiyadorlar huquqlari buzilishi",
+                "Direktorlar kengashining o'ta byurokratik, sekin qaror qabul qilishi",
+                "Kompaniyalarning xalqaro global bozorlarga umuman chiqa olmasligi"
+            ],
+            "correct_index": 1
+        },
+        {
+            "question_number": 208,
+            "question": "\"Comply or Explain\" (Riyo qil yoki tushuntir) prinsipi ilk bor qaysi hujjatda qo‘llanilgan?",
+            "options": [
+                "Sarbanes-Oxley aktida (AQSh)",
+                "Yevropa Ittifoqi Korporativ Konstitutsiyasida",
+                "Kedberi hisoboti (UK, Cadbury Report)",
+                "BMTning xalqaro korrupsiyaga qarshi konvensiyasida"
+            ],
+            "correct_index": 2
+        },
+        {
+            "question_number": 209,
+            "question": "Yevropa modelida \"Kodeterminatsiya\" (Codetermination) nima?",
+            "options": [
+                "Aksiyalar narxini davlat tomonidan rasman belgilash jarayoni",
+                "Kompaniyani majburiy tugatish va yopish tartibi",
+                "Rahbarlarning oylik maoshini jamoatchilikdan yashirin saqlash",
+                "Xodimlarning Kuzatuv kengashida ishtirok etish huquqi"
+            ],
+            "correct_index": 3
+        },
+        {
+            "question_number": 210,
+            "question": "AQShda 2002-yilda qabul qilingan, moliya hisobdorligini qat'iylashtirgan qonun nomi?",
+            "options": [
+                "Sarbanes-Oxley (SOX) akti",
+                "Dodd-Frank tijorat akti",
+                "Sherman antimonopol xalqaro qonuni",
+                "Glass-Steagall tijorat banki akti"
+            ],
+            "correct_index": 0
+        },
+        {
+            "question_number": 211,
+            "question": "Islom korporativ boshqaruvi modelining asosi nima?",
+            "options": [
+                "Foizli (riba) kreditlar tizimini biznesda maksimal qo'llash",
+                "Shariat tamoyillari va axloqiy mas'uliyat (Tawhid, Amanah)",
+                "Qimor va kelajagi noaniq bitimlarga (gharar) asoslanish",
+                "Xususiy mulkchilikni va savdoni umuman rad etish"
+            ],
+            "correct_index": 1
+        },
+        {
+            "question_number": 212,
+            "question": "Kompaniya boshqaruvining \"Bir darajali\" (Unitary Board) tizimi ko‘proq qaysi davlatlar uchun xos?",
+            "options": [
+                "Germaniya va Avstriya",
+                "Yaponiya va Janubiy Koreya",
+                "AQSh va Buyuk Britaniya",
+                "Xitoy va Rossiya"
+            ],
+            "correct_index": 2
+        },
+        {
+            "question_number": 213,
+            "question": "Lotin Amerikasi modelida korporativ boshqaruvning asosiy muammosi nima?",
+            "options": [
+                "Fond bozorlarining nazoratsiz o'ta rivojlanib ketgani",
+                "Minoritar (kichik) aksiyadorlarning mutlaq hukmronligi",
+                "Davlat aralashuvining mamlakatda umuman yo'qligi",
+                "Mulkning konsentratsiyalashgani va piramidal tuzilmalar"
+            ],
+            "correct_index": 3
+        },
+        {
+            "question_number": 214,
+            "question": "Rossiya korporativ boshqaruv modelining shakllanishiga nima ta'sir qilgan?",
+            "options": [
+                "Xususiylashtirish jarayonlari va yirik xoldinglarning yuzaga kelishi",
+                "Islom moliya va bank tizimining joriy etilishi",
+                "Uzoq asrlik tarixiy sarmoyadorlik va kapitalizm an'analari",
+                "G'arb kompaniyalarining davlatga to'g'ridan-to'g'ri aralashuvi"
+            ],
+            "correct_index": 0
+        },
+        {
+            "question_number": 215,
+            "question": "Kompaniyani sotib olish (Hostile Takeover) tahdidi qaysi modelda yuqori?",
+            "options": [
+                "Yaponiya Keiretsu modelida",
+                "Anglo-saks modelida",
+                "Germaniya dualistik modelida",
+                "Lotin Amerikasi oilaviy modelida"
+            ],
+            "correct_index": 1
+        },
+        {
+            "question_number": 216,
+            "question": "Kuzatuv kengashi raisi va Bosh direktor lavozimlarining birlashtirilishi (CEO Duality) qayerda ko'p uchraydi?",
+            "options": [
+                "Buyuk Britaniyada",
+                "Germaniyada",
+                "AQShda",
+                "Yaponiya bank tizimlarida"
+            ],
+            "correct_index": 2
+        },
+        {
+            "question_number": 217,
+            "question": "Xitoy modelida korporativ boshqaruvning o'ziga xosligi nimada?",
+            "options": [
+                "Xususiy investorlarning mamlakatda to'liq yuridik erkinligi",
+                "Siyosiy partiyalar aralashuvining biznesda qat'iyan taqiqlangani",
+                "Barcha yirik aksiyalarning chet elliklarga tegishli ekanligi",
+                "Davlatning nazorat paketi va Partiya qo'mitasining roli"
+            ],
+            "correct_index": 3
+        },
+        {
+            "question_number": 218,
+            "question": "Gibrid korporativ boshqaruv modeli nima?",
+            "options": [
+                "Turli milliy modellarning elementlariga ega tizim",
+                "Faqat avtomobilsozlik va texnologiya korxonalarida qo'llaniladigan model",
+                "Umuman qoidalarsiz, boshboshdoq va tartibsiz boshqaruv usuli",
+                "Faqat robotlar va sun'iy intellekt orqali boshqariladigan tizim"
+            ],
+            "correct_index": 0
+        },
+        {
+            "question_number": 219,
+            "question": "O'zbekiston Respublikasining \"Aksiyadorlik jamiyatlari va aksiyadorlarning huquqlarini himoya qilish to‘g‘risida\"gi Qonuni qachon yangi tahrirda qabul qilingan?",
+            "options": [
+                "1991-yil",
+                "2014-yil (keyinchalik o'zgartirishlar bilan)",
+                "2005-yil",
+                "2022-yil oxirida"
+            ],
+            "correct_index": 1
+        },
+        {
+            "question_number": 220,
+            "question": "Kuzatuv kengashining asosiy vazifasi nimadan iborat?",
+            "options": [
+                "Kompaniyaning har kungi mayda ofis xarajatlarini hisoblash",
+                "Yangi ishga kelayotgan oddiy xodimlarni suhbatdan o'tkazish",
+                "Strategik rahbarlik va ijroiya organi faoliyatini nazorat qilish",
+                "Xom-ashyo yetkazib beruvchi do'konlar bilan narx ustida savdolashish"
+            ],
+            "correct_index": 2
+        },
+        {
+            "question_number": 221,
+            "question": "\"Mustaqil direktor\" tushunchasi huquqiy jihatdan nimani anglatadi?",
+            "options": [
+                "Hech qanday qonunga bo'ysunmaydigan, xohlagan ishini qiladigan menejer",
+                "Faqatgina boshqa davlat fuqarosi (xorijlik) bo'lgan direktor",
+                "Kompaniya aksiyalarining 100% mutlaq egasi bo'lgan jismoniy shaxs",
+                "Jamiyat bilan moddiy va qarindoshlik aloqasiga ega bo‘lmagan, betaraf a'zo"
+            ],
+            "correct_index": 3
+        },
+        {
+            "question_number": 222,
+            "question": "Aksiyadorlarning Umumiy Yig‘ilishi kvorumi (vakolatli deb topilishi) uchun necha foiz ovoz beruvchi aksiyalar ishtirok etishi shart?",
+            "options": [
+                "50 foizdan ortig‘i",
+                "kamida 10 foizi",
+                "yuz foiz (mutlaq barchasi)",
+                "kamida 25 foizi"
+            ],
+            "correct_index": 0
+        },
+        {
+            "question_number": 223,
+            "question": "Kompaniyaning \"Ustavi\" qaysi organ tomonidan tasdiqlanadi?",
+            "options": [
+                "Davlat Adliya vazirligining hududiy boshqarmasi",
+                "Aksiyadorlarning umumiy yig‘ilishi",
+                "Bosh direktor o'z shaxsiy buyrug'i orqali",
+                "Kompaniyaning mehnat kasaba uyushmasi"
+            ],
+            "correct_index": 1
+        },
+        {
+            "question_number": 224,
+            "question": "\"Affillangan shaxslar\" kimlar?",
+            "options": [
+                "Kompaniyaning to'g'ridan-to'g'ri bozordagi raqobatchilari",
+                "Faqatgina farroshlar va oddiy texnik xodimlar",
+                "Kompaniya qarorlariga ta'sir ko‘rsata oladigan shaxslar",
+                "Kompaniyaga mutlaqo aloqasi bo'lmagan davlat amaldorlari"
+            ],
+            "correct_index": 2
+        },
+        {
+            "question_number": 225,
+            "question": "Yirik bitim (netto-aktiv qiymatining 15-50% gacha) tuzish to‘g‘risidagi qarorni qaysi organ qabul qiladi?",
+            "options": [
+                "Bosh direktorning o'zi (yakkaboshchilikda)",
+                "Barcha ishchilar umumiy yig'ilishi",
+                "Taftish komissiyasi tekshiruvchisi",
+                "Kuzatuv kengashi (bir ovozdan)"
+            ],
+            "correct_index": 3
+        }
+    ]
+}

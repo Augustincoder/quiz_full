@@ -1,0 +1,281 @@
+{
+    "test_id": 9,
+    "range": "201-225",
+    "questions": [
+        {
+            "question_number": 201,
+            "question": "Valyuta operatsiyalarida baholashning asosiy tamoyili qaysi?",
+            "options": [
+                "Chet el valyutasidagi operatsiyalar operatsiya amalga oshirilgan sanadagi Markaziy bankning rasmiy kursi bo'yicha milliy valyutada hisobga olinadi",
+                "Faqat erkin bozor (qora bozor) kursi bo'yicha hisoblanadi",
+                "Tijorat banki tomonidan belgilangan kelajakdagi prognoz kursi bo'yicha",
+                "Buxgalterning ixtiyoriy qarori bilan o'tgan oydagi kursda"
+            ],
+            "correct_index": 0
+        },
+        {
+            "question_number": 202,
+            "question": "Xorijiy valyutadagi pul mablag'lari qayta baholanishi odatda qachon amalga oshiriladi?",
+            "options": [
+                "Yilda bir marta (1-yanvar holatiga)",
+                "Hisobot oyi oxirgi sanasida (har oy oxirida) va valyutada operatsiya amalga oshirilgan sanada",
+                "Faqat auditorlik tekshiruvi kelganda",
+                "Faqat xodimlar chet elga xizmat safariga ketganda"
+            ],
+            "correct_index": 1
+        },
+        {
+            "question_number": 203,
+            "question": "Kassa inventarizatsiyasi nima uchun o'tkaziladi?",
+            "options": [
+                "Ishchilarga beriladigan oylik maoshlarni ko'paytirish uchun",
+                "Kassadagi yaroqsiz qog'oz pullarni yo'q qilish uchun",
+                "Kassadagi naqd pullarning haqiqiy qoldig'ini buxgalteriya hisobi ma'lumotlariga mosligini tekshirish uchun",
+                "Faqatgina inkassatorlar xizmatidan voz kechish uchun"
+            ],
+            "correct_index": 2
+        },
+        {
+            "question_number": 204,
+            "question": "Pul mablag'larining harakati to'g'risidagi hisobot (pul oqimlari) asosan nimani koʻrsatadi?",
+            "options": [
+                "Asosiy vositalar eskirishining jamlangan summasini",
+                "Kompaniyaning kelajakdagi 5 yillik byudjetini",
+                "Tashkilot xodimlarining shaxsiy bank hisob raqamlarini",
+                "Operatsion, investitsion va moliyaviy faoliyat bo'yicha pul mablag'larining kirimi va chiqimini"
+            ],
+            "correct_index": 3
+        },
+        {
+            "question_number": 205,
+            "question": "Ish haqi hisobining asosiy vazifasi qaysi?",
+            "options": [
+                "Mehnat sarfini to'g'ri hisobga olish, xodimlarga ish haqini hisoblash va uni o'z vaqtida to'lash",
+                "Tovarlar tannarxini sun'iy ravishda tushirish",
+                "Ishchilarni jarimaga tortish orqali foyda ko'rish",
+                "Soliq qarzlarini yashirish va byudjetdan qochish"
+            ],
+            "correct_index": 0
+        },
+        {
+            "question_number": 206,
+            "question": "Xodimga ish haqi hisoblanganda buxgalteriya hisobida nimaga e'tibor beriladi?",
+            "options": [
+                "Xodimning bo'yi, vazni va yoshiga",
+                "Ishlangan vaqt, bajarilgan ish hajmi va belgilangan tarif (shtat) jadvaliga",
+                "Korxonaning bankdagi qarzdorligiga",
+                "Raqobatchi firmalar to'layotgan o'rtacha maoshga"
+            ],
+            "correct_index": 1
+        },
+        {
+            "question_number": 207,
+            "question": "Ish haqi hisoblash uchun asosiy birlamchi hujjat qaysi?",
+            "options": [
+                "Schyot-faktura",
+                "Kassa kirim orderi",
+                "Tabel (ish vaqtini hisobga olish varaqasi) yoki bajarilgan ish naryadi",
+                "Yukxati (Nakladnoy)"
+            ],
+            "correct_index": 2
+        },
+        {
+            "question_number": 208,
+            "question": "Mehnatga haq to'lashning vaqtbay shakli nimaga asoslanadi?",
+            "options": [
+                "Bajarilgan ish miqdoriga (chiqarilgan tovarlar soniga)",
+                "Korxona ko'rgan yillik sof foydaga",
+                "Mijozlarning xodim haqidagi ijobiy fikrlariga",
+                "Haqiqatda ishlangan vaqtga (soat, kun, oy) va xodimning malaka darajasiga"
+            ],
+            "correct_index": 3
+        },
+        {
+            "question_number": 209,
+            "question": "Mehnatga haq to'lashning ishbay shakli nimaga asoslanadi?",
+            "options": [
+                "Haqiqatda bajarilgan ish hajmiga (ishlab chiqarilgan mahsulot soniga) va belgilangan ishbay narxlariga",
+                "Faqatgina ofisda o'tirgan soatlariga",
+                "Xodimning ish staji va yoshiga",
+                "Sotilgan tovarlardan olingan sof tushumning 50 foiziga"
+            ],
+            "correct_index": 0
+        },
+        {
+            "question_number": 210,
+            "question": "Ish haqi bo'yicha ushlab qolishlarga qaysilar kirishi mumkin?",
+            "options": [
+                "Qo'shilgan qiymat solig'i (QQS) va Aksiz solig'i",
+                "Daromad solig'i, INPS (jamg'arib boriladigan pensiya badali), alimentlar, sud qarori bilan ushlanmalar",
+                "Dividend soliqlari va mulk solig'i",
+                "Kasallik (byulleten) pullari va ta'til pullari"
+            ],
+            "correct_index": 1
+        },
+        {
+            "question_number": 211,
+            "question": "Ta'til puli hisoblanganda odatda qaysi tamoyil qo'llanadi?",
+            "options": [
+                "Eng kam oylik ish haqini 12 ga ko'paytirish tamoyili",
+                "Faqatgina kelgusi oyning prognoz maoshi tamoyili",
+                "Xodimning oxirgi 12 oylik ish davridagi o'rtacha oylik ish haqi asosida hisoblash",
+                "Mukofot pullarini umuman inobatga olmaslik tamoyili"
+            ],
+            "correct_index": 2
+        },
+        {
+            "question_number": 212,
+            "question": "Mehnatga haq to'lash bo'yicha qarzdorlik (kreditorlik) qachon yuzaga keladi?",
+            "options": [
+                "Xodimga avans (bo'nak) to'lab berilganida",
+                "Xodim yangi ishga qabul qilingan birinchi kunidanoq",
+                "Daromad solig'i byudjetga o'tkazilgan vaqtda",
+                "Xodimlarga ish haqi hisoblanib, lekin hali qo'liga (yoki kartasiga) to'lab berilmagan vaqtda"
+            ],
+            "correct_index": 3
+        },
+        {
+            "question_number": 213,
+            "question": "Hisoblangan ish haqi kassadan to'langanda qanday hujjat rasmiylashtiriladi?",
+            "options": [
+                "To'lov qaydnomasi (vedomost) yoki kassa chiqim orderi",
+                "Kassa kirim orderi",
+                "Xodimning qarz tilxati",
+                "Tovarlarni yetkazib berish shartnomasi"
+            ],
+            "correct_index": 0
+        },
+        {
+            "question_number": 214,
+            "question": "Mukofot va rag'batlantirish to'lovlari buxgalteriya hisobida qanday aks ettiriladi?",
+            "options": [
+                "Moliyaviy xarajatlar deb hisoblanib, 9600-schyotlarga yoziladi",
+                "Ish haqi fondining bir qismi sifatida tegishli xarajat schyotlariga (2010, 9420 va b.) kiritilib, soliqqa tortiladi",
+                "Hech qayerda aks ettirilmaydi (konvertda beriladi)",
+                "Faqat korxonaning zaxira kapitali (8520) dan ushlab qolinadi"
+            ],
+            "correct_index": 1
+        },
+        {
+            "question_number": 215,
+            "question": "Tovar-moddiy zaxiralar (TMZ) deganda nima tushuniladi?",
+            "options": [
+                "Uzoq muddat davomida (1 yildan ortiq) amortizatsiya qilinadigan aktivlar",
+                "Korxonaning intellektual mulki va patentlari",
+                "Sotish, ishlab chiqarish yoki xizmat ko'rsatish jarayonida foydalanish uchun mo'ljallangan aktivlar (materiallar, tovarlar, tayyor mahsulotlar)",
+                "Bankdagi muddatli omonatlar va valyutalar"
+            ],
+            "correct_index": 2
+        },
+        {
+            "question_number": 216,
+            "question": "TMZlarni baholashning eng keng tarqalgan usullaridan biri qaysi?",
+            "options": [
+                "Asosiy vositalarni eskirish usuli",
+                "Bozordagi valyuta kursiga bog'lab baholash",
+                "Amortizatsiyani kamayib boruvchi qoldiq usuli",
+                "AVECO (O'rtacha tortilgan qiymat) usuli yoki FIFO usuli"
+            ],
+            "correct_index": 3
+        },
+        {
+            "question_number": 217,
+            "question": "FIFO usuli nimani anglatadi?",
+            "options": [
+                "Birinchi kirim qilingan zaxiralar partiyasi birinchi bo'lib xarajatga (sotishga) chiqariladi",
+                "Barcha zaxiralar har kuni qayta baholanadi",
+                "Oxirgi kelgan zaxiralar eng birinchi sotiladi",
+                "Zaxiralarning yaroqlilik muddati eng yaqin bo'lganlari xarajatga yoziladi"
+            ],
+            "correct_index": 0
+        },
+        {
+            "question_number": 218,
+            "question": "TMZlar omborga qabul qilinganda odatda qaysi hujjat tuziladi?",
+            "options": [
+                "Xodimning mehnat shartnomasi",
+                "Kirim orderi yoki yukxati (Nakladnoy)",
+                "Buxgalteriya balansi shakli",
+                "Kassa chiqim orderi"
+            ],
+            "correct_index": 1
+        },
+        {
+            "question_number": 219,
+            "question": "TMZlar inventarizatsiyasining maqsadi qaysi?",
+            "options": [
+                "Yangi mijozlarni qidirib topish",
+                "Korxonaning bankrotligini e'lon qilish",
+                "Haqiqiy qoldiqni hisob ma'lumotlariga mosligini tekshirish, kamomad va ortiqchaliklarni aniqlash",
+                "Ishchilarning ishga kelish vaqtini nazorat qilish"
+            ],
+            "correct_index": 2
+        },
+        {
+            "question_number": 220,
+            "question": "Transport-tayyorlov xarajatlari odatda qanday hisobga olinadi?",
+            "options": [
+                "Barcha xarajatlar soliqqa tortiladi va dividend qilinadi",
+                "Reklama va marketing xarajatlari (9410) ga yozib yuboriladi",
+                "Faqat yil yakunida zararlar sifatida yopiladi",
+                "Materiallarning (TMZning) haqiqiy xarid tannarxiga qo'shiladi yoki maxsus schyotda (masalan, 1510) yig'ilib taqsimlanadi"
+            ],
+            "correct_index": 3
+        },
+        {
+            "question_number": 221,
+            "question": "Zaxiralarning tannarxiga qaysi xarajatlar kiritilishi mumkin?",
+            "options": [
+                "Sotib olish narxi, bojxona bojlari, transport va tayyorlash bilan bog'liq barcha bevosita xarajatlar",
+                "Rahbariyatning xizmat safarlari va korxona bayramlari",
+                "Mahsulotni xaridorga yetkazib berish (sotish) xarajatlari",
+                "Bank kreditlari bo'yicha foizlar"
+            ],
+            "correct_index": 0
+        },
+        {
+            "question_number": 222,
+            "question": "TMZlar hisobdan chiqarilganda natijada qaysi ko'rsatkichga ta'sir qiladi?",
+            "options": [
+                "Faqat ustav kapitalining oshishiga",
+                "Sotilgan mahsulot (tovar) tannarxiga va korxonaning yakuniy moliyaviy natijasiga (foyda/zararga)",
+                "Asosiy vositalarning eskirish stavkasiga",
+                "Soliq imtiyozlarining bekor qilinishiga"
+            ],
+            "correct_index": 1
+        },
+        {
+            "question_number": 223,
+            "question": "TMZlar uchun ombor hisobi nimani ta'minlaydi?",
+            "options": [
+                "Bankdagi valyuta hisobvaraqlarini boshqarishni",
+                "Kompaniya rahbarining vaqtini tejashni",
+                "Zaxiralarning miqdor jihatdan butunligini saqlashni va qoldiqlarni uzluksiz nazorat qilishni",
+                "Mijozlarning shaxsiy ma'lumotlarini yashirishni"
+            ],
+            "correct_index": 2
+        },
+        {
+            "question_number": 224,
+            "question": "Yaroqsiz yoki eskirgan zaxiralar aniqlansa, buxgalteriya hisobida qanday yondashuv qo'llanadi?",
+            "options": [
+                "Ular narxi arzonlashtiriladi (sof sotish qiymatigacha) yoki dalolatnoma asosida xarajatga (zararga) chiqariladi",
+                "Hech kimga bildirmasdan tashlab yuboriladi",
+                "Bozor narxida majburiy ravishda xodimlarga sotiladi",
+                "Ustav kapitali sifatida davlatga topshiriladi"
+            ],
+            "correct_index": 0
+        },
+        {
+            "question_number": 225,
+            "question": "\"A\" material 5-yanvarda 1000 dona (100 so'mdan), 15-yanvarda 2000 dona (150 so'mdan), 20-yanvarda 1000 dona (200 so'mdan) kelib tushdi. Yanvarda jami 3500 ta sarflandi. FIFO usulida ishlab chiqarishga berilgan va omborda qolgan qiymatni toping.",
+            "options": [
+                "Sarflandi: 550 000 so'm, Qoldi: 50 000 so'm",
+                "Sarflandi: 525 000 so'm, Qoldi: 75 000 so'm",
+                "Sarflandi: 500 000 so'm (1000*100 + 2000*150 + 500*200), Omborda qoldi: 100 000 so'm (500*200)",
+                "Sarflandi: 700 000 so'm, Qoldi: 0 so'm"
+            ],
+            "correct_index": 2
+        }
+    ]
+}

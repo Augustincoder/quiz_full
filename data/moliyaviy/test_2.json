@@ -1,0 +1,281 @@
+{
+    "test_id": 2,
+    "range": "26-50",
+    "questions": [
+        {
+            "question_number": 26,
+            "question": "Qisqa muddatli (joriy) investitsiyalar bu...",
+            "options": [
+                "O'n yilgacha bo'lgan qarzlar",
+                "Ustav kapitaliga qo'shilgan binolar",
+                "Bir yildan oshmaydigan muddatga amalga oshirilgan moliyaviy qo'yilmalar",
+                "Asosiy vositalarni sotib olish"
+            ],
+            "correct_index": 2
+        },
+        {
+            "question_number": 27,
+            "question": "Qisqa muddatli investitsiyalar xarid qilingan paytida qaysi qiymatda hisobga olinadi?",
+            "options": [
+                "Faqat nominal qiymatida",
+                "Tugatish qiymatida",
+                "Oldindan belgilangan reja narxida",
+                "Sotib olish qiymatida (barcha bog'liq xarajatlarni qo'shgan holda)"
+            ],
+            "correct_index": 3
+        },
+        {
+            "question_number": 28,
+            "question": "Qisqa muddatli investitsiyalarni hisobga olish uchun qaysi schyotlar moʻljallangan?",
+            "options": [
+                "5800 \"Qisqa muddatli investitsiyalar\" guruhidagi schyotlar",
+                "0600 \"Uzoq muddatli investitsiyalar\"",
+                "1000 \"Materiallar\"",
+                "5100 \"Hisob-kitob schyoti\""
+            ],
+            "correct_index": 0
+        },
+        {
+            "question_number": 29,
+            "question": "Dt 5810-\"Qimmatli qog'ozlar\" Kt 5110-\"Hisob-kitob schyoti\". Ushbu buxgalteriya yozuvi qachon tuziladi?",
+            "options": [
+                "Qimmatli qog'ozlar sotilib pul kelib tushganda",
+                "Bankdagi hisob-kitob schyotidan pul to'lab qisqa muddatli qimmatli qog'ozlar sotib olinganda",
+                "Bankdan qisqa muddatli kredit olinganda",
+                "Ta'sischilarga dividend to'langanda"
+            ],
+            "correct_index": 1
+        },
+        {
+            "question_number": 30,
+            "question": "Emission daromad nima?",
+            "options": [
+                "Korxonaning yillik sof foydasi",
+                "Xodimlarga to'lanadigan mukofot",
+                "Aksiyalarni ularning nominal qiymatidan yuqori narxda sotishdan olingan ijobiy farq",
+                "Mahsulot sotishdan olingan yalpi tushum"
+            ],
+            "correct_index": 2
+        },
+        {
+            "question_number": 31,
+            "question": "Hisob-kitob schyotidan pul o'tkazish yo'li bilan qisqa muddatli investitsiyalar (qimmatli qog'ozlar) olinganda qanday buxgalteriya yozuvi tuziladi?",
+            "options": [
+                "Dt 5110 - Kt 5810",
+                "Dt 0610 - Kt 5010",
+                "Dt 6010 - Kt 5110",
+                "Dt 5810 - Kt 5110"
+            ],
+            "correct_index": 3
+        },
+        {
+            "question_number": 32,
+            "question": "Hisob-kitob schyotidan tuzilgan shartnomaga muvofiq 10 oy muddatga qarz berilganida qanday buxgalteriya provodkasi tuziladi:",
+            "options": [
+                "Dt 5830 \"Qisqa muddatli berilgan qarzlar\" - Kt 5110 \"Hisob-kitob schyoti\"",
+                "Dt 5110 - Kt 5830",
+                "Dt 0630 - Kt 5110",
+                "Dt 6820 - Kt 5110"
+            ],
+            "correct_index": 0
+        },
+        {
+            "question_number": 33,
+            "question": "Qisqa muddatli investitsiya (qimmatli qog'oz)lar sotilganida qanday buxgalteriya provodkasi tuziladi?",
+            "options": [
+                "Dt 5810 - Kt 5110",
+                "Dt 5110 (yoki 5010) - Kt 5810",
+                "Dt 1010 - Kt 6010",
+                "Dt 9420 - Kt 5110"
+            ],
+            "correct_index": 1
+        },
+        {
+            "question_number": 34,
+            "question": "Hisobot davri oxiriga sal'doga ega bo'lib, buxgalteriya balansida aks ettiriladigan aktivlar, majburiyatlar va kapitalni hisobga oluvchi schyotlar nima deyiladi?",
+            "options": [
+                "Tranzit (Vaqtinchalik) schyotlar",
+                "Faqat daromad schyotlari",
+                "Doimiy (Balans) schyotlari",
+                "Xarajat schyotlari"
+            ],
+            "correct_index": 2
+        },
+        {
+            "question_number": 35,
+            "question": "Obligatsiyalardan qanday daromad olinadi?",
+            "options": [
+                "Faqat dividend ko'rinishida",
+                "Hech qanday daromad olinmaydi",
+                "Faqat xayriya maqsadida beriladi",
+                "Qat'iy belgilangan foiz ko'rinishidagi daromad"
+            ],
+            "correct_index": 3
+        },
+        {
+            "question_number": 36,
+            "question": "Moliyaviy hisobotning amaliyotda nechta shaklidan foydalaniladi?",
+            "options": [
+                "5 ta shakli (Balans, Moliyaviy natijalar, O'z kapitali o'zgarishlari, Pul oqimlari va izohlar)",
+                "2 ta shakli",
+                "10 ta shakli",
+                "Faqat 1 ta (Balans)"
+            ],
+            "correct_index": 0
+        },
+        {
+            "question_number": 37,
+            "question": "Nomoddiy aktivlar - ...",
+            "options": [
+                "Faqatgina bino va inshootlar",
+                "Jismoniy ko'rinishga ega bo'lmagan, lekin uzoq muddat daromad keltiradigan aktivlar",
+                "Tez buziladigan tovarlar",
+                "Qisqa muddatli bank kreditlari"
+            ],
+            "correct_index": 1
+        },
+        {
+            "question_number": 38,
+            "question": "Patent bu -",
+            "options": [
+                "Chet el valyutasini sotib olish ruxsatnomasi",
+                "Binoni ijaraga olish shartnomasi",
+                "Ixtiro, foydali model yoki sanoat namunasiga bo'lgan mutlaq huquqni tasdiqlovchi davlat hujjati",
+                "Ishchilarga maosh to'lash vedomosti"
+            ],
+            "correct_index": 2
+        },
+        {
+            "question_number": 39,
+            "question": "Nomoddiy aktivlar tarkibiga kiruvchi ob'ekt, ya'ni patent deganda nimani tushunasiz?",
+            "options": [
+                "Jismoniy eskirishga uchraydigan moddiy ob'ekt",
+                "Bir oylik ijara haqi",
+                "Faqat bankrotlikda sotiladigan mulk",
+                "Korxona tomonidan o'z ixtirolarini himoya qilish va iqtisodiy naf ko'rish maqsadida ro'yxatga olingan mutlaq huquqlar"
+            ],
+            "correct_index": 3
+        },
+        {
+            "question_number": 40,
+            "question": "Gudvil qanday aniqlanadi?",
+            "options": [
+                "Korxonani sotib olish qiymati bilan uning barcha sof aktivlarining joriy (bozor) qiymati o'rtasidagi farq sifatida",
+                "Asosiy vositalarning eskirish summasini ayirib tashlash orqali",
+                "Jami majburiyatlarni qo'shib chiqish orqali",
+                "Yillik daromadning 10 foizi sifatida"
+            ],
+            "correct_index": 0
+        },
+        {
+            "question_number": 41,
+            "question": "Materiallar harakatini rasmiylashtirish uchun Soliq kodeksida qanday hujjat ko'zda tutilgan?",
+            "options": [
+                "Faqat og'zaki kelishuv",
+                "Elektron hisob-faktura (EHF) va yukxati",
+                "Kassa kirim orderi",
+                "Xodimlarning yozma arizasi"
+            ],
+            "correct_index": 1
+        },
+        {
+            "question_number": 42,
+            "question": "Asosiy vositalar qayta baholanganda (agar qiymati ortsa) balansning qaysi bo'limi ko'payadi?",
+            "options": [
+                "Joriy majburiyatlar",
+                "Qisqa muddatli aktivlar",
+                "Xususiy kapital (Qo'shimcha kapital) bo'limi",
+                "Kreditorlik qarzlari"
+            ],
+            "correct_index": 2
+        },
+        {
+            "question_number": 43,
+            "question": "Asosiy vositalarga amortizasiya hisoblashda to'g'ri chiziqli usulining mohiyati nimadan iborat?",
+            "options": [
+                "Har yili amortizatsiya summasini ikki barobarga oshirish",
+                "Faqat oxirgi yilda barcha eskirishni hisoblash",
+                "Foydalanish jadalligiga qarab har oy har xil hisoblash",
+                "Amortizatsiya summasini aktivning foydali xizmat muddati davomida har yili bir xil (teng) miqdorda hisoblash"
+            ],
+            "correct_index": 3
+        },
+        {
+            "question_number": 44,
+            "question": "Ustav kapitali deganda nimani tushunasiz?",
+            "options": [
+                "Korxona ta'sischilari tomonidan uning faoliyatini boshlash uchun dastlabki kiritilgan mablag'lar yig'indisi",
+                "Davlat tomonidan berilgan qaytarilmas yordam",
+                "Bankdan olingan uzoq muddatli kredit",
+                "Mijozlardan olingan bo'naklar"
+            ],
+            "correct_index": 0
+        },
+        {
+            "question_number": 45,
+            "question": "Korxona pul mablag'lariga nimalar kiradi?",
+            "options": [
+                "Faqatgina xodimlarning shaxsiy jamg'armalari",
+                "Kassadagi naqd pullar, bank hisobvaraqlaridagi mablag'lar va pul ekvivalentlari",
+                "Ombordagi tayyor mahsulotlar",
+                "Olinishi kutilayotgan uzoq muddatli qarzlar"
+            ],
+            "correct_index": 1
+        },
+        {
+            "question_number": 46,
+            "question": "Xoʻjalik jarayonlari qanday turlarga bo'linadi?",
+            "options": [
+                "Faqat daromad olish va xarajat qilish",
+                "Bankrotlik va Tugatish",
+                "Ta'minot (tayyorlash), Ishlab chiqarish va Sotish jarayonlari",
+                "Eksport va Import"
+            ],
+            "correct_index": 2
+        },
+        {
+            "question_number": 47,
+            "question": "Tekinga olingan materiallar qaysi qiymatda kirim qilinadi?",
+            "options": [
+                "Nol (0) qiymatida",
+                "O'tgan yilgi eski narxda",
+                "Nominal qiymatining 50%ida",
+                "Joriy bozor (haqiqiy) qiymati bo'yicha"
+            ],
+            "correct_index": 3
+        },
+        {
+            "question_number": 48,
+            "question": "Asosiy vositalarning ijarasi quyidagi turlarga bo'linadi:",
+            "options": [
+                "Joriy (operativ) ijara va Moliyaviy ijara (lizing)",
+                "To'lovli va to'lovsiz ijara",
+                "Davlat va xususiy ijara",
+                "Qisqa muddatli va cheksiz ijara"
+            ],
+            "correct_index": 0
+        },
+        {
+            "question_number": 49,
+            "question": "Korxona tomonidan buyum ishlab chiqarish uchun 4 000 000 so'mga patent sotib olindi. Foydali xizmat muddati 3 yil. Ushbu patent bo'yicha yillik amortizatsiya summasini aniqlang.",
+            "options": [
+                "1 000 000 so'm",
+                "1 333 333 so'm",
+                "4 000 000 so'm",
+                "1 500 000 so'm"
+            ],
+            "correct_index": 1
+        },
+        {
+            "question_number": 50,
+            "question": "Ustav kapitali hisobiga korxonaning qanday mablag'lar shakllanadi?",
+            "options": [
+                "Kreditorlik qarzlari",
+                "Bank kreditlari",
+                "Xususiy mablag'lari (Ustav fondi)",
+                "Davlat subsidiyalari"
+            ],
+            "correct_index": 2
+        }
+    ]
+}

@@ -1,0 +1,281 @@
+{
+    "test_id": 1,
+    "range": "1-25",
+    "questions": [
+        {
+            "question_number": 1,
+            "question": "Buxgalteriya hisobi to'g'risidagi qonunning yangi tahriri qachon qabul qilindi?",
+            "options": [
+                "1996 yil 30 avgust",
+                "2016 yil 13 aprel",
+                "2020 yil 1 yanvar",
+                "2010 yil 5 may"
+            ],
+            "correct_index": 1
+        },
+        {
+            "question_number": 2,
+            "question": "Buxgalteriya hisobi ob'ektlarini aniqlang?",
+            "options": [
+                "Faqatgina bankdagi pul mablag'lari",
+                "Xodimlarning shaxsiy mol-mulki",
+                "Aktivlar, majburiyatlar, xususiy kapital, daromadlar, xarajatlar va xo'jalik operatsiyalari",
+                "Faqat soliq idorasi hujjatlari"
+            ],
+            "correct_index": 2
+        },
+        {
+            "question_number": 3,
+            "question": "Moliyaviy ma'lumotlar deganda nima tushuniladi?",
+            "options": [
+                "Xodimlarning shaxsiy yozishmalari",
+                "Raxbariyatning kunlik ish rejasi",
+                "Raqobatchilarning maxfiy texnologiyalari",
+                "Korxonaning moliyaviy holati va faoliyat natijalarini pul o'lchovida aks ettiruvchi ma'lumotlar"
+            ],
+            "correct_index": 3
+        },
+        {
+            "question_number": 4,
+            "question": "Moliyaviy buxgalteriya hisobi nima?",
+            "options": [
+                "Asosan tashqi foydalanuvchilar uchun moliyaviy hisobot tayyorlashni ta'minlaydigan hisob tizimi",
+                "Faqat ichki boshqaruv qarorlari uchun xizmat qiladigan tizim",
+                "Soliq to'lashdan qochishni rejalashtirish tizimi",
+                "Faqat ish haqini hisoblash bo'limi"
+            ],
+            "correct_index": 0
+        },
+        {
+            "question_number": 5,
+            "question": "Axborotlarni taqdim etish nuqtai nazardan buxgalteriya hisobi turlarini aniqlang?",
+            "options": [
+                "Statistik hisob va Operativ hisob",
+                "Moliyaviy hisob va Boshqaruv hisobi",
+                "Soliq hisobi va Kadrlar hisobi",
+                "Analitik va Sintetik hisob"
+            ],
+            "correct_index": 1
+        },
+        {
+            "question_number": 6,
+            "question": "Baholashning FIFO usuli bu-",
+            "options": [
+                "Oxirgi bo'lib kirim qilinganlarni birinchi chiqarish",
+                "O'rtacha tortilgan qiymat bo'yicha baholash",
+                "Birinchi bo'lib kirim qilingan zaxiralarni birinchi bo'lib xarajatga chiqarish (First In, First Out)",
+                "Eng qimmat zaxiralarni birinchi chiqarish"
+            ],
+            "correct_index": 2
+        },
+        {
+            "question_number": 7,
+            "question": "Baholash - bu....",
+            "options": [
+                "Ombor xodimlarini rag'batlantirish usuli",
+                "Tovarlarning yaroqlilik muddatini tekshirish",
+                "Xodimlarni attestatsiyadan o'tkazish",
+                "Buxgalteriya hisobi ob'ektlarini pul o'lchovida ifodalash usuli"
+            ],
+            "correct_index": 3
+        },
+        {
+            "question_number": 8,
+            "question": "Baholashning AVECO usuli bu-",
+            "options": [
+                "Zaxiralarni o'rtacha tortilgan qiymati bo'yicha baholash usuli",
+                "Birinchi kelganini birinchi sotish usuli",
+                "Oxirgi kelganini birinchi sotish usuli",
+                "Faqat eng arzon narxda baholash usuli"
+            ],
+            "correct_index": 0
+        },
+        {
+            "question_number": 9,
+            "question": "Baholashning LIFO usuli bu:",
+            "options": [
+                "Birinchi kelganini birinchi xarajatga chiqarish",
+                "Oxirgi bo'lib kirim qilingan zaxiralarni birinchi bo'lib xarajatga chiqarish (Last In, First Out)",
+                "Barcha zaxiralarni bir xil narxda baholash",
+                "Faqat yaroqsiz tovarlarni xarajatga chiqarish"
+            ],
+            "correct_index": 1
+        },
+        {
+            "question_number": 10,
+            "question": "Bahoni shakllantirish bo'yicha ichki omillarga qaysi omil kiradi?",
+            "options": [
+                "Inflyatsiya darajasi",
+                "Raqobatchilarning narxlari",
+                "Mahsulot tannarxi va ishlab chiqarish xarajatlari",
+                "Davlatning soliq siyosati"
+            ],
+            "correct_index": 2
+        },
+        {
+            "question_number": 11,
+            "question": "Buxgalteriya hisobi ma'lumotlaridan foydalanuvchilarni nechta guruhga ajratish mumkin?",
+            "options": [
+                "3 guruhga (Davlat, Banklar, Xalq)",
+                "4 guruhga",
+                "Faqat 1 guruhga (Soliq organlari)",
+                "2 guruhga (Ichki va Tashqi foydalanuvchilar)"
+            ],
+            "correct_index": 3
+        },
+        {
+            "question_number": 12,
+            "question": "Buxgalteriya hisobida qaysi o'lchov birligi muhim hisoblanadi?",
+            "options": [
+                "Pul o'lchovi",
+                "Natural o'lchov",
+                "Mehnat o'lchovi",
+                "Og'irlik o'lchovi"
+            ],
+            "correct_index": 0
+        },
+        {
+            "question_number": 13,
+            "question": "TMZ (Tovar-moddiy zaxiralar) lar tan olinish shartlarini ko'rsating",
+            "options": [
+                "Faqatgina omborda joy yetarli bo'lsa",
+                "Korxonaga kelgusida iqtisodiy naf keltirishi kutilsa va ularning qiymati ishonchli baholansa",
+                "Ular tekinga olingan bo'lsa",
+                "Xodimlarning ruxsati bilan"
+            ],
+            "correct_index": 1
+        },
+        {
+            "question_number": 14,
+            "question": "Ikkiyoqlama yozuv deganda nimani tushunasiz?",
+            "options": [
+                "Bitta operatsiyani ikki marta daftarga yozish",
+                "Kassa va bank schyotlarini alohida yuritish",
+                "Har bir xo'jalik operatsiyasini bir schyotning debeti va boshqa schyotning kreditida bir xil summada aks ettirish",
+                "Faqat daromad va xarajatlarni yozib borish"
+            ],
+            "correct_index": 2
+        },
+        {
+            "question_number": 15,
+            "question": "Ikkiyoqlama yozuvning asoschisi kim hisoblanadi?",
+            "options": [
+                "Adam Smit",
+                "Karl Marks",
+                "Jon Keyns",
+                "Luka Pacholi"
+            ],
+            "correct_index": 3
+        },
+        {
+            "question_number": 16,
+            "question": "Asosiy vositalar ishlab chiqarishga qatnashishi nuqtai nazaridan qanday turlarga bo'linadi?",
+            "options": [
+                "Ishlab chiqarish va noishlab chiqarish asosiy vositalari",
+                "Moddiy va nomoddiy aktivlar",
+                "Qimmat va arzon vositalar",
+                "Ijaraga olingan va xususiy vositalar"
+            ],
+            "correct_index": 0
+        },
+        {
+            "question_number": 17,
+            "question": "Ikkiyoqlama yozuvda xatoliklarni tuzatish uchun necha hil usuldan foydalaniladi?",
+            "options": [
+                "2 xil",
+                "3 xil (Korrektura, Qo'shimcha yozuv, \"Qizil storno\")",
+                "4 xil",
+                "Faqat bitta usul bor"
+            ],
+            "correct_index": 1
+        },
+        {
+            "question_number": 18,
+            "question": "Hisob siyosati nima?",
+            "options": [
+                "Soliq idorasining tekshirish qoidalari",
+                "Kasaba uyushmasining ichki tartibi",
+                "Korxona tomonidan buxgalteriya hisobini yuritish va moliyaviy hisobotni tuzish uchun qabul qilingan usullar majmui",
+                "Mahsulot sotish strategiyasi"
+            ],
+            "correct_index": 2
+        },
+        {
+            "question_number": 19,
+            "question": "Moliyaviy hisobotning hisobot davri.....",
+            "options": [
+                "Har oyning 15-sanasigacha bo'lgan davr",
+                "Faqat 1 chorak (3 oy)",
+                "Tashkilot tashkil etilgan kundan boshlab cheksiz davr",
+                "1 yanvardan 31 dekabrgacha bo'lgan kalendar yili"
+            ],
+            "correct_index": 3
+        },
+        {
+            "question_number": 20,
+            "question": "Buxgalter so'zining ma'nosi qaysi javobda to'g'ri ko'rsatilgan?",
+            "options": [
+                "Nemischa \"buch\" - kitob, \"halter\" - tutuvchi, ya'ni kitob tutuvchi",
+                "Inglizcha \"book\" va \"keep\" - kitob saqlovchi",
+                "Ruscha \"buxgalter\" - hisobchi",
+                "Lotincha \"calculus\" - hisoblovchi"
+            ],
+            "correct_index": 0
+        },
+        {
+            "question_number": 21,
+            "question": "Qimmatli qog'ozning nominal qiymati bu...",
+            "options": [
+                "Uning fond birjasidagi joriy sotuv narxi",
+                "Qimmatli qog'ozning blankasida (ustida) yozib qo'yilgan boshlang'ich qiymati",
+                "Inflyatsiya hisobga olingan qiymati",
+                "Tugatish davridagi qiymati"
+            ],
+            "correct_index": 1
+        },
+        {
+            "question_number": 22,
+            "question": "Qimmatbaho qog'ozlarning emissiya qiymati nima?",
+            "options": [
+                "Ularni yo'q qilish xarajatlari",
+                "Bankka garovga qo'yilgandagi narxi",
+                "Qimmatli qog'ozlarni birlamchi joylashtirish (sotish) vaqtidagi narxi",
+                "Qog'ozni chop etish xarajati"
+            ],
+            "correct_index": 2
+        },
+        {
+            "question_number": 23,
+            "question": "Investitsiyalar tasarruf etilishi mo'ljallangan davrga koʻra qanday guruhlanadi",
+            "options": [
+                "Foydali va zararli",
+                "Davlat va xususiy",
+                "Moddiy va nomoddiy",
+                "Qisqa muddatli (1 yilgacha) va uzoq muddatli (1 yildan ortiq)"
+            ],
+            "correct_index": 3
+        },
+        {
+            "question_number": 24,
+            "question": "Moliyaviy investitsiyalar xarid qilishda qaysi qiymat boʻyicha baholanadi?",
+            "options": [
+                "Haqiqiy (sotib olish) xarajatlari summasi bo'yicha",
+                "Faqat nominal qiymatida",
+                "Qoldiq qiymatida",
+                "Bozor qiymatining yarmida"
+            ],
+            "correct_index": 0
+        },
+        {
+            "question_number": 25,
+            "question": "Qimmatbaho qog'ozlarning likvidatsiya bahosi bu.....?",
+            "options": [
+                "Ularning birjadagi eng yuqori narxi",
+                "Korxona tugatilayotganda qimmatli qog'ozlar bo'yicha to'lanishi lozim bo'lgan yoki kutilayotgan qiymat",
+                "Bankrotlikdan oldingi yillik daromadi",
+                "Emissiya qilingan paytdagi narxi"
+            ],
+            "correct_index": 1
+        }
+    ]
+}

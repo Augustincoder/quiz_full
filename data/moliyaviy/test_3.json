@@ -1,0 +1,281 @@
+{
+    "test_id": 3,
+    "range": "51-75",
+    "questions": [
+        {
+            "question_number": 51,
+            "question": "Tayyor mahsulot deganda nimani tushinasiz?",
+            "options": [
+                "Sotish uchun maxsus chet eldan xarid qilingan tovarlar",
+                "Faqat davlat buyurtmasi asosida yasalgan buyumlar",
+                "Ishlov berish to'liq tugallangan, texnik shartlar va standartlarga javob beradigan, omborga qabul qilingan mahsulot",
+                "Hali ishlov berilayotgan, to'liq tayyor bo'lmagan xom-ashyo"
+            ],
+            "correct_index": 2
+        },
+        {
+            "question_number": 52,
+            "question": "Ishlab chiqarish zaxiralari nima?",
+            "options": [
+                "Mahsulot ishlab chiqarish, ishlar bajarish va xizmatlar ko'rsatish jarayonida foydalanish uchun mo'ljallangan aktivlar",
+                "Uzoq muddatli bank kreditlarini qoplash zahiralari",
+                "Asosiy vositalarning eskirishini qoplash fondi",
+                "Xaridorlarga zudlik bilan sotilishi kerak bo'lgan tovarlar"
+            ],
+            "correct_index": 0
+        },
+        {
+            "question_number": 53,
+            "question": "Biror tovar yoki mahsulotni ishlab chiqarish va sotish uchun ketgan barcha xarajatlarning puldagi ko'rinishi nima deyiladi?",
+            "options": [
+                "Bozor narxi",
+                "Tannarx (To'liq tannarx)",
+                "Yalpi daromad",
+                "Sof foyda"
+            ],
+            "correct_index": 1
+        },
+        {
+            "question_number": 54,
+            "question": "Tovar-moddiy zaxiralarni o'rtacha bahoda tannarxini hisoblash usuli qaysi?",
+            "options": [
+                "LIFO usuli",
+                "FIFO usuli",
+                "To'g'ri chiziqli usul",
+                "AVECO (O'rtacha tortilgan qiymat) usuli"
+            ],
+            "correct_index": 3
+        },
+        {
+            "question_number": 55,
+            "question": "Tovar moddiy zahiralar tannarxini aniqlash usullari koʻsatilgan to'g'ri javobni ko'rsating?",
+            "options": [
+                "FIFO, AVECO va maxsus (aniq) identifikatsiya qilish usuli",
+                "To'g'ri chiziqli va kamayib boruvchi usul",
+                "LIFO, Qoldiq va kassa usuli",
+                "Kassa va hisoblash usuli"
+            ],
+            "correct_index": 0
+        },
+        {
+            "question_number": 56,
+            "question": "Material kamomadi uchun aybdor shaxslardan undiriladiganda qanday provodka beriladi?",
+            "options": [
+                "Dt 6710 - Kt 6410",
+                "Dt 4790 (Aybdor shaxslar bilan hisob-kitoblar) - Kt 5910 (Kamomadlar)",
+                "Dt 1010 - Kt 6010",
+                "Dt 5110 - Kt 4010"
+            ],
+            "correct_index": 1
+        },
+        {
+            "question_number": 57,
+            "question": "Agar asosiy vosita boshlang'ich qiymati 35 000 000 so'm, tugatish qiymati 6 000 000 so'm va xizmat muddati 5 yil bo'lsa, yillik amortizasiya summasi qanchani tashkil etadi?",
+            "options": [
+                "5 000 000 so'm",
+                "7 000 000 so'm",
+                "5 800 000 so'm",
+                "6 000 000 so'm"
+            ],
+            "correct_index": 2
+        },
+        {
+            "question_number": 58,
+            "question": "Kompyuter boshlang'ich qiymati 35 000 000 so'm, tugatish qiymati 6 000 000 so'm va xizmat muddati 5 yil bo'lsa, yillik amortizasiya summasi qanchani tashkil etadi?",
+            "options": [
+                "6 000 000 so'm",
+                "4 500 000 so'm",
+                "7 000 000 so'm",
+                "5 800 000 so'm"
+            ],
+            "correct_index": 3
+        },
+        {
+            "question_number": 59,
+            "question": "Mebel boshlang'ich qiymati 35 000 000 so'm, tugatish qiymati 6 000 000 so'm va xizmat muddati 5 yil bo'lsa, yillik amortizasiya summasi qanchani tashkil etadi?",
+            "options": [
+                "5 800 000 so'm",
+                "5 500 000 so'm",
+                "6 500 000 so'm",
+                "7 000 000 so'm"
+            ],
+            "correct_index": 0
+        },
+        {
+            "question_number": 60,
+            "question": "Ofis mebeli boshlang'ich qiymati 25 000 000 so'm, tugatish qiymati 5 000 000 so'm va xizmat muddati 3 yil bo'lsa, yillik amortizasiya summasi qanchani tashkil etadi?",
+            "options": [
+                "8 333 333 so'm",
+                "6 666 667 so'm",
+                "5 000 000 so'm",
+                "7 500 000 so'm"
+            ],
+            "correct_index": 1
+        },
+        {
+            "question_number": 61,
+            "question": "Ishlab chiqarish uskunasi boshlang'ich qiymati 25 000 000 so'm, tugatish qiymati 5 000 000 so'm va xizmat muddati 3 yil bo'lsa, yillik amortizasiya summasi qanchani tashkil etadi?",
+            "options": [
+                "6 000 000 so'm",
+                "7 000 000 so'm",
+                "6 666 667 so'm",
+                "8 333 333 so'm"
+            ],
+            "correct_index": 2
+        },
+        {
+            "question_number": 62,
+            "question": "Zil mashinasi boshlang'ich qiymati 225 000 000 so'm, tugatish qiymati 25 000 000 so'm va xizmat muddati 6 yil bo'lsa, yillik amortizasiya summasi qanchani tashkil etadi?",
+            "options": [
+                "37 500 000 so'm",
+                "40 000 000 so'm",
+                "30 000 000 so'm",
+                "33 333 333 so'm"
+            ],
+            "correct_index": 3
+        },
+        {
+            "question_number": 63,
+            "question": "Spark rusumli avtomobil qiymati 100 000 000 so'm, tugatish qiymati 20 000 000 so'm va xizmat muddati 5 yil bo'lsa, yillik amortizasiya summasi qanchani tashkil etadi?",
+            "options": [
+                "16 000 000 so'm",
+                "15 000 000 so'm",
+                "20 000 000 so'm",
+                "18 000 000 so'm"
+            ],
+            "correct_index": 0
+        },
+        {
+            "question_number": 64,
+            "question": "Korxonaning majburiyatlarini muddatiga ko'ra turlarini keltiring?",
+            "options": [
+                "Bank majburiyatlari va soliq majburiyatlari",
+                "Qisqa muddatli (joriy, 1 yilgacha) va uzoq muddatli (1 yildan ortiq)",
+                "Kreditorlik va debitorlik",
+                "Ichki va tashqi majburiyatlar"
+            ],
+            "correct_index": 1
+        },
+        {
+            "question_number": 65,
+            "question": "Agar oynaga ishlov berish uskunasi boshlang'ich qiymati 90 000 000 so'm, tugatish qiymati 15 000 000 so'm va xizmat muddati 5 yil bo'lsa, yillik amortizasiya summasi qanchani tashkil etadi?",
+            "options": [
+                "18 000 000 so'm",
+                "12 000 000 so'm",
+                "15 000 000 so'm",
+                "16 500 000 so'm"
+            ],
+            "correct_index": 2
+        },
+        {
+            "question_number": 66,
+            "question": "Maped rusumli mahsulotga ishlov berish texnikasi boshlang'ich qiymati 90 000 000 so'm, tugatish qiymati 15 000 000 so'm va xizmat muddati 5 yil bo'lsa, yillik amortizasiya summasi qanchani tashkil etadi?",
+            "options": [
+                "18 000 000 so'm",
+                "12 000 000 so'm",
+                "16 500 000 so'm",
+                "15 000 000 so'm"
+            ],
+            "correct_index": 3
+        },
+        {
+            "question_number": 67,
+            "question": "Hofman rusumli korxona muzlatgichi boshlang'ich qiymati 90 000 000 so'm, tugatish qiymati 15 000 000 so'm va xizmat muddati 5 yil bo'lsa, yillik amortizasiya summasi qanchani tashkil etadi?",
+            "options": [
+                "15 000 000 so'm",
+                "18 000 000 so'm",
+                "12 000 000 so'm",
+                "20 000 000 so'm"
+            ],
+            "correct_index": 0
+        },
+        {
+            "question_number": 68,
+            "question": "Tovarlarga ishlov berishda foydalaniladigan uskuna boshlang'ich qiymati 80 000 000 so'm, tugatish qiymati 5 000 000 so'm va xizmat muddati 5 yil bo'lsa, yillik amortizasiya summasi qanchani tashkil etadi?",
+            "options": [
+                "12 000 000 so'm",
+                "15 000 000 so'm",
+                "16 000 000 so'm",
+                "10 000 000 so'm"
+            ],
+            "correct_index": 1
+        },
+        {
+            "question_number": 69,
+            "question": "Avtoturargoh Binosi boshlang'ich qiymati 125 000 000 so'm, tugatish qiymati 25 000 000 so'm va xizmat muddati 5 yil bo'lsa, yillik amortizasiya summasi qanchani tashkil etadi?",
+            "options": [
+                "25 000 000 so'm",
+                "15 000 000 so'm",
+                "20 000 000 so'm",
+                "30 000 000 so'm"
+            ],
+            "correct_index": 2
+        },
+        {
+            "question_number": 70,
+            "question": "Pul oqimlari to'g'risidagi hisobot qaysi BHMS asosida yuritiladi?",
+            "options": [
+                "21-son BHMS",
+                "1-son BHMS",
+                "4-son BHMS",
+                "9-son BHMS"
+            ],
+            "correct_index": 3
+        },
+        {
+            "question_number": 71,
+            "question": "Pul oqimlari to'g'risidagi hisobot qaysi MHXS (Xalqaro standart) asosida yuritiladi?",
+            "options": [
+                "IAS 7 (7-sonli MHXS)",
+                "IAS 1",
+                "IAS 2",
+                "IFRS 15"
+            ],
+            "correct_index": 0
+        },
+        {
+            "question_number": 72,
+            "question": "Ishlab chiqarish zahiralari balansning qaysi tomoni va boʻlimida aks ettiriladi?",
+            "options": [
+                "Passiv tomonining I bo'limida",
+                "Aktiv tomonining II bo'limida (Joriy aktivlar)",
+                "Aktiv tomonining I bo'limida (Uzoq muddatli aktivlar)",
+                "Passiv tomonining II bo'limida"
+            ],
+            "correct_index": 1
+        },
+        {
+            "question_number": 73,
+            "question": "Debitorlik qarz tushunchasini ta'riflang?",
+            "options": [
+                "Korxonaning xodimlar oldidagi to'lanmagan oylik maoshlari",
+                "Korxonaning byudjetga to'lashi kerak bo'lgan soliqlari",
+                "Yuridik va jismoniy shaxslarning korxona oldidagi qarzdorligi (korxonaning olinadigan mablag'lari)",
+                "Faqat uzoq muddatli bank kreditlari"
+            ],
+            "correct_index": 2
+        },
+        {
+            "question_number": 74,
+            "question": "Naqd pulsiz hisob-kitoblarni amalga oshirishda qaysi hisob-kitob hujjatlaridan foydalaniladi?",
+            "options": [
+                "Faqat ishonchnomalar va schyot-fakturalar",
+                "Kassa kirim va chiqim orderlari",
+                "Kasaba uyushmasining dalolatnomalari",
+                "To'lov topshiriqnomalari, to'lov talabnomalari, inkasso, akkreditiv, cheklar"
+            ],
+            "correct_index": 3
+        },
+        {
+            "question_number": 75,
+            "question": "Akkreditivning amal qilish muddati va u bo'yicha hisob-kitob qilish tartibi mablag'larni to'lovchi bilan mablag'larni oluvchi o'rtasidagi ........ belgilab qo'yiladi?",
+            "options": [
+                "Shartnomada",
+                "Moliya vazirligi buyrug'ida",
+                "Soliq kodeksida",
+                "Sud qarorida"
+            ],
+            "correct_index": 0
+        }
+    ]
+}

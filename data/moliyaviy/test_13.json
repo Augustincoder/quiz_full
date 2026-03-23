@@ -1,0 +1,72 @@
+{
+    "test_id": 13,
+    "range": "301-306",
+    "questions": [
+        {
+            "question_number": 301,
+            "question": "Buxgalteriya balansi qaysi xalqaro moliyaviy hisobot standarti (MHXS - IFRS) bilan tartibga solinadi?",
+            "options": [
+                "IFRS 15",
+                "IAS 1 \"Moliyaviy hisobotlarni taqdim etish\"",
+                "IAS 16 \"Asosiy vositalar\"",
+                "IAS 2 \"Zaxiralar\""
+            ],
+            "correct_index": 1
+        },
+        {
+            "question_number": 302,
+            "question": "O'zbekistonda Buxgalteriya hisobining milliy standartlari (BHMS) soni jami nechta atrofida?",
+            "options": [
+                "Faqat 5 ta",
+                "10 ta",
+                "Hozirgi kunda 20 dan ortiq (24 tagacha) faol standartlar mavjud",
+                "100 dan ortiq"
+            ],
+            "correct_index": 2
+        },
+        {
+            "question_number": 303,
+            "question": "O'zbekiston Respublikasida moliyaviy hisobotlarni tuzishning bosh qoidalari qaysi qonun bilan belgilangan?",
+            "options": [
+                "Bojxona kodeksi bilan",
+                "\"Valyutani tartibga solish to'g'risida\"gi qonun bilan",
+                "\"Soliqqa tortish asoslari\" qonuni bilan",
+                "\"Buxgalteriya hisobi to'g'risida\"gi qonun bilan"
+            ],
+            "correct_index": 3
+        },
+        {
+            "question_number": 304,
+            "question": "Soliq hisoboti va moliyaviy hisobot o'rtasidagi asosiy farq nimada?",
+            "options": [
+                "Moliyaviy hisobot buxgalteriya qoidalari (BHMS) bo'yicha, soliq hisoboti esa Soliq kodeksi talablari bo'yicha tuziladi",
+                "Ikkalasining hech qanday farqi yo'q",
+                "Moliyaviy hisobot qog'ozda, soliq hisoboti faqat dildan aytiladi",
+                "Moliyaviy hisobot byudjetga soliq to'lash uchun asos hisoblanadi, soliq hisoboti esa xodimlarga"
+            ],
+            "correct_index": 0
+        },
+        {
+            "question_number": 305,
+            "question": "Qaysi hollarda moliyaviy hisobotni majburiy auditorlik tekshiruvidan o'tkazish talab etiladi?",
+            "options": [
+                "Aksiyadorlik jamiyatlari, banklar, sug'urta tashkilotlari va qonunda belgilangan boshqa yirik korxonalar uchun",
+                "Yangi ochilgan kichik savdo do'konlari uchun",
+                "O'zini o'zi band qilgan shaxslar (hunarmandlar) uchun",
+                "Faqat xorijda faoliyat yuritayotganlar uchun"
+            ],
+            "correct_index": 0
+        },
+        {
+            "question_number": 306,
+            "question": "Tashkilot tugatilayotganda qanday balans tuziladi?",
+            "options": [
+                "Oylik operativ balans",
+                "Tugatish balansi (Likvidatsiya balansi)",
+                "Proforma balans",
+                "Soliqqa tortish balansi"
+            ],
+            "correct_index": 1
+        }
+    ]
+}
