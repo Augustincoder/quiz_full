@@ -19,7 +19,7 @@ ITEMS_PER_PAGE = 5
 def truncate_text(text: str, limit: int) -> str:
     return text if len(text) <= limit else text[:limit-3] + "..."
 
-# --- 1. ASOSIY MENYU ---
+# --- 1. ASOSIY MENYU VA STOP BUYRUG'I ---
 def get_subjects_keyboard():
     buttons = []
     for subj_key, subj_name in SUBJECTS.items():
@@ -38,6 +38,33 @@ async def cmd_start(message: Message):
         "Assalomu alaykum! Tayyorgarlik ko'rmoqchi bo'lgan fanni tanlang:"
     )
     await message.answer(text, reply_markup=kb, parse_mode="Markdown")
+
+# ⚠️ YANGI QO'SHILGAN: /stop buyrug'i
+@router.message(Command("stop"))
+async def cmd_stop(message: Message, bot: Bot):
+    chat_id = message.chat.id
+    user_id = message.from_user.id
+
+    # Agar kutish zalida bo'lsa
+    if chat_id in waiting_rooms:
+        if user_id == waiting_rooms[chat_id]["initiator_id"] or message.chat.type == "private":
+            del waiting_rooms[chat_id]
+            await message.answer("🛑 Test bekor qilindi.")
+        else:
+            await message.answer("⚠️ Faqat testni tanlagan odam uni bekor qila oladi!")
+        return
+
+    # Agar test faol ketayotgan bo'lsa
+    if chat_id in active_tests:
+        session = active_tests[chat_id]
+        if message.chat.type != "private" and user_id != session.get("initiator_id"):
+            await message.answer("⚠️ Faqat testni boshlagan odam uni to'xtata oladi!")
+            return
+        
+        await message.answer("🛑 *Test muddatidan oldin to'xtatildi!*\nNatijalar hisoblanmoqda...", parse_mode="Markdown")
+        await finish_test(chat_id, bot)
+    else:
+        await message.answer("ℹ️ Hozir bu chatda hech qanday faol test yo'q.")
 
 @router.callback_query(F.data == "back_to_main")
 async def back_to_main(callback: CallbackQuery):
@@ -241,6 +268,7 @@ async def room_start_handler(callback: CallbackQuery, bot: Bot):
     # Active testga o'tkazish
     active_tests[chat_id] = {
         "chat_type": "group",
+        "initiator_id": room["initiator_id"],
         "subject_key": room["subject_key"],
         "test_id": room["test_id"],
         "test_data": room["test_data"],
@@ -342,6 +370,7 @@ async def start_test_handler(callback: CallbackQuery, bot: Bot):
     # Shaxsiy rejim uchun darhol boshlanadi
     active_tests[chat_id] = {
         "chat_type": chat_type,
+        "initiator_id": callback.from_user.id,
         "subject_key": subject_key,
         "test_id": test_id,
         "test_data": test_data,
@@ -507,7 +536,9 @@ async def handle_poll_answer(poll_answer: PollAnswer, bot: Bot):
 
 # --- 6. YAKUNLASH VA NATIJALAR ---
 async def finish_test(chat_id: int, bot: Bot):
-    session = active_tests[chat_id]
+    session = active_tests.get(chat_id)
+    if not session: return
+
     if session.get("timer_task"): session["timer_task"].cancel()
     
     elapsed = int(time.time() - session["start_time"])
@@ -610,4 +641,4 @@ async def review_mistakes_handler(callback: CallbackQuery):
     if len(text) > 4000: text = text[:4000] + "\n... (qolgani kesildi)."
     
     kb = InlineKeyboardMarkup(inline_keyboard=[[InlineKeyboardButton(text="🔙 Asosiy menyu", callback_data="post_main")]])
-    await callback.message.answer(text, reply_markup=kb, parse_mode="Markdown") 
+    await callback.message.answer(text, reply_markup=kb, parse_mode="Markdown")
