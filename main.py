@@ -4,13 +4,17 @@ import os
 from aiohttp import web
 from aiogram import Bot, Dispatcher
 import bot as bot_module
+import storage  # ⚠️ SHU QATOR QO'SHILDI
 from config import BOT_TOKEN
 
 # Render.com uchun soxta veb-sahifa
 async def handle(request):
-    return web.Response(text="Bot muvaffaqiyatli ishlamoqda! 🚀")
+    return web.Response(text="Bot va Testlar muvaffaqiyatli ishlamoqda! 🚀")
 
 async def main():
+    # ⚠️ ENG MUHIM QISM: Testlarni papkalardan o'qib, botning xotirasiga yuklaymiz
+    bot_module.memory_db = storage.init_storage()
+
     bot = Bot(token=BOT_TOKEN)
     dp = Dispatcher()
     dp.include_router(bot_module.router)
