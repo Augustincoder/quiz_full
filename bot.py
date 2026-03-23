@@ -610,4 +610,4 @@ async def review_mistakes_handler(callback: CallbackQuery):
     if len(text) > 4000: text = text[:4000] + "\n... (qolgani kesildi)."
     
     kb = InlineKeyboardMarkup(inline_keyboard=[[InlineKeyboardButton(text="🔙 Asosiy menyu", callback_data="post_main")]])
-    await callback.message.answer(text, reply_markup=kb, parse_mode="Markdown") _SH,zvZBW6,D5PB
+    await callback.message.answer(text, reply_markup=kb, parse_mode="Markdown") 
