@@ -30,14 +30,17 @@ def get_all_users():
         return []
 
 def get_top_users(limit=10):
+    """Global reyting uchun top talabalarni olib keladi (Faqat ID larni)."""
     try:
         stats_res = supabase.table("user_stats").select("*").order("total_correct", desc=True).limit(limit).execute()
         result = []
         for s in stats_res.data:
-            u_res = supabase.table("users").select("full_name").eq("telegram_id", s["user_id"]).execute()
-            name = u_res.data[0]["full_name"] if u_res.data else "Ismsiz Talaba"
             if s["total_correct"] > 0:
-                result.append({"name": name, "correct": s["total_correct"], "completed": s["tests_completed"]})
+                result.append({
+                    "user_id": s["user_id"],  # ⚠️ Faqat Telegram ID ni beradi
+                    "correct": s["total_correct"], 
+                    "completed": s["tests_completed"]
+                })
         return result
     except Exception as e:
         print(f"Reytingni olishda xato: {e}")
