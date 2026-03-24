@@ -26,24 +26,17 @@ def get_all_users():
         res = supabase.table("users").select("*").execute()
         return res.data
     except Exception as e:
-        print(f"Barcha foydalanuvchilarni olishda xato: {e}")
         return []
 
 def get_top_users(limit=10):
-    """Global reyting uchun top talabalarni olib keladi (Faqat ID larni)."""
     try:
         stats_res = supabase.table("user_stats").select("*").order("total_correct", desc=True).limit(limit).execute()
         result = []
         for s in stats_res.data:
             if s["total_correct"] > 0:
-                result.append({
-                    "user_id": s["user_id"],  # ⚠️ Faqat Telegram ID ni beradi
-                    "correct": s["total_correct"], 
-                    "completed": s["tests_completed"]
-                })
+                result.append({"user_id": s["user_id"], "correct": s["total_correct"], "completed": s["tests_completed"]})
         return result
     except Exception as e:
-        print(f"Reytingni olishda xato: {e}")
         return []
 
 def get_user_stats(user_id):
@@ -83,9 +76,7 @@ def update_user_stats(user_id, correct, wrong, subject_key, test_id, mistakes):
     try: supabase.table("user_stats").upsert(stats).execute()
     except Exception as e: print(f"Stats yozishda xato: {e}")
 
-# ⚠️ YANGI QO'SHILGAN FUNKSIYALAR:
 def save_user_test(creator_id, subject, block_name, questions):
-    """Foydalanuvchi yaratgan testni saqlaydi va uning ID sini qaytaradi."""
     try:
         res = supabase.table("user_tests").insert({
             "creator_id": str(creator_id),
@@ -94,20 +85,34 @@ def save_user_test(creator_id, subject, block_name, questions):
             "questions": questions,
             "created_at": datetime.now().strftime("%Y-%m-%d %H:%M:%S")
         }).execute()
-        if res.data:
-            return res.data[0]['id']
+        if res.data: return res.data[0]['id']
         return None
     except Exception as e:
-        print(f"Testni saqlashda xato: {e}")
         return None
 
 def get_user_test(test_id):
-    """Deep-link orqali kirilganda bazadan testni o'qib keladi."""
     try:
         res = supabase.table("user_tests").select("*").eq("id", int(test_id)).execute()
-        if res.data:
-            return res.data[0]
+        if res.data: return res.data[0]
         return None
     except Exception as e:
-        print(f"Testni o'qishda xatolik: {e}")
         return None
+
+# ⚠️ YANGI QO'SHILGAN FUNKSIYALAR (Testlarni boshqarish uchun):
+def get_user_created_tests(creator_id):
+    """Foydalanuvchi yaratgan barcha testlarni bazadan oladi."""
+    try:
+        res = supabase.table("user_tests").select("id, subject, block_name, created_at").eq("creator_id", str(creator_id)).order("id", desc=True).execute()
+        return res.data
+    except Exception as e:
+        print(f"Testlarni olishda xato: {e}")
+        return []
+
+def delete_user_test(test_id, creator_id):
+    """Foydalanuvchiga o'zining testini o'chirishga ruxsat beradi."""
+    try:
+        supabase.table("user_tests").delete().eq("id", int(test_id)).eq("creator_id", str(creator_id)).execute()
+        return True
+    except Exception as e:
+        print(f"Testni o'chirishda xato: {e}")
+        return False
