@@ -5,7 +5,7 @@ import os
 from pathlib import Path
 
 # Telegram Bot Token - BotFather'dan olingan tokeningiz
-BOT_TOKEN = "8764719096:AAEiFsn-vO6zM5YHaooNv24Pzu2DDZumlOI"
+BOT_TOKEN = "8764719096:AAHqT0lrIM9o_uE23ZtqGCWe7R8jzJYp0e4"
 
 # Data storage
 DATA_DIR = Path(__file__).parent / "data"
