@@ -2,14 +2,12 @@ from datetime import datetime
 from supabase import create_client, Client
 from config import SUPABASE_URL, SUPABASE_KEY
 
-# Supabase bazasiga ulanish
 try:
     supabase: Client = create_client(SUPABASE_URL, SUPABASE_KEY)
 except Exception as e:
     print(f"Supabase'ga ulanishda xatolik: {e}")
 
 def register_user(user_id, full_name, username):
-    """Foydalanuvchi /start bosganda bazaga saqlaydi."""
     uid = str(user_id)
     try:
         res = supabase.table("users").select("telegram_id").eq("telegram_id", uid).execute()
@@ -24,7 +22,6 @@ def register_user(user_id, full_name, username):
         print(f"Foydalanuvchini saqlashda xato: {e}")
 
 def get_all_users():
-    """Adminga barcha foydalanuvchilarni ro'yxatini beradi."""
     try:
         res = supabase.table("users").select("*").execute()
         return res.data
@@ -33,7 +30,6 @@ def get_all_users():
         return []
 
 def get_top_users(limit=10):
-    """Global reyting uchun top talabalarni olib keladi."""
     try:
         stats_res = supabase.table("user_stats").select("*").order("total_correct", desc=True).limit(limit).execute()
         result = []
@@ -83,3 +79,32 @@ def update_user_stats(user_id, correct, wrong, subject_key, test_id, mistakes):
     
     try: supabase.table("user_stats").upsert(stats).execute()
     except Exception as e: print(f"Stats yozishda xato: {e}")
+
+# ⚠️ YANGI QO'SHILGAN FUNKSIYALAR:
+def save_user_test(creator_id, subject, block_name, questions):
+    """Foydalanuvchi yaratgan testni saqlaydi va uning ID sini qaytaradi."""
+    try:
+        res = supabase.table("user_tests").insert({
+            "creator_id": str(creator_id),
+            "subject": subject,
+            "block_name": block_name,
+            "questions": questions,
+            "created_at": datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+        }).execute()
+        if res.data:
+            return res.data[0]['id']
+        return None
+    except Exception as e:
+        print(f"Testni saqlashda xato: {e}")
+        return None
+
+def get_user_test(test_id):
+    """Deep-link orqali kirilganda bazadan testni o'qib keladi."""
+    try:
+        res = supabase.table("user_tests").select("*").eq("id", int(test_id)).execute()
+        if res.data:
+            return res.data[0]
+        return None
+    except Exception as e:
+        print(f"Testni o'qishda xatolik: {e}")
+        return None
