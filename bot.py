@@ -115,91 +115,53 @@ async def cmd_stop(message: Message, bot: Bot, state: FSMContext):
 # ==========================================
 @router.message(Command("admin"))
 async def cmd_admin(message: Message):
-    if message.from_user.id != ADMIN_ID: return await message.answer("⛔ Siz admin emassiz!")
+    if message.from_user.id != ADMIN_ID: 
+        return await message.answer("⛔ Siz admin emassiz!")
+    
     users = stats_manager.get_all_users()
     kb = InlineKeyboardMarkup(inline_keyboard=[
         [InlineKeyboardButton(text="📢 Barchaga xabar yuborish", callback_data="admin_broadcast")],
-        [InlineKeyboardButton(text="👥 Foydalanuvchilar ro'yxati", callback_data="admin_users_list")]
+        [InlineKeyboardButton(text="👥 Foydalanuvchilar ro'yxati", callback_data="admin_users_list")] # ⚠️ TUGMA QO'SHILDI
     ])
     await message.answer(f"👨‍💻 *ADMIN PANEL*\n\n👥 Jami foydalanuvchilar: {len(users)} ta", reply_markup=kb, parse_mode="Markdown")
 
+# ⚠️ FOYDALANUVCHILAR RO'YXATINI CHIQARISH (YANGI FUNKSIYA)
 @router.callback_query(F.data == "admin_users_list")
 async def admin_users_list(callback: CallbackQuery):
     if callback.from_user.id != ADMIN_ID: return
+    
     users = stats_manager.get_all_users()
-    text = "👥 *Foydalanuvchilar ro'yxati:*\n\n"
-    for u in users:
+    if not users:
+        return await callback.message.answer("Hozircha foydalanuvchilar yo'q.")
+
+    await callback.message.answer("⏳ Foydalanuvchilar ro'yxati yuklanmoqda...")
+    
+    text = "👥 *Barcha foydalanuvchilar:*\n\n"
+    
+    for i, u in enumerate(users, 1):
         name = u.get("full_name") or "Ismsiz"
         uid = u.get("telegram_id")
-        line = f"👤 [{name}](tg://user?id={uid})\n"
+        
+        # Username bor bo'lsa qo'shamiz
+        username = f" (@{u.get('username')})" if u.get('username') and u.get('username') != "yo'q" else ""
+        sana = u.get('joined_at', '')[:10] # Faqat ro'yxatdan o'tgan sanasi
+        
+        # Ism ustiga bossa profiliga o'tadigan link (tg://user?id=...)
+        line = f"*{i}.* [{name}](tg://user?id={uid}){username} | 📅 {sana}\n"
+        
+        # Telegram bitta xabarda maksimal 4096 ta belgi qabul qiladi.
+        # Agar foydalanuvchilar ko'payib ketsa, bot qotib qolmasligi uchun ro'yxatni bo'lib-bo'lib jo'natamiz.
         if len(text) + len(line) > 4000:
             await callback.message.answer(text, parse_mode="Markdown")
-            text = ""
+            text = "" 
+            
         text += line
+        
+    # Oxirgi qolgan qismini jo'natish
     if text:
         await callback.message.answer(text, parse_mode="Markdown")
+        
     await callback.answer()
-
-@router.callback_query(F.data == "admin_broadcast")
-async def start_broadcast(callback: CallbackQuery, state: FSMContext):
-    if callback.from_user.id != ADMIN_ID: return
-    await state.set_state(AdminStates.waiting_for_broadcast)
-    await callback.message.answer("📝 Barchaga yuboriladigan xabar matnini yozing.\n(Bekor qilish uchun /start)")
-    await callback.answer()
-
-@router.message(AdminStates.waiting_for_broadcast)
-async def process_broadcast(message: Message, state: FSMContext, bot: Bot):
-    await state.clear()
-    users = stats_manager.get_all_users()
-    success, fail = 0, 0
-    await message.answer("⏳ Xabar yuborilmoqda...")
-    for u in users:
-        try:
-            await bot.send_message(chat_id=u["telegram_id"], text=message.text)
-            success += 1
-            await asyncio.sleep(0.05)
-        except: fail += 1
-    await message.answer(f"✅ Ommaviy xabar yakunlandi!\n🟢 Yetib bordi: {success}\n🔴 Bloklaganlar: {fail}")
-
-@router.message(Command("message"))
-async def cmd_message(message: Message, state: FSMContext):
-    await state.set_state(UserStates.waiting_for_message)
-    await message.answer("✍️ Adminga o'z savol yoki taklifingizni yozing:")
-
-@router.callback_query(F.data == "contact_admin")
-async def cb_contact_admin(callback: CallbackQuery, state: FSMContext):
-    await state.set_state(UserStates.waiting_for_message)
-    await callback.message.answer("✍️ Adminga xabaringizni yozing:")
-    await callback.answer()
-
-@router.message(UserStates.waiting_for_message)
-async def send_to_admin(message: Message, state: FSMContext, bot: Bot):
-    text = f"📨 *YANGI XABAR!*\n\n👤 [{message.from_user.full_name}](tg://user?id={message.from_user.id})\nID: `{message.from_user.id}`\n💬 Matn:\n{message.text}"
-    kb = InlineKeyboardMarkup(inline_keyboard=[[InlineKeyboardButton(text="↩️ Javob berish", callback_data=f"reply_{message.from_user.id}")]])
-    try:
-        await bot.send_message(ADMIN_ID, text, reply_markup=kb, parse_mode="Markdown")
-        await message.answer("✅ Xabaringiz adminga yetkazildi!")
-    except: await message.answer("Xatolik yuz berdi.")
-    await state.clear()
-
-@router.callback_query(F.data.startswith("reply_"))
-async def admin_reply_start(callback: CallbackQuery, state: FSMContext):
-    if callback.from_user.id != ADMIN_ID: return
-    await state.update_data(target_id=callback.data.split("_")[1])
-    await state.set_state(AdminStates.waiting_for_reply)
-    await callback.message.answer("✍️ Foydalanuvchiga javobingizni yozing:")
-    await callback.answer()
-
-@router.message(AdminStates.waiting_for_reply)
-async def admin_reply_send(message: Message, state: FSMContext, bot: Bot):
-    data = await state.get_data()
-    text = f"👨‍💻 *Admin tomonidan xabar:*\n\n{message.text}"
-    try:
-        await bot.send_message(data.get("target_id"), text, parse_mode="Markdown")
-        await message.answer("✅ Javob yuborildi.")
-    except: await message.answer("❌ Xatolik!")
-    await state.clear()
-
 # ==========================================
 # 3. TEST YARATISH (UGC) - FOYDALANUVCHILAR UCHUN
 # ==========================================
@@ -323,16 +285,35 @@ async def restart_ugc_test(callback: CallbackQuery, bot: Bot):
 # ==========================================
 
 @router.callback_query(F.data == "show_leaderboard")
-async def show_leaderboard_handler(callback: CallbackQuery):
+async def show_leaderboard_handler(callback: CallbackQuery, bot: Bot): # ⚠️ bot: Bot qo'shildi
     await callback.message.edit_text("⏳ Reyting yuklanmoqda...", parse_mode="Markdown")
+    
     top_users = stats_manager.get_top_users(10)
-    if not top_users: text = "🏆 *GLOBAL REYTING*\n\nHozircha reytingda hech kim yo'q."
+    
+    if not top_users: 
+        text = "🏆 *GLOBAL REYTING*\n\nHozircha reytingda hech kim yo'q."
     else:
         text = "🏆 *TOP 10 TALABALAR REYTINGI*\n\n"
         medals = ["🥇", "🥈", "🥉", "4️⃣", "5️⃣", "6️⃣", "7️⃣", "8️⃣", "9️⃣", "🔟"]
-        for i, user in enumerate(top_users): text += f"{medals[i] if i<10 else '🔸'} *{user['name']}*\n      ✅ {user['correct']} ta to'g'ri | 📝 {user['completed']} ta test\n\n"
-    await callback.message.edit_text(text, reply_markup=InlineKeyboardMarkup(inline_keyboard=[[InlineKeyboardButton(text="🔙 Asosiy Menyu", callback_data="back_to_main")]]), parse_mode="Markdown")
-
+        
+        for i, user in enumerate(top_users):
+            # ⚠️ TELEGRAMDAN ISMNI SO'RAB OLISH QISMI
+            try:
+                chat_info = await bot.get_chat(user['user_id'])
+                name = chat_info.full_name
+            except Exception:
+                # Agar foydalanuvchi akkauntini o'chirib yuborgan bo'lsa, xato bermasligi uchun:
+                name = "Sirli Talaba" 
+                
+            medal = medals[i] if i < 10 else '🔸'
+            text += f"{medal} *{name}*\n      ✅ {user['correct']} ta to'g'ri | 📝 {user['completed']} ta test\n\n"
+            
+    await callback.message.edit_text(
+        text, 
+        reply_markup=InlineKeyboardMarkup(inline_keyboard=[[InlineKeyboardButton(text="🔙 Asosiy Menyu", callback_data="back_to_main")]]), 
+        parse_mode="Markdown"
+    )
+    
 def get_blocks_keyboard(subject_key: str, page: int = 0):
     buttons = []
     subject_tests = memory_db.get(subject_key, {})
