@@ -1,6 +1,8 @@
+import os
 import time
 import random
 import asyncio
+from docx import Document
 from aiogram import Bot, Router, F
 from aiogram.types import Message, CallbackQuery, PollAnswer, InlineKeyboardMarkup, InlineKeyboardButton
 from aiogram.filters import Command
@@ -18,7 +20,6 @@ poll_chat_map = {}
 memory_db = {}
 ITEMS_PER_PAGE = 5  
 
-# Muloqot va Test yaratish holatlari
 class AdminStates(StatesGroup):
     waiting_for_broadcast = State()
     waiting_for_reply = State()
@@ -47,16 +48,16 @@ def prepare_shuffled_questions(raw_questions):
         })
     return session_questions
 
-def get_subjects_keyboard():
-    buttons = []
-    for subj_key, subj_name in SUBJECTS.items():
-        block_count = len(memory_db.get(subj_key, {}))
-        buttons.append([InlineKeyboardButton(text=f"{subj_name} ({block_count} ta blok)", callback_data=f"subj_{subj_key}")])
-    buttons.append([InlineKeyboardButton(text="📝 Test Yaratish (UGC)", callback_data="create_test")])
-    buttons.append([InlineKeyboardButton(text="📊 Statistikam", callback_data="show_stats"),
-                    InlineKeyboardButton(text="🏆 Reyting", callback_data="show_leaderboard")])
-    buttons.append([InlineKeyboardButton(text="💬 Adminga xabar yozish", callback_data="contact_admin")])
-    return InlineKeyboardMarkup(inline_keyboard=buttons)
+# ⚠️ YANGILANGAN ASOSIY MENYU
+def get_main_keyboard():
+    return InlineKeyboardMarkup(inline_keyboard=[
+        [InlineKeyboardButton(text="📚 Rasmiy (Admin) Testlar", callback_data="official_tests")],
+        [InlineKeyboardButton(text="📝 Test Yaratish", callback_data="create_test"),
+         InlineKeyboardButton(text="📂 Mening Testlarim", callback_data="my_tests")],
+        [InlineKeyboardButton(text="📊 Statistikam", callback_data="show_stats"),
+         InlineKeyboardButton(text="🏆 Reyting", callback_data="show_leaderboard")],
+        [InlineKeyboardButton(text="💬 Adminga xabar yozish", callback_data="contact_admin")]
+    ])
 
 # ==========================================
 # 1. ASOSIY BUYRUQLAR VA DEEP-LINK
@@ -67,7 +68,6 @@ async def cmd_start(message: Message, state: FSMContext, bot: Bot):
     chat_id = message.chat.id
     stats_manager.register_user(message.from_user.id, message.from_user.full_name, message.from_user.username)
 
-    # Tugallanmaganlarni tozalash
     cleared = False
     if chat_id in waiting_rooms:
         del waiting_rooms[chat_id]
@@ -78,7 +78,6 @@ async def cmd_start(message: Message, state: FSMContext, bot: Bot):
         cleared = True
     if cleared: await message.answer("🔄 Eski tugallanmagan testlaringiz tozalandi.")
 
-    # DEEP-LINK tekshiruvi (Test silka orqali kirilganda)
     args = message.text.split()
     if len(args) > 1 and args[1].startswith("t_"):
         test_id = args[1].replace("t_", "")
@@ -86,9 +85,14 @@ async def cmd_start(message: Message, state: FSMContext, bot: Bot):
         if test_data_db:
             return await start_ugc_test(message, test_data_db, bot)
         else:
-            await message.answer("❌ Bu test topilmadi yoki o'chirilgan.")
+            await message.answer("❌ Bu test topilmadi yoki muallif tomonidan o'chirilgan.")
 
-    await message.answer("🏛 *Talabalar Imtihon Trenajyori*\n\nAssalomu alaykum! Fanni tanlang:", reply_markup=get_subjects_keyboard(), parse_mode="Markdown")
+    await message.answer("🏛 *Talabalar Imtihon Trenajyori*\n\nAssalomu alaykum! Kerakli bo'limni tanlang:", reply_markup=get_main_keyboard(), parse_mode="Markdown")
+
+@router.callback_query(F.data == "back_to_main")
+async def back_to_main(callback: CallbackQuery):
+    try: await callback.message.edit_text("🏛 *Talabalar Imtihon Trenajyori*\n\nKerakli bo'limni tanlang:", reply_markup=get_main_keyboard(), parse_mode="Markdown")
+    except: pass
 
 @router.message(Command("stop"))
 async def cmd_stop(message: Message, bot: Bot, state: FSMContext):
@@ -111,72 +115,92 @@ async def cmd_stop(message: Message, bot: Bot, state: FSMContext):
     else: await message.answer("ℹ️ Hozir bu chatda hech qanday test yo'q.")
 
 # ==========================================
-# 2. ADMIN PANEL VA MULOQOT TIZIMI
+# 2. ADMIN TESTLARI (Rasmiy fanlar)
 # ==========================================
-@router.message(Command("admin"))
-async def cmd_admin(message: Message):
-    if message.from_user.id != ADMIN_ID: 
-        return await message.answer("⛔ Siz admin emassiz!")
+@router.callback_query(F.data == "official_tests")
+async def show_official_tests(callback: CallbackQuery):
+    buttons = []
+    for subj_key, subj_name in SUBJECTS.items():
+        block_count = len(memory_db.get(subj_key, {}))
+        buttons.append([InlineKeyboardButton(text=f"📘 {subj_name} ({block_count} ta blok)", callback_data=f"subj_{subj_key}")])
+    buttons.append([InlineKeyboardButton(text="🔙 Asosiy Menyu", callback_data="back_to_main")])
+    await callback.message.edit_text("📚 *Rasmiy Testlar Bazasiga xush kelibsiz!*\n\nTayyorgarlik ko'rish uchun quyidagi fanlardan birini tanlang:", reply_markup=InlineKeyboardMarkup(inline_keyboard=buttons), parse_mode="Markdown")
+
+# ==========================================
+# 3. MENING TESTLARIM (Boshqaruv)
+# ==========================================
+@router.callback_query(F.data == "my_tests")
+async def my_tests_handler(callback: CallbackQuery):
+    tests = stats_manager.get_user_created_tests(callback.from_user.id)
+    if not tests:
+        kb = InlineKeyboardMarkup(inline_keyboard=[[InlineKeyboardButton(text="🔙 Asosiy Menyu", callback_data="back_to_main")]])
+        return await callback.message.edit_text("📂 *Mening Testlarim*\n\nSiz hali hech qanday test yaratmagansiz.\nBoshlash uchun 'Test Yaratish' tugmasidan foydalaning.", reply_markup=kb, parse_mode="Markdown")
     
-    users = stats_manager.get_all_users()
+    buttons = []
+    for t in tests[:15]: # Eng oxirgi 15 ta testni ko'rsatamiz
+        buttons.append([InlineKeyboardButton(text=f"🔖 {t['subject']} | {t['block_name']}", callback_data=f"manage_test_{t['id']}")])
+    buttons.append([InlineKeyboardButton(text="🔙 Asosiy Menyu", callback_data="back_to_main")])
+    
+    await callback.message.edit_text("📂 *Siz yaratgan testlar ro'yxati:*\n\nBoshqarish, havola olish yoki o'chirish uchun testni tanlang:", reply_markup=InlineKeyboardMarkup(inline_keyboard=buttons), parse_mode="Markdown")
+
+@router.callback_query(F.data.startswith("manage_test_"))
+async def manage_test_handler(callback: CallbackQuery, bot: Bot):
+    test_id = callback.data.split("_")[2]
+    test_data = stats_manager.get_user_test(test_id)
+    
+    if not test_data or str(test_data["creator_id"]) != str(callback.from_user.id):
+        return await callback.answer("Test topilmadi yoki o'chirilgan!", show_alert=True)
+    
+    bot_info = await bot.get_me()
+    link = f"https://t.me/{bot_info.username}?start=t_{test_id}"
+    
+    text = (f"📝 *Test Ma'lumotlari*\n\n"
+            f"📚 Fan: *{test_data['subject']}*\n"
+            f"🔖 Blok nomi: {test_data['block_name']}\n"
+            f"🔢 Savollar soni: {len(test_data['questions'])} ta\n"
+            f"📅 Yaratilgan sana: {test_data['created_at'][:10]}\n\n"
+            f"🔗 *Ulashish uchun havola (Deep-link):*\n`{link}`\n\n"
+            f"_(Ssilkani ustiga bossangiz nusxalanadi va do'stlaringizga yuborishingiz mumkin)_")
+    
     kb = InlineKeyboardMarkup(inline_keyboard=[
-        [InlineKeyboardButton(text="📢 Barchaga xabar yuborish", callback_data="admin_broadcast")],
-        [InlineKeyboardButton(text="👥 Foydalanuvchilar ro'yxati", callback_data="admin_users_list")] # ⚠️ TUGMA QO'SHILDI
+        [InlineKeyboardButton(text="🗑 Testni o'chirish", callback_data=f"delete_test_{test_id}")],
+        [InlineKeyboardButton(text="🔙 Ro'yxatga qaytish", callback_data="my_tests")]
     ])
-    await message.answer(f"👨‍💻 *ADMIN PANEL*\n\n👥 Jami foydalanuvchilar: {len(users)} ta", reply_markup=kb, parse_mode="Markdown")
+    await callback.message.edit_text(text, reply_markup=kb, parse_mode="Markdown")
 
-# ⚠️ FOYDALANUVCHILAR RO'YXATINI CHIQARISH (YANGI FUNKSIYA)
-@router.callback_query(F.data == "admin_users_list")
-async def admin_users_list(callback: CallbackQuery):
-    if callback.from_user.id != ADMIN_ID: return
-    
-    users = stats_manager.get_all_users()
-    if not users:
-        return await callback.message.answer("Hozircha foydalanuvchilar yo'q.")
+@router.callback_query(F.data.startswith("delete_test_"))
+async def delete_test_handler(callback: CallbackQuery):
+    test_id = callback.data.split("_")[2]
+    success = stats_manager.delete_user_test(test_id, callback.from_user.id)
+    if success:
+        await callback.answer("✅ Test muvaffaqiyatli o'chirildi!", show_alert=True)
+        await my_tests_handler(callback) 
+    else:
+        await callback.answer("❌ O'chirishda xatolik yuz berdi.", show_alert=True)
 
-    await callback.message.answer("⏳ Foydalanuvchilar ro'yxati yuklanmoqda...")
-    
-    text = "👥 *Barcha foydalanuvchilar:*\n\n"
-    
-    for i, u in enumerate(users, 1):
-        name = u.get("full_name") or "Ismsiz"
-        uid = u.get("telegram_id")
-        
-        # Username bor bo'lsa qo'shamiz
-        username = f" (@{u.get('username')})" if u.get('username') and u.get('username') != "yo'q" else ""
-        sana = u.get('joined_at', '')[:10] # Faqat ro'yxatdan o'tgan sanasi
-        
-        # Ism ustiga bossa profiliga o'tadigan link (tg://user?id=...)
-        line = f"*{i}.* [{name}](tg://user?id={uid}){username} | 📅 {sana}\n"
-        
-        # Telegram bitta xabarda maksimal 4096 ta belgi qabul qiladi.
-        # Agar foydalanuvchilar ko'payib ketsa, bot qotib qolmasligi uchun ro'yxatni bo'lib-bo'lib jo'natamiz.
-        if len(text) + len(line) > 4000:
-            await callback.message.answer(text, parse_mode="Markdown")
-            text = "" 
-            
-        text += line
-        
-    # Oxirgi qolgan qismini jo'natish
-    if text:
-        await callback.message.answer(text, parse_mode="Markdown")
-        
-    await callback.answer()
+
 # ==========================================
-# 3. TEST YARATISH (UGC) - FOYDALANUVCHILAR UCHUN
+# 4. TEST YARATISH (UGC) - TO'LIQ ERKINLIK
 # ==========================================
 @router.callback_query(F.data == "create_test")
 async def create_test_start(callback: CallbackQuery, state: FSMContext):
-    buttons = [[InlineKeyboardButton(text=v, callback_data=f"ct_subj_{k}")] for k, v in SUBJECTS.items()]
-    buttons.append([InlineKeyboardButton(text="❌ Bekor qilish", callback_data="back_to_main")])
-    await callback.message.edit_text("📝 *Test Yaratish*\n\nQaysi fanga test tuzmoqchisiz?", reply_markup=InlineKeyboardMarkup(inline_keyboard=buttons), parse_mode="Markdown")
+    kb = InlineKeyboardMarkup(inline_keyboard=[[InlineKeyboardButton(text="❌ Bekor qilish", callback_data="cancel_creation")]])
+    text = ("📝 *Platformaga Xush Kelibsiz!*\n\n"
+            "Bu yerda siz o'zingizning fanlaringiz va mavzularingiz bo'yicha interaktiv testlar yaratib, do'stlaringiz bilan ulashishingiz mumkin.\n\n"
+            "👉 *Test qaysi fanga tegishli ekanligini yozing:*\n_(Masalan: O'zbekiston Tarixi, Ingliz tili, Matematika)_")
+    await callback.message.edit_text(text, reply_markup=kb, parse_mode="Markdown")
     await state.set_state(CreateTestStates.waiting_for_subject)
 
-@router.callback_query(CreateTestStates.waiting_for_subject, F.data.startswith("ct_subj_"))
-async def create_test_subject(callback: CallbackQuery, state: FSMContext):
-    subject_key = callback.data.split("_")[2]
-    await state.update_data(subject=subject_key)
-    await callback.message.edit_text("✍️ Test (Blok) uchun nom bering:\n(Masalan: 1-Mavzu yoki Qiziqarli savollar)")
+@router.callback_query(F.data == "cancel_creation")
+async def cancel_creation_handler(callback: CallbackQuery, state: FSMContext):
+    await state.clear()
+    await callback.message.edit_text("❌ Test yaratish bekor qilindi.", reply_markup=InlineKeyboardMarkup(inline_keyboard=[[InlineKeyboardButton(text="🔙 Asosiy Menyu", callback_data="back_to_main")]]))
+
+@router.message(CreateTestStates.waiting_for_subject)
+async def create_test_subject(message: Message, state: FSMContext):
+    await state.update_data(subject=message.text)
+    kb = InlineKeyboardMarkup(inline_keyboard=[[InlineKeyboardButton(text="❌ Bekor qilish", callback_data="cancel_creation")]])
+    await message.answer(f"✅ Fan nomi qabul qilindi: *{message.text}*\n\n👉 Endi ushbu test (blok) uchun nom bering:\n_(Masalan: '1-Mavzu', 'Yakuniy nazorat' yoki 'Qiziqarli savollar')_", reply_markup=kb, parse_mode="Markdown")
     await state.set_state(CreateTestStates.waiting_for_name)
 
 @router.message(CreateTestStates.waiting_for_name)
@@ -184,9 +208,11 @@ async def create_test_name(message: Message, state: FSMContext):
     await state.update_data(block_name=message.text)
     kb = InlineKeyboardMarkup(inline_keyboard=[
         [InlineKeyboardButton(text="📊 Telegram Quiz", callback_data="fmt_quiz")],
-        [InlineKeyboardButton(text="📝 Matn (Text)", callback_data="fmt_text")]
+        [InlineKeyboardButton(text="📝 Matn (Text)", callback_data="fmt_text")],
+        [InlineKeyboardButton(text="📄 Word fayl (.docx)", callback_data="fmt_docx")],
+        [InlineKeyboardButton(text="❌ Bekor qilish", callback_data="cancel_creation")]
     ])
-    await message.answer("Qaysi formatda savollar yuborasiz?", reply_markup=kb)
+    await message.answer("Ajoyib! Endi savollarni qaysi formatda yuborishni tanlang:", reply_markup=kb)
     await state.set_state(CreateTestStates.waiting_for_format)
 
 @router.callback_query(CreateTestStates.waiting_for_format, F.data.startswith("fmt_"))
@@ -194,12 +220,75 @@ async def create_test_format(callback: CallbackQuery, state: FSMContext):
     fmt = callback.data.split("_")[1]
     await state.update_data(format=fmt, questions=[])
     
-    if fmt == "quiz": text = "Endi menga Telegram Quiz (Viktorina) shaklida savollaringizni yuboring. Barcha savollarni yuborib bo'lgach, quyidagi Yakunlash tugmasini bosing."
-    else: text = "Savollarni quyidagi shaklda matn qilib yuboring:\n\n`O'zbekiston poytaxti qayer?\n#Toshkent\nSamarqand\nBuxoro`\n\nBir nechta savolni probel tashlab bittada yuborishingiz mumkin. Oxirida Yakunlashni bosing."
+    if fmt == "quiz": 
+        text = ("📊 *Telegram Quiz Formati:*\nEndi menga Telegram'ning standart Quiz (Viktorina) funksiyasidan foydalanib savollaringizni yuboring.\n\n"
+                "⚠️ *Diqqat:* Barcha savollarni yuborib bo'lgach, majburiy ravishda pastdagi *Yakunlash* tugmasini bosing.")
+    elif fmt == "text": 
+        text = ("📝 *Matn Formati:*\nSavollarni quyidagi qoida asosida yuboring:\n\n"
+                "`O'zbekiston poytaxti qayer?\n#Toshkent\nSamarqand\nBuxoro`\n\n"
+                "*(To'g'ri javob oldiga # belgisini qo'yishni unutmang. Bir nechta savolni probel tashlab yuborish mumkin).*")
+    else: 
+        text = ("📄 *Word Fayl Formati:*\nO'zingizning `.docx` faylingizni yuboring.\nFayl ichidagi savollar tuzilishi quyidagicha bo'lishi shart:\n\n"
+                "1-Savol matni\n#To'g'ri javob\nXato javob\nXato javob\n\n(Har bir savol orasida bitta bo'sh qator tashlang).")
     
-    kb = InlineKeyboardMarkup(inline_keyboard=[[InlineKeyboardButton(text="✅ Yakunlash", callback_data="finish_test_creation")]])
+    kb = InlineKeyboardMarkup(inline_keyboard=[
+        [InlineKeyboardButton(text="✅ Yakunlash (Testni saqlash)", callback_data="finish_test_creation")],
+        [InlineKeyboardButton(text="❌ Bekor qilish", callback_data="cancel_creation")]
+    ])
     await callback.message.edit_text(text, reply_markup=kb, parse_mode="Markdown")
     await state.set_state(CreateTestStates.waiting_for_questions)
+
+@router.message(CreateTestStates.waiting_for_questions, F.document)
+async def receive_docx_file(message: Message, state: FSMContext, bot: Bot):
+    data = await state.get_data()
+    if data.get("format") != "docx": return await message.answer("⚠️ Iltimos, hozir Word fayl emas, o'zingiz tanlagan formatda yuboring.")
+    if not message.document.file_name.endswith('.docx'): return await message.answer("⚠️ Faqat `.docx` formatidagi fayllarni qabul qilaman!")
+
+    msg = await message.answer("⏳ Fayl yuklanib, savollar tahlil qilinmoqda...")
+    file_id = message.document.file_id
+    file = await bot.get_file(file_id)
+    file_path = f"temp_{message.from_user.id}.docx"
+    await bot.download_file(file.file_path, file_path)
+
+    questions = data.get("questions", [])
+    added = 0
+
+    try:
+        doc = Document(file_path)
+        current_q = []
+        all_blocks = []
+        for line in doc.paragraphs:
+            text = line.text.strip()
+            if not text:
+                if current_q:
+                    all_blocks.append(current_q)
+                    current_q = []
+            else: current_q.append(text)
+        if current_q: all_blocks.append(current_q)
+
+        for lines in all_blocks:
+            if len(lines) < 3: continue
+            q_text = lines[0]
+            opts, corr = [], -1
+            for i, line in enumerate(lines[1:]):
+                if line.startswith("#"):
+                    corr = i
+                    opts.append(line[1:].strip())
+                else: opts.append(line)
+            if corr != -1 and len(opts) >= 2:
+                questions.append({"question": q_text, "options": opts, "correct_index": corr})
+                added += 1
+
+        await state.update_data(questions=questions)
+        kb = InlineKeyboardMarkup(inline_keyboard=[
+            [InlineKeyboardButton(text="✅ Yakunlash (Testni saqlash)", callback_data="finish_test_creation")],
+            [InlineKeyboardButton(text="❌ Bekor qilish", callback_data="cancel_creation")]
+        ])
+        await msg.edit_text(f"✅ Fayl o'qildi!\nIchidan *{added} ta* to'g'ri shakllantirilgan savol topildi.\nJami savollar: {len(questions)} ta.\n\nYana fayl yuborishingiz yoki Yakunlashni bosishingiz mumkin.", reply_markup=kb, parse_mode="Markdown")
+    except Exception as e:
+        await msg.edit_text(f"❌ Faylni o'qishda xatolik yuz berdi. Iltimos Word strukturasi to'g'riligini tekshiring.")
+    finally:
+        if os.path.exists(file_path): os.remove(file_path)
 
 @router.message(CreateTestStates.waiting_for_questions)
 async def receive_question(message: Message, state: FSMContext):
@@ -208,8 +297,7 @@ async def receive_question(message: Message, state: FSMContext):
     fmt = data.get("format")
 
     if fmt == "quiz":
-        if not message.poll or message.poll.type != "quiz":
-            return await message.answer("⚠️ Iltimos, faqat Telegram Quiz (Viktorina) yuboring!")
+        if not message.poll or message.poll.type != "quiz": return await message.answer("⚠️ Iltimos, faqat Telegram Quiz (Viktorina) yuboring!")
         questions.append({"question": message.poll.question, "options": [o.text for o in message.poll.options], "correct_index": message.poll.correct_option_id})
         
     elif fmt == "text":
@@ -220,8 +308,7 @@ async def receive_question(message: Message, state: FSMContext):
             lines = [l.strip() for l in block.split("\n") if l.strip()]
             if len(lines) < 3: continue 
             q_text = lines[0]
-            opts = []
-            corr = -1
+            opts, corr = [], -1
             for i, line in enumerate(lines[1:]):
                 if line.startswith("#"):
                     corr = i
@@ -233,21 +320,27 @@ async def receive_question(message: Message, state: FSMContext):
         if added == 0: return await message.answer("⚠️ Xato! To'g'ri javob oldiga # qo'yishni unutmang. Kamida 2 ta variant bo'lishi shart.")
 
     await state.update_data(questions=questions)
-    kb = InlineKeyboardMarkup(inline_keyboard=[[InlineKeyboardButton(text="✅ Yakunlash", callback_data="finish_test_creation")]])
-    await message.answer(f"✅ Qabul qilindi! Jami: {len(questions)} ta.\nYana yuborishingiz yoki yakunlashingiz mumkin.", reply_markup=kb)
+    kb = InlineKeyboardMarkup(inline_keyboard=[
+        [InlineKeyboardButton(text="✅ Yakunlash (Testni saqlash)", callback_data="finish_test_creation")],
+        [InlineKeyboardButton(text="❌ Bekor qilish", callback_data="cancel_creation")]
+    ])
+    await message.answer(f"✅ Qabul qilindi! Jami savollar: {len(questions)} ta.\nYana yuborishingiz yoki yakunlashingiz mumkin.", reply_markup=kb)
 
 @router.callback_query(F.data == "finish_test_creation")
 async def finish_creation(callback: CallbackQuery, state: FSMContext, bot: Bot):
     data = await state.get_data()
     questions = data.get("questions", [])
-    if not questions: return await callback.answer("Hech qanday savol qo'shilmadi!", show_alert=True)
+    if not questions: return await callback.answer("Hech qanday savol qo'shilmadi, test yaratib bo'lmaydi!", show_alert=True)
     
-    test_id = stats_manager.save_user_test(callback.from_user.id, data["subject"], data["block_name"], questions)
+    test_id = stats_manager.save_user_test(callback.fromuser.id, data["subject"], data["block_name"], questions)
     if not test_id: return await callback.message.answer("Bazaga saqlashda xatolik yuz berdi.")
         
     bot_info = await bot.get_me()
     link = f"https://t.me/{bot_info.username}?start=t_{test_id}"
-    text = f"🎉 *Test muvaffaqiyatli yaratildi!*\n\n📚 Fan: {SUBJECTS.get(data['subject'])}\n📝 Blok: {data['block_name']}\n🔢 Savollar: {len(questions)} ta\n\n🔗 *Do'stlaringizga yuborish uchun havola:*\n`{link}`"
+    text = (f"🎉 *Test muvaffaqiyatli yaratildi va saqlandi!*\n\n"
+            f"📚 Fan: {data['subject']}\n📝 Blok: {data['block_name']}\n🔢 Savollar: {len(questions)} ta\n\n"
+            f"🔗 *Ushbu testni do'stlaringiz ishlashi uchun maxsus havola (Ssilka):*\n`{link}`\n\n"
+            f"_(Siz bu testni doim 'Mening Testlarim' bo'limidan topishingiz mumkin)_")
     
     await callback.message.edit_text(text, parse_mode="Markdown")
     await state.clear()
@@ -269,7 +362,7 @@ async def start_ugc_test(message: Message, test_data_db: dict, bot: Bot):
         "correct": 0, "wrong": 0, "mistakes": [], "consecutive_timeouts": 0, "group_scores": {} 
     }
     
-    await message.answer(f"🚀 *Test boshlandi!*\n\n📝 Nomi: {test_data_db['block_name']}\n🔢 Savollar: {len(session_q)} ta", parse_mode="Markdown")
+    await message.answer(f"🚀 *Shaxsiy Test Boshlandi!*\n\n📚 Fan: {subject_key}\n📝 Blok: {test_data_db['block_name']}\n🔢 Savollar: {len(session_q)} ta", parse_mode="Markdown")
     await send_next_question(chat_id, bot)
 
 @router.callback_query(F.data.startswith("ugc_start_"))
@@ -281,39 +374,115 @@ async def restart_ugc_test(callback: CallbackQuery, bot: Bot):
     else: await callback.answer("Test topilmadi", show_alert=True)
 
 # ==========================================
-# QOLGAN BARCHA FUNKSIYALAR (Reyting, O'qish, Statistika, Guruh va Taymer) O'ZGARMASDAN QOLADI
+# 5. ADMIN PANELI VA MULOQOT
 # ==========================================
+@router.message(Command("admin"))
+async def cmd_admin(message: Message):
+    if message.from_user.id != ADMIN_ID: return await message.answer("⛔ Siz admin emassiz!")
+    users = stats_manager.get_all_users()
+    kb = InlineKeyboardMarkup(inline_keyboard=[
+        [InlineKeyboardButton(text="📢 Barchaga xabar yuborish", callback_data="admin_broadcast")],
+        [InlineKeyboardButton(text="👥 Foydalanuvchilar ro'yxati", callback_data="admin_users_list")]
+    ])
+    await message.answer(f"👨‍💻 *ADMIN PANEL*\n\n👥 Jami foydalanuvchilar: {len(users)} ta", reply_markup=kb, parse_mode="Markdown")
 
+@router.callback_query(F.data == "admin_users_list")
+async def admin_users_list(callback: CallbackQuery):
+    if callback.from_user.id != ADMIN_ID: return
+    users = stats_manager.get_all_users()
+    if not users: return await callback.message.answer("Hozircha foydalanuvchilar yo'q.")
+    await callback.message.answer("⏳ Foydalanuvchilar ro'yxati yuklanmoqda...")
+    text = "👥 *Barcha foydalanuvchilar:*\n\n"
+    for i, u in enumerate(users, 1):
+        name = u.get("full_name") or "Ismsiz"
+        uid = u.get("telegram_id")
+        username = f" (@{u.get('username')})" if u.get('username') and u.get('username') != "yo'q" else ""
+        sana = u.get('joined_at', '')[:10]
+        line = f"*{i}.* [{name}](tg://user?id={uid}){username} | 📅 {sana}\n"
+        if len(text) + len(line) > 4000:
+            await callback.message.answer(text, parse_mode="Markdown")
+            text = "" 
+        text += line
+    if text: await callback.message.answer(text, parse_mode="Markdown")
+    await callback.answer()
+
+@router.callback_query(F.data == "admin_broadcast")
+async def start_broadcast(callback: CallbackQuery, state: FSMContext):
+    if callback.from_user.id != ADMIN_ID: return
+    await state.set_state(AdminStates.waiting_for_broadcast)
+    await callback.message.answer("📝 Barchaga yuboriladigan xabar matnini yozing.\n(Bekor qilish uchun /start)")
+    await callback.answer()
+
+@router.message(AdminStates.waiting_for_broadcast)
+async def process_broadcast(message: Message, state: FSMContext, bot: Bot):
+    await state.clear()
+    users = stats_manager.get_all_users()
+    success, fail = 0, 0
+    await message.answer("⏳ Xabar yuborilmoqda...")
+    for u in users:
+        try:
+            await bot.send_message(chat_id=u["telegram_id"], text=message.text)
+            success += 1
+            await asyncio.sleep(0.05)
+        except: fail += 1
+    await message.answer(f"✅ Ommaviy xabar yakunlandi!\n🟢 Yetib bordi: {success}\n🔴 Bloklaganlar: {fail}")
+
+@router.callback_query(F.data == "contact_admin")
+async def cb_contact_admin(callback: CallbackQuery, state: FSMContext):
+    await state.set_state(UserStates.waiting_for_message)
+    await callback.message.answer("✍️ Adminga o'z savol yoki taklifingizni yozing:")
+    await callback.answer()
+
+@router.message(UserStates.waiting_for_message)
+async def send_to_admin(message: Message, state: FSMContext, bot: Bot):
+    text = f"📨 *YANGI XABAR!*\n\n👤 [{message.from_user.full_name}](tg://user?id={message.from_user.id})\nID: `{message.from_user.id}`\n💬 Matn:\n{message.text}"
+    kb = InlineKeyboardMarkup(inline_keyboard=[[InlineKeyboardButton(text="↩️ Javob berish", callback_data=f"reply_{message.from_user.id}")]])
+    try:
+        await bot.send_message(ADMIN_ID, text, reply_markup=kb, parse_mode="Markdown")
+        await message.answer("✅ Xabaringiz adminga yetkazildi!")
+    except: await message.answer("Xatolik yuz berdi.")
+    await state.clear()
+
+@router.callback_query(F.data.startswith("reply_"))
+async def admin_reply_start(callback: CallbackQuery, state: FSMContext):
+    if callback.from_user.id != ADMIN_ID: return
+    await state.update_data(target_id=callback.data.split("_")[1])
+    await state.set_state(AdminStates.waiting_for_reply)
+    await callback.message.answer("✍️ Foydalanuvchiga javobingizni yozing:")
+    await callback.answer()
+
+@router.message(AdminStates.waiting_for_reply)
+async def admin_reply_send(message: Message, state: FSMContext, bot: Bot):
+    data = await state.get_data()
+    text = f"👨‍💻 *Admin tomonidan xabar:*\n\n{message.text}"
+    try:
+        await bot.send_message(data.get("target_id"), text, parse_mode="Markdown")
+        await message.answer("✅ Javob yuborildi.")
+    except: await message.answer("❌ Xatolik!")
+    await state.clear()
+
+# ==========================================
+# 6. REYTING VA QOLGAN FUNKSIYALAR
+# ==========================================
 @router.callback_query(F.data == "show_leaderboard")
-async def show_leaderboard_handler(callback: CallbackQuery, bot: Bot): # ⚠️ bot: Bot qo'shildi
+async def show_leaderboard_handler(callback: CallbackQuery, bot: Bot):
     await callback.message.edit_text("⏳ Reyting yuklanmoqda...", parse_mode="Markdown")
-    
     top_users = stats_manager.get_top_users(10)
-    
     if not top_users: 
         text = "🏆 *GLOBAL REYTING*\n\nHozircha reytingda hech kim yo'q."
     else:
         text = "🏆 *TOP 10 TALABALAR REYTINGI*\n\n"
         medals = ["🥇", "🥈", "🥉", "4️⃣", "5️⃣", "6️⃣", "7️⃣", "8️⃣", "9️⃣", "🔟"]
-        
         for i, user in enumerate(top_users):
-            # ⚠️ TELEGRAMDAN ISMNI SO'RAB OLISH QISMI
             try:
                 chat_info = await bot.get_chat(user['user_id'])
                 name = chat_info.full_name
             except Exception:
-                # Agar foydalanuvchi akkauntini o'chirib yuborgan bo'lsa, xato bermasligi uchun:
-                name = "Sirli Talaba" 
-                
-            medal = medals[i] if i < 10 else '🔸'
-            text += f"{medal} *{name}*\n      ✅ {user['correct']} ta to'g'ri | 📝 {user['completed']} ta test\n\n"
+                name = "Sirli Talaba"
+            text += f"{medals[i] if i<10 else '🔸'} *{name}*\n      ✅ {user['correct']} ta to'g'ri | 📝 {user['completed']} ta test\n\n"
             
-    await callback.message.edit_text(
-        text, 
-        reply_markup=InlineKeyboardMarkup(inline_keyboard=[[InlineKeyboardButton(text="🔙 Asosiy Menyu", callback_data="back_to_main")]]), 
-        parse_mode="Markdown"
-    )
-    
+    await callback.message.edit_text(text, reply_markup=InlineKeyboardMarkup(inline_keyboard=[[InlineKeyboardButton(text="🔙 Asosiy Menyu", callback_data="back_to_main")]]), parse_mode="Markdown")
+
 def get_blocks_keyboard(subject_key: str, page: int = 0):
     buttons = []
     subject_tests = memory_db.get(subject_key, {})
@@ -330,13 +499,8 @@ def get_blocks_keyboard(subject_key: str, page: int = 0):
         if page < total_pages - 1: nav.append(InlineKeyboardButton(text="Keyingi ➡️", callback_data=f"page_{subject_key}_{page+1}"))
         if nav: buttons.append(nav)
         buttons.append([InlineKeyboardButton(text="🎲 Aralash Test (Mock Exam)", callback_data=f"mock_{subject_key}")])
-    buttons.append([InlineKeyboardButton(text="🔙 Fanlarga", callback_data="back_to_main")])
+    buttons.append([InlineKeyboardButton(text="🔙 Fanlarga", callback_data="official_tests")])
     return InlineKeyboardMarkup(inline_keyboard=buttons)
-
-@router.callback_query(F.data == "back_to_main")
-async def back_to_main(callback: CallbackQuery):
-    try: await callback.message.edit_text("🏛 *Talabalar Imtihon Trenajyori*\n\nFanni tanlang:", reply_markup=get_subjects_keyboard(), parse_mode="Markdown")
-    except: pass
 
 @router.callback_query(F.data.startswith("subj_"))
 async def process_subject_selection(callback: CallbackQuery):
@@ -369,7 +533,7 @@ async def show_history_page(callback: CallbackQuery):
     buttons = []
     for i, item in enumerate(history[start_idx:start_idx + 5]):
         t_id = "Aralash" if str(item['test_id']) == "mock" else f"{str(item['test_id']).replace('ugc_','')}-B"
-        buttons.append([InlineKeyboardButton(text=f"📅 {item['date'][:10]} | {SUBJECTS.get(item['subject'], 'Fan')} ({t_id}) | ✅ {item['correct']}", callback_data=f"hist_det_{start_idx + i}")])
+        buttons.append([InlineKeyboardButton(text=f"📅 {item['date'][:10]} | {SUBJECTS.get(item['subject'], item['subject'])} ({t_id}) | ✅ {item['correct']}", callback_data=f"hist_det_{start_idx + i}")])
         
     nav = []
     if page > 0: nav.append(InlineKeyboardButton(text="⬅️ Oldingi", callback_data=f"hist_page_{page-1}"))
@@ -389,7 +553,7 @@ async def show_history_detail(callback: CallbackQuery):
     elif str(item['test_id']).startswith("ugc_"): t_id = "Maxsus Test"
     else: t_id = f"{item['test_id']}-Blok"
     
-    text = f"📅 {item['date']}\n📚 {SUBJECTS.get(item['subject'], 'Fan')} | {t_id}\n📊 ✅ {item['correct']}, ❌ {item['wrong']}\n\n"
+    text = f"📅 {item['date']}\n📚 {SUBJECTS.get(item['subject'], item['subject'])} | {t_id}\n📊 ✅ {item['correct']}, ❌ {item['wrong']}\n\n"
     if not item.get("mistakes"): text += "🎉 *Xato qilinmagan!*"
     else:
         text += "📑 *XATOLAR:*\n\n"
@@ -582,7 +746,7 @@ async def finish_test(chat_id: int, bot: Bot):
     else: t_name = f"{t_id}-Blok"
 
     mins, secs = divmod(int(time.time() - session["start_time"]), 60)
-    title = f"{SUBJECTS.get(session['subject_key'], 'Fan')} | {t_name}"
+    title = f"{SUBJECTS.get(session['subject_key'], session['subject_key'])} | {t_name}"
     buttons = []
     
     if session["chat_type"] == "private":
@@ -605,34 +769,11 @@ async def finish_test(chat_id: int, bot: Bot):
             for i, score in enumerate(sorted(session["group_scores"].values(), key=lambda x: x["correct"], reverse=True)):
                 text += f"{['🥇', '🥈', '🥉'][i] if i < 3 else '🔸'} {score['name']}: {score['correct']} ta to'g'ri\n"
                 
-    buttons.extend([[InlineKeyboardButton(text="🔙 Fan menyusiga", callback_data=f"post_subj_{session['subject_key']}")], [InlineKeyboardButton(text="🏠 Asosiy Menyu", callback_data="post_main")]])
+    if str(t_id).startswith("ugc_"):
+        buttons.extend([[InlineKeyboardButton(text="🏠 Asosiy Menyu", callback_data="post_main")]])
+    else:
+        buttons.extend([[InlineKeyboardButton(text="🔙 Fan menyusiga", callback_data=f"post_subj_{session['subject_key']}")], [InlineKeyboardButton(text="🏠 Asosiy Menyu", callback_data="post_main")]])
+        
     await bot.send_message(chat_id, text, reply_markup=InlineKeyboardMarkup(inline_keyboard=buttons), parse_mode="Markdown")
     if session["poll_id"] in poll_chat_map: del poll_chat_map[session["poll_id"]]
-    del active_tests[chat_id] 
-
-@router.callback_query(F.data.startswith("post_start_"))
-async def post_start_handler(callback: CallbackQuery, bot: Bot):
-    await callback.message.edit_reply_markup(reply_markup=None) 
-    callback.data = f"start_test_{callback.data.split('_')[2]}_{callback.data.split('_')[3]}"
-    await start_test_handler(callback, bot)
-
-@router.callback_query(F.data.startswith("post_subj_"))
-async def post_subj_handler(callback: CallbackQuery, bot: Bot):
-    await callback.message.edit_reply_markup(reply_markup=None)
-    k = callback.data.split("_")[2]
-    await bot.send_message(callback.message.chat.id, f"📚 *{SUBJECTS.get(k, 'Fan')}*\n\nBloklardan birini tanlang:", reply_markup=get_blocks_keyboard(k, 0), parse_mode="Markdown")
-
-@router.callback_query(F.data == "post_main")
-async def post_main_handler(callback: CallbackQuery, bot: Bot):
-    await callback.message.edit_reply_markup(reply_markup=None)
-    await bot.send_message(callback.message.chat.id, "🏛 *Talabalar Imtihon Trenajyori*\n\nFanni tanlang:", reply_markup=get_subjects_keyboard(), parse_mode="Markdown")
-
-@router.callback_query(F.data == "review_mistakes")
-async def review_mistakes_handler(callback: CallbackQuery):
-    await callback.message.edit_reply_markup(reply_markup=None)
-    history = stats_manager.get_user_stats(callback.from_user.id).get("history", [])
-    if not history or not history[0].get("mistakes"): return await callback.message.answer("Xatolar topilmadi.")
-    text = "📑 *XATOLAR USTIDA ISHLASH*\n\n"
-    for i, m in enumerate(history[0]["mistakes"], 1): text += f"*{i}.* {m['question']}\n❌ {m['wrong_ans']}\n✅ {m['correct_ans']}\n\n"
-    if len(text) > 4000: text = text[:4000] + "\n... (qolgani kesildi)."
-    await callback.message.answer(text, reply_markup=InlineKeyboardMarkup(inline_keyboard=[[InlineKeyboardButton(text="🔙 Asosiy", callback_data="post_main")]]), parse_mode="Markdown")
+    del active_tests[chat_id]
