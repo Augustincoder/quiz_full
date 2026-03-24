@@ -5,7 +5,7 @@ import os
 from pathlib import Path
 
 # Telegram Bot Token - BotFather'dan olingan tokeningiz
-BOT_TOKEN = "8764719096:AAEiFsn-vO6zM5YHaooNv24Pzu2DDZumlOI"
+BOT_TOKEN = "6349354726:AAHXd6Tu7CvI30pV8rgbF1JCzcHhQkEjgdE"
 
 # Data storage
 DATA_DIR = Path(__file__).parent / "data"
@@ -27,3 +27,4 @@ for subj_folder in SUBJECTS.keys():
 # --- SUPABASE SOZLAMALARI ---
 SUPABASE_URL = "https://wsvzggnhotzhmvugeyil.supabase.co" # O'zingiznikini qo'ying
 SUPABASE_KEY = "sb_secret_nZQcnSza0XFCGy_4k1o8rw_zmJ_ISgM" # O'zingiznikini qo'ying
+ADMIN_ID = 2014973670
