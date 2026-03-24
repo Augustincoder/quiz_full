@@ -327,12 +327,15 @@ async def receive_question(message: Message, state: FSMContext):
     await message.answer(f"✅ Qabul qilindi! Jami savollar: {len(questions)} ta.\nYana yuborishingiz yoki yakunlashingiz mumkin.", reply_markup=kb)
 
 @router.callback_query(F.data == "finish_test_creation")
+@router.callback_query(F.data == "finish_test_creation")
 async def finish_creation(callback: CallbackQuery, state: FSMContext, bot: Bot):
     data = await state.get_data()
     questions = data.get("questions", [])
     if not questions: return await callback.answer("Hech qanday savol qo'shilmadi, test yaratib bo'lmaydi!", show_alert=True)
     
-    test_id = stats_manager.save_user_test(callback.fromuser.id, data["subject"], data["block_name"], questions)
+    # ⚠️ XATO SHU YERDA EDI: fromuser emas, from_user bo'lishi kerak!
+    test_id = stats_manager.save_user_test(callback.from_user.id, data["subject"], data["block_name"], questions)
+    
     if not test_id: return await callback.message.answer("Bazaga saqlashda xatolik yuz berdi.")
         
     bot_info = await bot.get_me()
@@ -344,7 +347,7 @@ async def finish_creation(callback: CallbackQuery, state: FSMContext, bot: Bot):
     
     await callback.message.edit_text(text, parse_mode="Markdown")
     await state.clear()
-
+    
 async def start_ugc_test(message: Message, test_data_db: dict, bot: Bot):
     chat_id = message.chat.id
     if chat_id in active_tests or chat_id in waiting_rooms:
