@@ -116,3 +116,15 @@ def delete_user_test(test_id, creator_id):
     except Exception as e:
         print(f"Testni o'chirishda xato: {e}")
         return False
+def get_user_rank(user_id):
+    """Foydalanuvchining umumiy reytingdagi o'rnini aniqlaydi."""
+    try:
+        # Kichik va o'rta (10-15k gacha) bazalar uchun bu usul juda tez ishlaydi.
+        res = supabase.table("user_stats").select("user_id, total_correct").order("total_correct", desc=True).execute()
+        for index, stat in enumerate(res.data):
+            if stat["user_id"] == str(user_id):
+                return index + 1
+        return "N/A"
+    except Exception as e:
+        print(f"Reytingni aniqlashda xato: {e}")
+        return "N/A"
