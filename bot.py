@@ -682,10 +682,14 @@ async def admin_users_list_paginated(callback: CallbackQuery):
     current_users = users[start_idx:start_idx + per_page]
 
     # ── OPTIM 9: string join list ──
-    lines = [f"*{i}.* [{u.get('full_name') or 'Ismsiz'}](tg://user?id={u.get('telegram_id')})"
-             f"{f' (@{u.get(\"username\")})' if u.get('username') and u.get('username') != 'yo\\'q' else ''}"
-             f" | 📅 {u.get('joined_at', '')[:10]}"
-             for i, u in enumerate(current_users, start_idx + 1)]
+    def _uname(u):
+        un = u.get("username")
+        return f" (@{un})" if un and un != "yo'q" else ""
+
+    lines = [
+        f"*{i}.* [{u.get('full_name') or 'Ismsiz'}](tg://user?id={u.get('telegram_id')}){_uname(u)} | 📅 {u.get('joined_at', '')[:10]}"
+        for i, u in enumerate(current_users, start_idx + 1)
+    ]
     text = f"👥 *Barcha foydalanuvchilar ({page+1}/{total_pages}):*\n\n" + "\n".join(lines)
 
     buttons = []
