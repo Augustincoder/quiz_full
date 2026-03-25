@@ -782,13 +782,10 @@ async def admin_add_test_id(message: Message, state: FSMContext):
 @router.callback_query(AdminCreateTest.waiting_for_format, F.data.startswith("adm_fmt_"))
 async def admin_add_test_fmt(callback: CallbackQuery, state: FSMContext):
     fmt = _parse_suffix(callback.data, "adm_fmt_")
-    await state.update_data(format=fmt)
-    if fmt == "text":
-        text = "📝 *Matn Formati:*\nSavollarni ushbu qolipda yuboring:\n\n`Savol matni\n#To'g'ri javob\nXato javob\nXato javob`"
-    else:
-        text = "📄 *Word Fayl (.docx):*\nFayl tayyorlang. Tuzilishi matndagi kabi bo'lishi kerak. Tayyor faylni yuboring."
-    await callback.message.edit_text(text, parse_mode="Markdown")
+    await state.update_data(format=fmt, questions=[])
+    await _admin_show_input_prompt(callback.message, fmt, total=0, edit=True)
     await state.set_state(AdminCreateTest.waiting_for_content)
+    await callback.answer()
 
 def _save_official_test(subj: str, t_id: int, questions: list):
     """JSON faylga va memory_db ga bir vaqtda yozish."""
@@ -798,57 +795,164 @@ def _save_official_test(subj: str, t_id: int, questions: list):
     with open(subj_dir / f"test_{t_id}.json", "w", encoding="utf-8") as f:
         json.dump(file_data, f, ensure_ascii=False, indent=4)
     memory_db.setdefault(subj, {})[t_id] = file_data
-    invalidate_blocks_cache(subj)   # keyboard keshini tozala
+    invalidate_blocks_cache(subj)
     return file_data
 
+def _admin_controls_kb() -> InlineKeyboardMarkup:
+    """Admin kontent yuklash ekranidagi doimiy tugmalar."""
+    return InlineKeyboardMarkup(inline_keyboard=[
+        [
+            InlineKeyboardButton(text="📝 Matn", callback_data="adm_switch_text"),
+            InlineKeyboardButton(text="📄 Word (.docx)", callback_data="adm_switch_docx"),
+        ],
+        [InlineKeyboardButton(text="👁 Ko'rish (preview)", callback_data="adm_preview")],
+        [InlineKeyboardButton(text="✅ Saqlash", callback_data="adm_finish")],
+        [InlineKeyboardButton(text="🗑 Tozalash (reset)", callback_data="adm_reset")],
+        [InlineKeyboardButton(text="❌ Bekor qilish", callback_data="admin_cancel")],
+    ])
+
+async def _admin_show_input_prompt(message: Message, fmt: str, total: int, edit: bool = False):
+    """Joriy format va jami savol sonini ko'rsatib, input ekranini chiqaradi."""
+    fmt_label = "📝 Matn" if fmt == "text" else "📄 Word (.docx)"
+    hint = (
+        "Savollarni ushbu qolipda yuboring (bir xabarda ko'plab savollar mumkin):\n\n"
+        "`Savol matni?\n#To'g'ri javob\nXato javob 1\nXato javob 2`\n\n"
+        "_Savollar orasida bo'sh qator bo'lsin._"
+    ) if fmt == "text" else (
+        "`.docx` fayl yuboring. Tuzilishi:\n\n"
+        "`Savol matni\n#To'g'ri javob\nXato javob\nXato javob`\n\n"
+        "_Savollar orasida bo'sh qator bo'lsin._\n"
+        "_(Bir nechta fayl ketma-ket yuborishingiz mumkin)_"
+    )
+    bar = "▓" * min(total, 20) + "░" * max(0, 20 - total) if total <= 20 else "▓" * 20
+    text = (
+        f"➕ *Rasmiy test qo'shish*\n\n"
+        f"📌 Joriy format: {fmt_label}\n"
+        f"📊 Yig'ilgan savollar: *{total} ta* {bar}\n\n"
+        f"{hint}\n\n"
+        f"💡 Formatni o'zgartirish, ko'rish yoki saqlash uchun pastdagi tugmalardan foydalaning."
+    )
+    if edit:
+        try:
+            await message.edit_text(text, reply_markup=_admin_controls_kb(), parse_mode="Markdown")
+        except Exception:
+            await message.answer(text, reply_markup=_admin_controls_kb(), parse_mode="Markdown")
+    else:
+        await message.answer(text, reply_markup=_admin_controls_kb(), parse_mode="Markdown")
+
+# -- Format almashtirish (savollar saqlanib qoladi) --
+@router.callback_query(AdminCreateTest.waiting_for_content, F.data.startswith("adm_switch_"))
+async def admin_switch_format(callback: CallbackQuery, state: FSMContext):
+    fmt = _parse_suffix(callback.data, "adm_switch_")
+    data = await state.get_data()
+    await state.update_data(format=fmt)
+    await _admin_show_input_prompt(callback.message, fmt, total=len(data.get("questions", [])), edit=True)
+    await callback.answer(f"Format o'zgartirildi: {'Matn' if fmt == 'text' else 'Word'}")
+
+# -- Preview: yig'ilgan savollar ro'yxati --
+@router.callback_query(AdminCreateTest.waiting_for_content, F.data == "adm_preview")
+async def admin_preview(callback: CallbackQuery, state: FSMContext):
+    data = await state.get_data()
+    questions = data.get("questions", [])
+    if not questions:
+        return await callback.answer("Hali hech qanday savol yo'q!", show_alert=True)
+
+    lines = [f"*{i}.* {q['question']}\n✅ {q['options'][q['correct_index']]}" for i, q in enumerate(questions, 1)]
+    text = f"👁 *Preview — {len(questions)} ta savol:*\n\n" + "\n\n".join(lines)
+    if len(text) > 4000:
+        text = text[:4000] + "\n\n... _(qolganlar kesildi)_"
+    await callback.message.answer(text, parse_mode="Markdown")
+    await callback.answer()
+
+# -- Reset: barcha savollarni o'chirish --
+@router.callback_query(AdminCreateTest.waiting_for_content, F.data == "adm_reset")
+async def admin_reset(callback: CallbackQuery, state: FSMContext):
+    data = await state.get_data()
+    await state.update_data(questions=[])
+    await callback.answer("🗑 Barcha savollar o'chirildi!", show_alert=True)
+    await _admin_show_input_prompt(callback.message, data.get("format", "text"), total=0, edit=True)
+
+# -- Matn xabari qabul qilish --
+@router.message(AdminCreateTest.waiting_for_content, F.text)
+async def admin_receive_text(message: Message, state: FSMContext):
+    data = await state.get_data()
+    if data.get("format") != "text":
+        return await message.answer(
+            "⚠️ Hozir *Word* formati tanlangan.\nMatn yubormoqchi bo'lsangiz, *📝 Matn* tugmasini bosing.",
+            parse_mode="Markdown"
+        )
+    new_qs = _parse_text_questions(message.text)
+    if not new_qs:
+        return await message.answer(
+            "⚠️ Savol topilmadi!\n\nFormat:\n`Savol?\n#To'g'ri javob\nXato 1\nXato 2`\n\n_To'g'ri javob oldiga # qo'yishni unutmang._",
+            parse_mode="Markdown"
+        )
+    questions = data.get("questions", []) + new_qs
+    await state.update_data(questions=questions)
+    await _admin_show_input_prompt(message, "text", total=len(questions))
+
+# -- Word fayl qabul qilish --
 @router.message(AdminCreateTest.waiting_for_content, F.document)
 async def admin_receive_docx(message: Message, state: FSMContext, bot: Bot):
     data = await state.get_data()
     if data.get("format") != "docx":
-        return await message.answer("⚠️ Format Word emas.")
+        return await message.answer(
+            "⚠️ Hozir *Matn* formati tanlangan.\nWord fayl yubormoqchi bo'lsangiz, *📄 Word* tugmasini bosing.",
+            parse_mode="Markdown"
+        )
     if not message.document.file_name.endswith(".docx"):
-        return await message.answer("⚠️ Faqat `.docx`")
+        return await message.answer("⚠️ Faqat `.docx` kengaytmali fayl qabul qilinadi.")
 
     msg = await message.answer("⏳ Fayl o'qilmoqda...")
     file_path = f"admin_temp_{message.from_user.id}.docx"
     try:
         file = await bot.get_file(message.document.file_id)
         await bot.download_file(file.file_path, file_path)
-        questions = _parse_docx_questions(file_path)
-        if not questions:
-            return await msg.edit_text("❌ Savollar topilmadi. Format xato bo'lishi mumkin.")
-
-        _save_official_test(data["subject"], data["test_id"], questions)
-        await msg.edit_text(
-            f"✅ *Rasmiy test muvaffaqiyatli saqlandi!*\n\n📚 Fan: {SUBJECTS.get(data['subject'])}\n🔖 Blok: {data['test_id']}\n🔢 Savollar: {len(questions)} ta",
-            parse_mode="Markdown"
-        )
-        await state.clear()
+        new_qs = _parse_docx_questions(file_path)
+        if not new_qs:
+            return await msg.edit_text(
+                "❌ Fayldan savol topilmadi.\n\n"
+                "Fayl tuzilishi:\n`Savol matni\n#To'g'ri javob\nXato javob\nXato javob`\n"
+                "_Savollar orasida bo'sh qator bo'lsin._",
+                parse_mode="Markdown"
+            )
+        questions = data.get("questions", []) + new_qs
+        await state.update_data(questions=questions)
+        await msg.delete()
+        await _admin_show_input_prompt(message, "docx", total=len(questions))
     except Exception as e:
-        await msg.edit_text(f"❌ Xatolik yuz berdi: {e}")
+        await msg.edit_text(f"❌ Xatolik: {e}")
     finally:
         if os.path.exists(file_path):
             os.remove(file_path)
 
-@router.message(AdminCreateTest.waiting_for_content, F.text)
-async def admin_receive_text(message: Message, state: FSMContext):
+# -- Saqlash tugmasi --
+@router.callback_query(AdminCreateTest.waiting_for_content, F.data == "adm_finish")
+async def admin_finish_creation(callback: CallbackQuery, state: FSMContext):
     data = await state.get_data()
-    if data.get("format") != "text":
-        return await message.answer("⚠️ Iltimos, fayl yuboring.")
-
-    questions = _parse_text_questions(message.text)
+    questions = data.get("questions", [])
     if not questions:
-        return await message.answer("❌ Savollar topilmadi. Javob oldiga # qo'yganingizni tekshiring.")
+        return await callback.answer("⚠️ Hali hech qanday savol yo'q!", show_alert=True)
 
+    subj = data["subject"]
+    t_id = data["test_id"]
     try:
-        _save_official_test(data["subject"], data["test_id"], questions)
-        await message.answer(
-            f"✅ *Rasmiy test muvaffaqiyatli saqlandi!*\n\n📚 Fan: {SUBJECTS.get(data['subject'])}\n🔖 Blok: {data['test_id']}\n🔢 Savollar: {len(questions)} ta",
+        _save_official_test(subj, t_id, questions)
+        await callback.message.edit_text(
+            f"✅ *Rasmiy test saqlandi!*\n\n"
+            f"📚 Fan: *{SUBJECTS.get(subj, subj)}*\n"
+            f"🔖 Blok ID: *{t_id}*\n"
+            f"🔢 Savollar soni: *{len(questions)} ta*",
+            reply_markup=InlineKeyboardMarkup(inline_keyboard=[
+                [InlineKeyboardButton(text="➕ Yana blok qo'shish", callback_data="admin_add_test")],
+                [InlineKeyboardButton(text="🔙 Admin panel", callback_data="admin_panel_main")],
+            ]),
             parse_mode="Markdown"
         )
         await state.clear()
     except Exception as e:
-        await message.answer(f"❌ Fayl yaratishda xatolik yuz berdi: {e}")
+        await callback.answer(f"❌ Xatolik: {e}", show_alert=True)
+    await callback.answer()
 
 
 # --- ADMIN MULOQOT ---
