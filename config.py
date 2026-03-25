@@ -14,7 +14,7 @@ DATA_DIR = Path(__file__).parent / "data"
 SUBJECTS = {
     "korporativ": "🎓 Korporativ Boshqaruv",
     "moliyaviy": "💰 Moliyaviy Hisob",
-    "ekonometrika": "📈 Ekonometrika"
+    "ekonometrika": "📈 Iqtisodiy tahlil"
 }
 
 QUESTIONS_PER_TEST = 25
